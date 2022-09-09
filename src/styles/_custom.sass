@@ -1,15 +1,45 @@
 .banner-principal-decorativo
   &-1
-    animation: float1 3.5s ease-in-out infinite alternate
+    animation: float1 2.8s ease-in-out infinite alternate
     position: absolute
-    top: 40%
-    right: 50%
+    top: 30%
+    right: 60%
+    z-index: 2
   &-2
     animation: float1 2.8s ease-in-out infinite alternate
     position: absolute
-    top: 51%
-    right: 30%
+    top: 5%
+    right: 22%
+  &-3
+    animation: float1 2.8s ease-in-out infinite alternate
+    position: absolute
+    top: -10%
+    right: 55%
+  &-4
+    animation: rotate 4s linear infinite
+    position: absolute
+    top: 37%
+    right: 15%  
+  &-5
+    animation: rotate 4s linear infinite
+    position: absolute
+    top: 22%
+    right: 68% 
+  &-6
+    animation: rotate 4s linear infinite
+    position: absolute
+    top: 28%
+    right: 88%
+.imagen-banner-1 i
+    z-index: 2
+  
 
+@keyframes rotate 
+  0%
+    transform: rotate(0)
+
+  100%
+    transform: rotate(360deg)
 
 @keyframes float1
   0%
@@ -17,3 +47,51 @@
 
   100%
     transform: translateY(0px)
+
+
+.imagen-decorativa-1
+  animation: float1 2.8s ease-in-out infinite alternate
+  position: absolute
+  top: 17%
+  right: 4%
+  width: 31%;
+  
+.imagen-decorativa-2
+  animation: float1 2.5s ease-in-out infinite alternate
+  position: absolute
+  top: 61.5%
+  right: 69%
+  width: 21%;
+
+.imagen-decorativa-3
+  animation: float1 2.5s ease-in-out infinite alternate
+  position: absolute
+  top: 73%
+  right: 8%
+  width: 27%;
+
+.imagen-decorativa-4
+  width: 75%
+
+
+.bgr-tarjeta-1:before
+    background: #FDDCC1
+.bgr-tarjeta-1
+    background: #fff
+
+.bgr-tarjeta-2:before
+    background: #F67409
+.bgr-tarjeta-2
+    background: #FFF6F0
+
+.bgr-tarjeta-3
+    background: #E5F2DB
+
+.bgr-targeta-4:before
+    background: #E5F2DB
+.bgr-targeta-4
+    background: #54aa13
+
+
+.img.tarjeta-tema-2
+    width: 13%
