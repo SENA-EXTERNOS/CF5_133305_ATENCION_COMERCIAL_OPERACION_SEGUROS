@@ -282,32 +282,33 @@
     .row.mt-5
       .col-7
         LineaTiempoD.color-acento-contenido
-          .row(numero="1" titulo="Simple")
+          .row(tarjeta bgr-tarjeta-3 numero="1" titulo="Simple")
             p.text-small Se presenta al cumplir con su obligación sin condiciones porque no depende de otros, y está en su marco de limitaciones de la ocurrencia del riesgo.
 
-          .row(numero="2" titulo="Simple")
-            p.text-small Se presenta al cumplir con su obligación sin condiciones porque no depende de otros, y está en su marco de limitaciones de la ocurrencia del riesgo.
+          .row(numero="2" titulo="Principal")
+            p.text-small Se presenta al identificar su propia autonomía, tiene su existencia sin condicionamientos porque tiene su función clara y esto le da su característica de principal.
 
-          .row(numero="3" titulo="Simple")
-            p.text-small Se presenta al cumplir con su obligación sin condiciones porque no depende de otros, y está en su marco de limitaciones de la ocurrencia del riesgo.
+          .row(numero="3" titulo="Oneroso")
+            p.text-small Se presenta al identificar que tiene un costo y, en contraprestación, tiene un servicio definido.
 
-          .row(numero="4" titulo="Simple")
-            p.text-small Se presenta al cumplir con su obligación sin condiciones porque no depende de otros, y está en su marco de limitaciones de la ocurrencia del riesgo.
+          .row(numero="4" titulo="Mercantil")
+            p.text-small Es un contrato mercantil ya que se encuentra referenciado en el código civil; al mismo tiempo, es un acto de comercio que se encuentra en el código de comercio colombiano.
 
-          .row(numero="5" titulo="Simple")
-            p.text-small Se presenta al cumplir con su obligación sin condiciones porque no depende de otros, y está en su marco de limitaciones de la ocurrencia del riesgo.
+          .row(numero="5" titulo="De buena fe")
+            p.text-small Se basa en las actuaciones del asegurado, partiendo del principio de honestidad, en donde se obliga a describir con claridad, la naturaleza del riesgo; asimismo, procura que no ocurra el mismo y, en caso de ocurrencia del siniestro, tratar de minimizar las consecuencias. Por el lado del asegurador, se parte de la buena fe en la formalización del contrato y la redacción e interpretación de las cláusulas.
 
-          .row(numero="6" titulo="Simple")
-            p.text-small Se presenta al cumplir con su obligación sin condiciones porque no depende de otros, y está en su marco de limitaciones de la ocurrencia del riesgo.
+          .row(numero="6" titulo="De adhesión")
+            p.text-small Se presenta como adhesión teniendo en cuenta la reciprocidad en la aceptación de las cláusulas por las partes, es decir, en primera instancia, una de las partes las propone por escrito y, consecuentemente, la otra parte las acepta.
 
-          .row(numero="7" titulo="Simple")
-            p.text-small Se presenta al cumplir con su obligación sin condiciones porque no depende de otros, y está en su marco de limitaciones de la ocurrencia del riesgo.
+          .row(numero="7" titulo="Aleatorio")
+            p.text-small Como consecuencia del azar o situación fortuita, cabe la posibilidad de una afectación o pérdida y, por este motivo, en el contrato se establece la ocurrencia.
 
-          .row(numero="8" titulo="Simple")
-            p.text-small Se presenta al cumplir con su obligación sin condiciones porque no depende de otros, y está en su marco de limitaciones de la ocurrencia del riesgo.
+          .row(numero="8" titulo="Indivisible")
+            p.text-small El contrato de seguros es único, así sea que en ocasiones esté dividido en términos periódicos para facilitar el pago de la prima; el contrato es indivisible y, por lo tanto, el consentimiento dado al comienzo, lo rige en su duración completa.
+            p.text-small Un contrato es indivisible teniendo en cuenta su fundamento y característica de único, ya que la modalidad de pagos, en muchos casos, se hace periódicamente y no lo hace particionado; además, desde su emisión se ha definido por una duración específica en el tiempo.
 
-          .row(numero="9" titulo="Simple")
-            p.text-small Se presenta al cumplir con su obligación sin condiciones porque no depende de otros, y está en su marco de limitaciones de la ocurrencia del riesgo.
+          .row(numero="9" titulo="Conmutativo")
+            p.text-small Se presenta este atributo al evidenciar que cada una de las partes conlleva obligaciones.
       .col-5
         figure.justify-content-around.align-items-centerrd
           img(src='@/assets/curso/temas/tema-2/tema2-img29.svg', alt='Texto que describa la imagen')
