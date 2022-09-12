@@ -145,32 +145,138 @@ export default {
   },
   complementario: [
     {
-      tema: '',
-      referencia: '',
-      tipo: '',
-      link: 'https://www.google.com/',
-    },
-    {
-      tema: '',
-      referencia: '',
-      tipo: '',
-      descarga: '/downloads/prueba.pdf',
+      tema: 'Componentes',
+      referencia:
+        ' Decreto 410 de 1971. Por el cual se expide el Código de Comercio. 27 de marzo de 1971. D.O. No. 33.339.',
+      tipo: 'Norma',
+      link:
+        'https://www.funcionpublica.gov.co/eva/gestornormativo/norma_pdf.php?i=41102',
     },
   ],
   glosario: [
     {
-      termino: '',
-      significado: '',
+      termino: 'Asegurado:',
+      significado:
+        'persona o bien que recibe la protección de la aseguradora, y se obliga a indemnizar las pérdidas o los perjuicios que puedan sobrevenir a la otra parte, en casos determinados, fortuitos o de fuerza mayor.',
     },
     {
-      termino: '<em></em>',
-      significado: '',
+      termino: 'Asegurador:',
+      significado:
+        'entidad o persona jurídica, que expide la póliza y se compromete a cubrir el riesgo con el fin de indemnizar o reparar el daño o la pérdida, cuando cuando se presente la ocurrencia.',
+    },
+    {
+      termino: 'Asegurar:',
+      significado:
+        'prevenir las consecuencias económicas nocivas o que generen daño de una situación futura e incierta.',
+    },
+    {
+      termino: 'Beneficiario:',
+      significado:
+        'el designado como titular de los derechos en caso de siniestro. Lo nombra el contratante de la póliza.',
+    },
+    {
+      termino: 'Bienes asegurados:',
+      significado: 'son aquellos que se definen con el objeto asegurable.',
+    },
+    {
+      termino: 'Cobertura:',
+      significado:
+        'garantía que acepta la aseguradora para encargarse de las indemnizaciones.',
+    },
+    {
+      termino: 'Contratante:',
+      significado:
+        'aquella persona natural o jurídica, quien solicita el seguro a favor, ya sea para un beneficiario o a título propio.',
+    },
+    {
+      termino: 'Cotización:',
+      significado:
+        'valor comercial de un seguro previamente analizado por una compañía aseguradora; cumple con todas las condiciones y coberturas definidas.',
+    },
+    {
+      termino: 'Deducible:',
+      significado:
+        'cantidad definida por la aseguradora, como valores no indemnizables; se considera que este valor lo debe pagar el beneficiario.',
+    },
+    {
+      termino: 'Exclusiones:',
+      significado:
+        'se refiere a aquellos riesgos que no son asegurables por las aseguradoras y quedan excluidos expresamente en las cláusulas del contrato.',
+    },
+    {
+      termino: 'Interés asegurable:',
+      significado:
+        'el interés del tomador o asegurado, para que el siniestro asegurado no ocurra. Se expresa como ese vínculo entre el tomador y lo que asegura (la vida, un bien, algún patrimonio).',
+    },
+    {
+      termino: 'Rama:',
+      significado:
+        'conjunto de modalidades relativas de los seguros con base en los riesgos similares o con características similares.',
+    },
+    {
+      termino: 'Seguro o cobertura:',
+      significado:
+        'se refiere al riesgo que recae sobre el asegurado, por contraprestación del pago de una prima.',
+    },
+    {
+      termino: 'Siniestro:',
+      significado:
+        'serie de daños o perjuicios que son derivados de una causa.',
+    },
+    {
+      termino: 'Valor asegurado:',
+      significado:
+        'valor máximo que el asegurado le atribuye al objeto o bien asegurado, y se convierte en responsabilidad de la aseguradora.',
     },
   ],
   referencias: [
     {
-      referencia: '',
+      referencia:
+        'Fasecolda. (s.f.). Guía de seguros – ABC del Seguro. Fasecolda.',
+      link:
+        'https://fasecolda.com/cms/wp-content/uploads/2019/08/gua-de-seguros-abc-del-seguro.pdf',
+    },
+    {
+      referencia:
+        'Jaramillo Jaramillo, C., & Sánchez Calero, F. (2012). Derecho de seguros. Pontificia Universidad Javeriana.',
+
       link: '',
+    },
+    {
+      referencia:
+        'Ley 80 de 1993. Por la cual se expide el Estatuto General de Contratación de la Administración Pública. 8 de Octubre de 1993.D.O 41.094.',
+
+      link:
+        'https://www.funcionpublica.gov.co/eva/gestornormativo/norma.php?i=304',
+    },
+    {
+      referencia:
+        'Mejía Delgado, H. (2012). Seguros y finanzas para la familia. Ecoe Ediciones.',
+
+      link: '',
+    },
+    {
+      referencia:
+        'Mejía Quijano, R. (2013). Identificación de riesgos. Editorial - Universidad EAFIT.',
+
+      link: '',
+    },
+    {
+      referencia:
+        'Narváez Bonnet, J. (2011). El seguro de cumplimiento de contratos y obligaciones. Pontificia Universidad Javeriana.',
+
+      link: '',
+    },
+    {
+      referencia:
+        'Palacios Sánchez, F. (2012). El seguro. Universidad de La Sabana.',
+
+      link: '',
+    },
+    {
+      referencia: 'Si Seguros. (s.f). Contrato de seguros.',
+
+      link: 'https://www.siseguros.com.mx/WikiSeguros/Contrato-De-Seguros.php',
     },
   ],
   creditos: {

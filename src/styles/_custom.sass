@@ -19,7 +19,8 @@
     animation: rotate 4s linear infinite
     position: absolute
     top: 37%
-    right: 15%  
+    right: 15% 
+    z-index: -1
   &-5
     animation: rotate 4s linear infinite
     position: absolute
@@ -52,14 +53,14 @@
 .imagen-decorativa-1
   animation: float1 2.8s ease-in-out infinite alternate
   position: absolute
-  top: 17%
+  top: 18%
   right: 4%
   width: 31%;
   
 .imagen-decorativa-2
   animation: float1 2.5s ease-in-out infinite alternate
   position: absolute
-  top: 61.5%
+  top: 61%
   right: 69%
   width: 21%;
 
@@ -75,7 +76,7 @@
 
 
 .bgr-tarjeta-1:before
-    background: #FDDCC1
+    background: #FFF6F0 
 .bgr-tarjeta-1
     background: #fff
 
@@ -85,13 +86,30 @@
     background: #FFF6F0
 
 .bgr-tarjeta-3
-    background: #E5F2DB
+    background: #F0F8EA
 
-.bgr-targeta-4:before
-    background: #E5F2DB
-.bgr-targeta-4
-    background: #54aa13
+.bgr-tarjeta-5
+    background: #F0F8EA
 
+.tarjeta--gris 
+    background-color: #F0F8EA
+
+.bgr-tarjeta-6
+    width: 180%
+    max-width: initial
+
+.bgr-tarjeta-7
+    width: 200%
+    max-width: initial      
 
 .img.tarjeta-tema-2
     width: 13%
+
+.banner-principal__img
+  z-index: 1;
+
+.bloque-texto-b:before
+    top: 40%
+    bottom: 42px
+    left: 29%
+    right: 25px

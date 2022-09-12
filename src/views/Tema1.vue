@@ -21,7 +21,7 @@
     .row.justify-content-around.align-items-center
       .col-lg-8
         figure
-          img(src='@/assets/curso/temas/tema-1/tema1-img2.svg', alt='Texto que describa la imagen')
+          img(src='@/assets/curso/temas/tema-1/tema1-img2.png', alt='Texto que describa la imagen')
     .row.mt-5.mb-5
       p La expedición de una póliza se puede expresar como: serie de acciones y procedimientos que se llevan a cabo para que la empresa aseguradora apruebe o acepte tomar el riesgo manifiesto. Como resultado de esta acción, se definen las condiciones y la prima del seguro.
       p.mt-4 Algunas de las funciones propias de los departamentos responsables de la emisión de pólizas dentro de las compañías aseguradoras, son las que veremos a continuación:          
@@ -64,25 +64,21 @@
       .col-sm-6.col-lg-3.mb-5.mb-lg-0
         .tarjeta.border.color-adicional-1
           .row.justify-content-center
-            figure.justify-content-center.mt-4
+            figure.mt-5
               img(src='@/assets/curso/temas/tema-1/tema1-img7.svg', alt='Texto que describa la imagen')
-            h3.mt-5 Resumen de ventas
-            p Se presentan, de manera concreta, las ventas de la empresa por periodos, ya sea semanal, mensual, trimestral, semestral o anual.
+            p.mt-5.mb-4 Riesgos a ser consultados, riesgos y coberturas aceptadas en condiciones normales, sin ninguna excepcionalidad.
       .col-sm-6.col-lg-3.mb-5.mb-lg-0
         .tarjeta.border.color-adicional-1
           .row.justify-content-center
-            figure.justify-content-center
+            figure.mt-3
               img(src='@/assets/curso/temas/tema-1/tema1-img8.svg', alt='Texto que describa la imagen').imagen-decorativa-4
-            h3.mt-3 Resumen de ventas
-            p Se presentan, de manera concreta, las ventas de la empresa por periodos, ya sea semanal, mensual, trimestral, semestral o anual.
+            p.mt-5.mb-4 Coberturas a consultar y coberturas excluidas. 
       .col-sm-6.col-lg-3.mb-5.mb-lg-0
         .tarjeta.border.color-adicional-1
           .row.justify-content-center
-            figure.justify-content-center.mt-5
+            figure.mt-5
               img(src='@/assets/curso/temas/tema-1/tema1-img9.svg', alt='Texto que describa la imagen')
-            h3.mt-5 Resumen de ventas
-            p Se presentan, de manera concreta, las ventas de la empresa por periodos, ya sea semanal, mensual, trimestral, semestral o anual.
-
+            p.mt-5.mb-5 Valor máximo de aceptación, si el riesgo a asegurar excede el valor de la suma asegurada.
     .row.mt-5
       p En la contratación, de modalidades en seguros, se hace necesario llevar a cabo una serie de requerimientos denominados normas de contratación. Estas normas son las que permiten regular las condiciones para la suscripción de la póliza, aportando como resultado, el cubrimiento correcto del riesgo del objeto que va a ser asegurado.         
     separador
@@ -94,41 +90,31 @@
 
     .row.mt-5
       p En un contrato de seguro se destacan elementos esenciales contemplados en el Código de Comercio, artículo 1045. Sin la aplicación de alguno de estos elementos, el contrato no tiene efecto alguno.
-    
-    AcordionA(tipo="b" clase-tarjeta="tarjeta bgr-tarjeta-3").mt-5
-      .row(titulo="Interés asegurable")
-        .col-md-6.mb-4.mb-md-0
-          p Se define como la situación incierta a asegurar. Un ejemplo concreto es el de un contrato de vida, en el cual, la muerte es el riesgo asegurable. Asimismo, cuando ocurre un hurto, un incendio, un terremoto; en este sentido, son relativos a la responsabilidad civil que, de manera directa, ocasiona una disminución de los activos asegurados, y es aquí donde es identificado el derecho adquirido sobre el activo asegurado.      
-      .row(titulo="El riesgo asegurable")
-        .col-md-6.mb-4.mb-md-0
-          p Es la cantidad de dinero, a cuenta del tomador del seguro, que se debe pagar en un tiempo específico, al asegurador o empresa de seguros.      
-      .row(titulo="Prima (precio del seguro)")
-        .col-md-6.mb-4.mb-md-0
-          p En el caso de ocurrencia de un suceso incierto, se refiere a la condición de pagar una indemnización al asegurado.      
-      .row(titulo="Obligación condicional del asegurador")
-        .col-md-6.mb-4.mb-md-0
-          p Es la forma como son representados o descritos los riesgos que se asumen en los productos que ofrecen las aseguradoras; en la mayoría de los casos, se refieren a: las primas, la vigencia, las primas y el valor asegurado.
-      .row(titulo="Amparo")
-        .col-md-6.mb-4.mb-md-0
-          p Es la forma como son representados o descritos los riesgos que se asumen en los productos que ofrecen las aseguradoras; en la mayoría de los casos, se refieren a: las primas, la vigencia, las primas y el valor asegurado.      
-      .row(titulo="Amparo adicional")
-        .col-md-6.mb-4.mb-md-0
-          p Se refiere a las coberturas adicionales que son otorgadas por comprar un seguro; es considerado como un valor agregado por parte de la aseguradora y está incluido en la póliza. Esta cobertura adicional, es brindada por cuenta de la aseguradora.      
-      .row(titulo="Comisión por intermediación")
-        .col-md-6.mb-4.mb-md-0
-          p Es un porcentaje de las ventas que se otorga a los intermediarios, por vender las pólizas de una compañía aseguradora. Previamente son definidas las escalas o tablas de comisiones, de acuerdo con los productos vendidos.      
-      .row(titulo="Deducible")
-        .col-md-6.mb-4.mb-md-0
-          p Se define como el valor que asume el asegurado, previo a que la compañía aseguradora realice el pago asegurado; esta cifra se pacta con anterioridad y, sin variar, se descuenta del valor completo de la indemnización. Se calcula como un valor fijo, un porcentaje de la pérdida, o un porcentaje del valor asegurado.      
-      .row(titulo="Exclusión")
-        .col-md-6.mb-4.mb-md-0
-          p Se realiza a través de una cláusula en la cual se determina la limitación de la póliza. Se define en razón del tiempo, la edad, el lugar, el monto o el evento.      
-      .row(titulo="Exclusión de contrato")
-        .col-md-6.mb-4.mb-md-0
-          p Situación por la que una cobertura o un amparo no tienen vigencia. Se especifica con claridad, peligros, localizaciones, propiedades o pérdidas, que no son pagadas dentro del contrato.      
-      .row(titulo="Valor asegurado")
-        .col-md-6.mb-4.mb-md-0
-          p Es el máximo valor que el asegurador se compromete a pagar al cliente, por un riesgo, en caso de que ocurra.
+    .row.justify-content-center.mt-5
+      .col-8
+        AcordionA(tipo="b" clase-tarjeta="tarjeta bgr-tarjeta-3").mt-5
+          .row(titulo="Interés asegurable")
+              p Es el interés del tomador o asegurado, para que el siniestro asegurado no ocurra. Se expresa como ese vínculo entre el tomador y lo que asegura (la vida, un bien, algún patrimonio).      
+          .row(titulo="El riesgo asegurable")
+              p Se define como la situación incierta a asegurar. Un ejemplo concreto es el de un contrato de vida, en el cual, la muerte es el riesgo asegurable. Asimismo, cuando ocurre un hurto, un incendio, un terremoto; en este sentido, son relativos a la responsabilidad civil que, de manera directa, ocasiona una disminución de los activos asegurados, y es aquí donde es identificado el derecho adquirido sobre el activo asegurado.      
+          .row(titulo="Prima (precio del seguro)")
+              p Es la cantidad de dinero, a cuenta del tomador del seguro, que se debe pagar en un tiempo específico, al asegurador o empresa de seguros.      
+          .row(titulo="Obligación condicional del asegurador")
+              p En el caso de ocurrencia de un suceso incierto, se refiere a la condición de pagar una indemnización al asegurado.
+          .row(titulo="Amparo")
+              p Es la forma como son representados o descritos los riesgos que se asumen en los productos que ofrecen las aseguradoras; en la mayoría de los casos, se refieren a: las primas, la vigencia, las primas y el valor asegurado.      
+          .row(titulo="Amparo adicional")
+              p Se refiere a las coberturas adicionales que son otorgadas por comprar un seguro; es considerado como un valor agregado por parte de la aseguradora y está incluido en la póliza. Esta cobertura adicional, es brindada por cuenta de la aseguradora.      
+          .row(titulo="Comisión por intermediación")
+              p Es un porcentaje de las ventas que se otorga a los intermediarios, por vender las pólizas de una compañía aseguradora. Previamente son definidas las escalas o tablas de comisiones, de acuerdo con los productos vendidos.      
+          .row(titulo="Deducible")
+              p Se define como el valor que asume el asegurado, previo a que la compañía aseguradora realice el pago asegurado; esta cifra se pacta con anterioridad y, sin variar, se descuenta del valor completo de la indemnización. Se calcula como un valor fijo, un porcentaje de la pérdida, o un porcentaje del valor asegurado.      
+          .row(titulo="Exclusión")
+              p Se realiza a través de una cláusula en la cual se determina la limitación de la póliza. Se define en razón del tiempo, la edad, el lugar, el monto o el evento.      
+          .row(titulo="Exclusión de contrato")
+              p Situación por la que una cobertura o un amparo no tienen vigencia. Se especifica con claridad, peligros, localizaciones, propiedades o pérdidas, que no son pagadas dentro del contrato.      
+          .row(titulo="Valor asegurado")
+              p Es el máximo valor que el asegurador se compromete a pagar al cliente, por un riesgo, en caso de que ocurra.
 
     .row.mt-5
       h5 Tipos de indemnizaciones
@@ -150,24 +136,24 @@
           .tarjeta-slide__contenedor
             .tarjeta-slide__img(:style="{'background-image': `url(${require('@/assets/curso/temas/tema-1/tema1-img21.png')})`}")
             .tarjeta-slide__contenido.p-4.p-xl-5
-              h2 Indemnización a tanto alzado
-              p A tanto alzado es un pago fijado en una determinada cantidad, y se caracteriza por ser realizado antes de la obtención de un bien o la prestación de un servicio concreto.
+              h2 Indemnización pactada
+              p.mt-5 Daño reparado en donde las partes acuerdan, conjuntamente, el valor de una cuantía
             
       .col-sm-6.col-xl-4.mb-4.mb-xl-0
         .tarjeta.tarjeta-slide.arriba.color-acento-contenido(@mouseover="indicadorTarjetaSlide = false")
           .tarjeta-slide__contenedor
             .tarjeta-slide__img(:style="{'background-image': `url(${require('@/assets/curso/temas/tema-1/tema1-img22.png')})`}")
             .tarjeta-slide__contenido.p-4.p-xl-5
-              h2 Indemnización diaria
-              p Es el pago efectuado por el asegurador al asegurado y se refiere a los seguros de accidentes personales, por los días en que se permanece con incapacidad laboral temporal, y de acuerdo con la suma concertada en las condiciones particulares contratadas.
+              h2 Indemnización a tanto alzado
+              p A tanto alzado es un pago fijado en una determinada cantidad, y se caracteriza por ser realizado antes de la obtención de un bien o la prestación de un servicio concreto.
 
       .col-sm-6.col-xl-4.mb-4.mb-sm-0
         .tarjeta.tarjeta-slide.arriba.color-acento-contenido(@mouseover="indicadorTarjetaSlide = false")
           .tarjeta-slide__contenedor
             .tarjeta-slide__img(:style="{'background-image': `url(${require('@/assets/curso/temas/tema-1/tema1-img23.png')})`}")
             .tarjeta-slide__contenido.p-4.p-xl-5
-              h2 Análisis del riesgo
-              p El análisis de riesgo es el resultado de un procedimiento que tendrá como resultado la decisión final de aceptar o no, la admisión y establecer el precio al tomador del seguro, en decir, es aquí donde la aseguradora se hace responsable del riesgo evaluado y este se formaliza en un contrato. 
+              h2 Indemnización diaria
+              p Es el pago efectuado por el asegurador al asegurado y se refiere a los seguros de accidentes personales, por los días en que se permanece con incapacidad laboral temporal, y de acuerdo con la suma concertada en las condiciones particulares contratadas. 
 
 
     separador
@@ -203,7 +189,8 @@
       .py-4.py-md-5(titulo="Condiciones particulares" :icono="require('@/assets/curso/temas/tema-1/tema1-img15.svg')")
         .row
           .col-md-8.mb-4.mb-md-0.mt-5
-            p A continuación se describen los elementos de las condiciones particulares con respecto al riesgo individual:
+            h2 Condiciones particulares
+            p.mt-5 A continuación se describen los elementos de las condiciones particulares con respecto al riesgo individual:
             <i class="fas fa-angle-right" STYLE="Color: green"></i> Nombre, domicilio, y clara designación del asegurado y del beneficiario; concepto con el cual se asegura.
             br
             <i class="fas fa-angle-right" STYLE="Color: green"></i> Naturaleza del riesgo a cubrir. Indicación de los objetos asegurados.
@@ -222,8 +209,8 @@
       .py-4.py-md-5(titulo="Condiciones especiales" :icono="require('@/assets/curso/temas/tema-1/tema1-img17.svg')")
         .row
           .col-md-8.mb-4.mb-md-0.mt-5
-            h4 Condiciones especiales
-            p Son aquellos que se componen por agua y tierra, dado que son elementos frecuentes en la naturaleza es muy usual encontrar este tipo de ecosistemas. Así, los principales tipos de ecosistemas mixtos que existen en la naturaleza son: humedales, manglares, marismas y costas.        
+            h2 Condiciones especiales
+            p.mt-5 Son aquellos que se componen por agua y tierra, dado que son elementos frecuentes en la naturaleza es muy usual encontrar este tipo de ecosistemas. Así, los principales tipos de ecosistemas mixtos que existen en la naturaleza son: humedales, manglares, marismas y costas.        
           .col-md-4
             figure
               img(src='@/assets/curso/temas/tema-1/tema1-img18.svg', alt='Texto que describa la imagen')
@@ -233,7 +220,7 @@
         .tarjeta.color-secundario.p-3.mb-5
           .row.justify-content-around.align-items-center
             .col-3.col-sm-2.col-lg-1
-              img(src="@/assets/curso/temas/tema-1/tema1-img19.svg")
+              img(src="@/assets/curso/temas/tema-1/tema1-img19.svg").bgr-tarjeta-6
             .col-9
               .row.justify-content-between.align-items-center
                 .col.mb-3.mb-sm-0
@@ -315,7 +302,7 @@
         .tarjeta.color-secundario.p-3.mb-5
           .row.justify-content-around.align-items-center
             .col-3.col-sm-2.col-lg-1
-              img(src="@/assets/curso/temas/tema-1/tema1-img20.svg")
+              img(src="@/assets/curso/temas/tema-1/tema1-img20.svg").bgr-tarjeta-7
             .col-9
               .row.justify-content-between.align-items-center
                 .col.mb-3.mb-sm-0

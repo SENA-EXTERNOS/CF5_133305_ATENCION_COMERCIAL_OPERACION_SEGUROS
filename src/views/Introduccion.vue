@@ -39,7 +39,7 @@
         .bloque-texto-b.bgr-tarjeta-1.p-4
           .bloque-texto-b__texto
             i.fas.fa-quote-left
-            h2.mb-0 Existen dos tipos de elementos inmiscuidos en la elaboración de un contrato de seguros, y estos pueden ser formales y reales; dentro de los formales encontramos: la proposición, la póliza, los datos del contratante y de la compañía de seguros, las firmas de ambos, entre otros. En los elementos reales podemos encontrar: el interés asegurable, el riesgo asegurable, la prima, la obligación del asegurador, etcétera
+            b.mb-5 Existen dos tipos de elementos inmiscuidos en la elaboración de un contrato de seguros, y estos pueden ser formales y reales; dentro de los formales encontramos: la proposición, la póliza, los datos del contratante y de la compañía de seguros, las firmas de ambos, entre otros. En los elementos reales podemos encontrar: el interés asegurable, el riesgo asegurable, la prima, la obligación del asegurador, etcétera
             i.fas.fa-quote-right
           p (SiSeguros, 2016)
 
