@@ -9,7 +9,7 @@
 
     .row.justify-content-around.align-items-center.mt-5.mb-5
       .row.justify-content-around.align-items-center
-        .col-6.mb-5
+        .col-lg-6.ms-10
           p Los seguros son utilizados para compensar una probabilidad de contingencia de un posible daño o afectación, y la función de la cobertura del seguro es la de suplir esa necesidad económica protegida; es aquí donde se debe enfatizar que los seguros no pueden ser, en ningún momento, una fuente para generar riqueza o lucrarse. La clasificación de la actividad económica de los seguros es la de prestar servicios, o sea que no constituye una actividad industrial. 
           p.mt-2 Cuando se habla de tipos de indemnizaciones, modificación del contrato y coberturas de los seguros, la referencia se dirige hacia los componentes propios de un seguro.
           .cajon.bgr-tarjeta-2.p-4
@@ -92,7 +92,7 @@
     .row.mt-5
       p En un contrato de seguro se destacan elementos esenciales contemplados en el Código de Comercio, artículo 1045. Sin la aplicación de alguno de estos elementos, el contrato no tiene efecto alguno.
     .row.justify-content-center.mt-5
-      .col-8
+      .col-lg-8.sm-8
         AcordionA(tipo="b" clase-tarjeta="tarjeta bgr-tarjeta-3").mt-5
           .row(titulo="Interés asegurable")
               p Es el interés del tomador o asegurado, para que el siniestro asegurado no ocurra. Se expresa como ese vínculo entre el tomador y lo que asegura (la vida, un bien, algún patrimonio).      
@@ -175,7 +175,7 @@
           figure
             img(src='@/assets/curso/temas/tema-1/tema1-img11.svg', alt='Texto que describa la imagen')
         img(src='@/assets/curso/temas/tema-1/tema1-img12.svg', alt='Texto que describa la imagen').imagen-decorativa-2
-        .col-8.mb-5
+        .col-lg-8.mb-5
           p.mt-5 En términos de coberturas, el asegurador está obligado a responder hasta el valor límite del valor asegurado; es decir, sobre las afectaciones económicas como resultado de la ocurrencia de un siniestro.
           p.mt-5 Ese valor a pagar por concepto de indemnización, al asegurado, por parte de la compañía aseguradora, es el compromiso asumido que se denomina como cobertura de un seguro y se realiza con la finalidad de reparar las afectaciones resultantes del siniestro. Es necesario resaltar, que las coberturas tienen un valor límite que se denomina capital asegurado y fue definido al instante de pactar el contrato
           .cajon.bgr-tarjeta-2.p-4.mt-5
@@ -189,7 +189,7 @@
             p.mt-5 Se refieren al establecimiento de los principios básicos por parte del asegurador, de manera que se regulen los contratos que hacen parte del mismo ramo, es decir, los elementos referidos al objeto del seguro, su extensión, los riesgos excluidos, manera de liquidación de los siniestros, cobro de los recibos, las indemnizaciones, las comunicaciones, la subrogación, la jurisdicción, entre otros        
           .col-md-4
             figure
-              img(src='@/assets/curso/temas/tema-1/tema1-img14.svg', alt='Texto que describa la imagen')
+              img(src='@/assets/curso/temas/tema-1/tema1-img14.svg', alt='Texto que describa la imagen').img-tarjeta-linea-1
 
       .py-4.py-md-5(titulo="Condiciones particulares" :icono="require('@/assets/curso/temas/tema-1/tema1-img15.svg')")
         .row
@@ -209,7 +209,7 @@
             <i class="fas fa-angle-right" STYLE="Color: green"></i> Duración del contrato, indicando iniciación y finalización.
           .col-md-4
             figure
-              img(src='@/assets/curso/temas/tema-1/tema1-img16.svg', alt='Texto que describa la imagen')
+              img(src='@/assets/curso/temas/tema-1/tema1-img16.svg', alt='Texto que describa la imagen').img-tarjeta-linea-1
 
       .py-4.py-md-5(titulo="Condiciones especiales" :icono="require('@/assets/curso/temas/tema-1/tema1-img17.svg')")
         .row
@@ -218,7 +218,7 @@
             p.mt-5 Son aquellos que se componen por agua y tierra, dado que son elementos frecuentes en la naturaleza es muy usual encontrar este tipo de ecosistemas. Así, los principales tipos de ecosistemas mixtos que existen en la naturaleza son: humedales, manglares, marismas y costas.        
           .col-md-4
             figure
-              img(src='@/assets/curso/temas/tema-1/tema1-img18.svg', alt='Texto que describa la imagen')
+              img(src='@/assets/curso/temas/tema-1/tema1-img18.svg', alt='Texto que describa la imagen').img-tarjeta-linea-1
     
     .row.justify-content-around.align-items-centerrd.mt-5
       .col-10

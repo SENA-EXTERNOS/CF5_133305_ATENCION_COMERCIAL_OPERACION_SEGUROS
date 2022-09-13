@@ -12,15 +12,15 @@
     .row.justify-content-around.align-items-center.mb-5.mt-5
       .col-10
         .row.justify-content-around.align-items-center
-          .col-lg-2
+          .col-lg-2.col-sm-10
             figure
-              img(src='@/assets/curso/temas/introduccion/intro-img-1.svg', alt='Texto que describa la imagen')
-          .col-10
-            p El proceso para la suscripción de una póliza, se fundamenta en el resultado de contar con algún tipo de protección frente a un riesgo que pueda surgir en determinado momento o circunstancia de la vida. Se hace necesario entonces, contratar a una aseguradora para la adquisición de una póliza de seguro, considerado un recurso adecuado para ahorrar, proteger y compensar, debido a las posibles consecuencias no favorables de un evento negativo.
+              img(src='@/assets/curso/temas/introduccion/intro-img-1.svg', alt='Texto que describa la imagen').img-tarjeta-linea-1
+          .col-lg-10.col-sm-10
+            p.mt-5 El proceso para la suscripción de una póliza, se fundamenta en el resultado de contar con algún tipo de protección frente a un riesgo que pueda surgir en determinado momento o circunstancia de la vida. Se hace necesario entonces, contratar a una aseguradora para la adquisición de una póliza de seguro, considerado un recurso adecuado para ahorrar, proteger y compensar, debido a las posibles consecuencias no favorables de un evento negativo.
 
     .row.justify-content-around.align-items-center.mt-5.mb-5
       .row.justify-content-around.align-items-center
-        .col-8.mb-5
+        .col-lg-8.mb-5
           p Durante el desarrollo de este componente formativo se ubican conceptos y herramientas útiles para validar las coberturas y tipos de pólizas que se presentan en el mercado, que le van a permitir aprender y conocer la ruta que utilizan las aseguradoras cuando se suscriben pólizas. Adicionalmente, aprenderá a verificar los datos del informe de inspección y generar los documentos que se acomoden a las organizaciones solicitantes.
           p.mt-2 Los temas serán abordados de manera que usted pueda interactuar con los conceptos y herramientas brindadas, para lograr el cumplimiento de las temáticas indicadas en cada sección del componente.
           p.mt-2 Entre algunos de los elementos incluidos en los seguros se pueden enfatizar: coberturas y modificaciones, indemnizaciones, amparos y exclusiones, tasas, valores asegurados, deducibles y amparos adicionales.
