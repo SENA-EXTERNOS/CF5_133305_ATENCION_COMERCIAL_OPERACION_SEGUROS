@@ -61,24 +61,25 @@
       p.mt-3 Los elementos para identificar, con claridad, por parte de las empresas aseguradoras al expedir las pólizas son:
 
     .row.justify-content-center.mt-5
-      .col-sm-6.col-lg-3.mb-5.mb-lg-0
-        .tarjeta.border.color-adicional-1
-          .row.justify-content-center
-            figure.mt-5
-              img(src='@/assets/curso/temas/tema-1/tema1-img7.svg', alt='Texto que describa la imagen')
-            p.mt-5.mb-4 Riesgos a ser consultados, riesgos y coberturas aceptadas en condiciones normales, sin ninguna excepcionalidad.
-      .col-sm-6.col-lg-3.mb-5.mb-lg-0
-        .tarjeta.border.color-adicional-1
-          .row.justify-content-center
-            figure.mt-3
-              img(src='@/assets/curso/temas/tema-1/tema1-img8.svg', alt='Texto que describa la imagen').imagen-decorativa-4
-            p.mt-5.mb-4 Coberturas a consultar y coberturas excluidas. 
-      .col-sm-6.col-lg-3.mb-5.mb-lg-0
-        .tarjeta.border.color-adicional-1
-          .row.justify-content-center
-            figure.mt-5
-              img(src='@/assets/curso/temas/tema-1/tema1-img9.svg', alt='Texto que describa la imagen')
-            p.mt-5.mb-5 Valor máximo de aceptación, si el riesgo a asegurar excede el valor de la suma asegurada.
+      .col-10
+        .row
+          .col-sm-4.mb-5
+            .tarjeta.border.color-adicional-1.tarjeta_padding.justify-content-center
+                figure.mt-5
+                  img(src='@/assets/curso/temas/tema-1/tema1-img7.svg', alt='Texto que describa la imagen')
+                p.mt-5.mb-4 Riesgos a ser consultados, riesgos y coberturas aceptadas en condiciones normales, sin ninguna excepcionalidad.
+          .col-sm-4.mb-5
+            .tarjeta.border.color-adicional-1.tarjeta_padding.justify-content-center
+                figure.mt-3
+                  img(src='@/assets/curso/temas/tema-1/tema1-img8.svg', alt='Texto que describa la imagen').imagen-decorativa-4
+                p.mt-5.mb-4 Coberturas a consultar y coberturas excluidas. 
+          .col-sm-4.mb-5
+            .tarjeta.border.color-adicional-1.tarjeta_padding.justify-content-center
+                figure.mt-5
+                  img(src='@/assets/curso/temas/tema-1/tema1-img9.svg', alt='Texto que describa la imagen')
+                p.mt-5.mb-5 Valor máximo de aceptación, si el riesgo a asegurar excede el valor de la suma asegurada.
+      
+    
     .row.mt-5
       p En la contratación, de modalidades en seguros, se hace necesario llevar a cabo una serie de requerimientos denominados normas de contratación. Estas normas son las que permiten regular las condiciones para la suscripción de la póliza, aportando como resultado, el cubrimiento correcto del riesgo del objeto que va a ser asegurado.         
     separador

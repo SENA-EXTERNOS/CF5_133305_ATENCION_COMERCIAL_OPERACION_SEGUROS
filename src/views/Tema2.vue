@@ -169,7 +169,7 @@
           .tarjeta-slide__contenedor
             .tarjeta-slide__img(:style="{'background-image': `url(${require('@/assets/curso/temas/tema-2/tema2-img15.png')})`}")
             .tarjeta-slide__contenido.p-4.p-xl-5
-              h3 ¿Cuándo aplica la asegurabilidad?
+              h3.text-center ¿Cuándo aplica la asegurabilidad?
               p.text-small En primera instancia, la asegurabilidad de un riesgo debe cumplir con las situaciones de que sea incierto, tenga posibilidad de ocurrir, sea concreto, sea lícito y ocurra de manera fortuita. Es de esta manera que puede ser aceptada su cobertura por parte de la aseguradora.
               p.text-small Según todas las condiciones descritas, acepta o no, la asegurabilidad del riesgo en cuestión.
             
@@ -178,7 +178,7 @@
           .tarjeta-slide__contenedor
             .tarjeta-slide__img(:style="{'background-image': `url(${require('@/assets/curso/temas/tema-2/tema2-img16.png')})`}")
             .tarjeta-slide__contenido.p-4.p-xl-5
-              h3 Declaración de asegurabilidad
+              h3.text-center Declaración de asegurabilidad
               p.text-small Hace referencia a la información previa que el potencial asegurado informa a la aseguradora, a través de un formato (documento impreso o descargable en PDF), sobre el riesgo que afecta o podría afectar sus intereses asegurables. En el formato deben ser diligenciadas cada una de las amenazas identificadas, que puedan afectar a la persona.
 
       .col-sm-6.col-xl-4.mb-4.mb-sm-0
@@ -186,7 +186,7 @@
           .tarjeta-slide__contenedor
             .tarjeta-slide__img(:style="{'background-image': `url(${require('@/assets/curso/temas/tema-2/tema2-img17.png')})`}")
             .tarjeta-slide__contenido.p-4.p-xl-5
-              h3 Análisis del riesgo
+              h3.text-center Análisis del riesgo
               p.text-small El análisis de riesgo es el resultado de un procedimiento que tendrá como resultado la decisión final de aceptar o no, la admisión y establecer el precio al tomador del seguro, en decir, es aquí donde la aseguradora se hace responsable del riesgo evaluado y este se formaliza en un contrato. 
 
     .row.mt-5
