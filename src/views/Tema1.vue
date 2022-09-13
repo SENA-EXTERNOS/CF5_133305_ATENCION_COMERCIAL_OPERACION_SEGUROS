@@ -130,31 +130,35 @@
     .row.mt-5
       p Los tipos de indemnizaciones que se presentan en contratos de seguros, se describen a continuación:
 
-    .row
-      .col-sm-6.col-xl-4.mb-4.mb-xl-0
-        .tarjeta.tarjeta-slide.arriba.color-acento-contenido(@mouseover="indicadorTarjetaSlide = false")
-          .indicador--hover(v-if="indicadorTarjetaSlide")
-          .tarjeta-slide__contenedor
-            .tarjeta-slide__img(:style="{'background-image': `url(${require('@/assets/curso/temas/tema-1/tema1-img21.png')})`}")
-            .tarjeta-slide__contenido.p-4.p-xl-5
-              h2 Indemnización pactada
-              p.mt-5 Daño reparado en donde las partes acuerdan, conjuntamente, el valor de una cuantía
-            
-      .col-sm-6.col-xl-4.mb-4.mb-xl-0
-        .tarjeta.tarjeta-slide.arriba.color-acento-contenido(@mouseover="indicadorTarjetaSlide = false")
-          .tarjeta-slide__contenedor
-            .tarjeta-slide__img(:style="{'background-image': `url(${require('@/assets/curso/temas/tema-1/tema1-img22.png')})`}")
-            .tarjeta-slide__contenido.p-4.p-xl-5
-              h2 Indemnización a tanto alzado
-              p A tanto alzado es un pago fijado en una determinada cantidad, y se caracteriza por ser realizado antes de la obtención de un bien o la prestación de un servicio concreto.
 
-      .col-sm-6.col-xl-4.mb-4.mb-sm-0
-        .tarjeta.tarjeta-slide.arriba.color-acento-contenido(@mouseover="indicadorTarjetaSlide = false")
-          .tarjeta-slide__contenedor
-            .tarjeta-slide__img(:style="{'background-image': `url(${require('@/assets/curso/temas/tema-1/tema1-img23.png')})`}")
-            .tarjeta-slide__contenido.p-4.p-xl-5
-              h2 Indemnización diaria
-              p Es el pago efectuado por el asegurador al asegurado y se refiere a los seguros de accidentes personales, por los días en que se permanece con incapacidad laboral temporal, y de acuerdo con la suma concertada en las condiciones particulares contratadas. 
+
+    .row.justify-content-center.mb-5.mt-5
+      .col-xl-4.col-lg-7.col-md-9.col-11.mb-4.mb-xl-0
+        .crd_hover_txt(data-aos="flip-left")
+          .crd_hover_txt--img.bgr-tarjeta-4
+            figure
+              img(src="@/assets/curso/temas/tema-1/tema1-img21.svg", alt="alt")
+          .crd_hover_txt--body
+            h4.mb-3 Indemnización pactada 
+            p.mb-0 Daño reparado en donde las partes acuerdan, conjuntamente, el valor de una cuantía
+
+      .col-xl-4.col-lg-7.col-md-9.col-11.mb-4.mb-xl-0
+        .crd_hover_txt(data-aos="flip-left")
+          .crd_hover_txt--img
+            figure
+              img(src="@/assets/curso/temas/tema-1/tema1-img22.svg", alt="alt")
+          .crd_hover_txt--body
+            h4.mb-3 Indemnización a tanto alzado
+            p.mb-0 A tanto alzado es un pago fijado en una determinada cantidad, y se caracteriza por ser realizado antes de la obtención de un bien o la prestación de un servicio concreto.
+
+      .col-xl-4.col-lg-7.col-md-9.col-11.mb-4.mb-xl-0
+        .crd_hover_txt(data-aos="flip-left")
+          .crd_hover_txt--img
+            figure
+              img(src="@/assets/curso/temas/tema-1/tema1-img23.svg", alt="alt")
+          .crd_hover_txt--body
+            h4.mb-3 Indemnización diaria
+            p.mb-0 Es el pago efectuado por el asegurador al asegurado y se refiere a los seguros de accidentes personales, por los días en que se permanece con incapacidad laboral temporal, y de acuerdo con la suma concertada en las condiciones particulares contratadas.    
 
 
     separador
@@ -172,9 +176,9 @@
             img(src='@/assets/curso/temas/tema-1/tema1-img11.svg', alt='Texto que describa la imagen')
         img(src='@/assets/curso/temas/tema-1/tema1-img12.svg', alt='Texto que describa la imagen').imagen-decorativa-2
         .col-8.mb-5
-          p En términos de coberturas, el asegurador está obligado a responder hasta el valor límite del valor asegurado; es decir, sobre las afectaciones económicas como resultado de la ocurrencia de un siniestro.
+          p.mt-5 En términos de coberturas, el asegurador está obligado a responder hasta el valor límite del valor asegurado; es decir, sobre las afectaciones económicas como resultado de la ocurrencia de un siniestro.
           p.mt-5 Ese valor a pagar por concepto de indemnización, al asegurado, por parte de la compañía aseguradora, es el compromiso asumido que se denomina como cobertura de un seguro y se realiza con la finalidad de reparar las afectaciones resultantes del siniestro. Es necesario resaltar, que las coberturas tienen un valor límite que se denomina capital asegurado y fue definido al instante de pactar el contrato
-          .cajon.bgr-tarjeta-2.p-4
+          .cajon.bgr-tarjeta-2.p-4.mt-5
             p Una póliza de seguro es un documento que establece las relaciones entre el asegurador y el asegurado, donde quedan pactadas las condiciones del contrato de seguro, plasmando las normas generales, particulares o especiales. Su materialización se da cuando las dos partes han aceptado, y de ahí surgen los derechos y obligaciones.
 
     TabsB.color-acento-contenido
@@ -221,12 +225,12 @@
         .tarjeta.color-secundario.p-3.mb-5
           .row.justify-content-around.align-items-center
             .col-3.col-sm-2.col-lg-1
-              img(src="@/assets/curso/temas/tema-1/tema1-img19.svg").bgr-tarjeta-6
+              img(src="@/assets/curso/temas/tema-1/tema1-img19.svg")
             .col-9
               .row.justify-content-between.align-items-center
                 .col.mb-3.mb-sm-0
                   h3.mb-1 Tipos de Pólizas
-                  p Para conocer los diferentes tipos de pólizas, lo invitamos a leer el siguiente documento:
+                  p.text-small Para conocer los diferentes tipos de pólizas, lo invitamos a leer el siguiente documento:
                 .col-sm-auto
                   a.boton.color-acento-botones.texto-blanco(:href="obtenerLink('/downloads/Tipos de Pólizas.docx')" target="_blank")
                     span Descargar
@@ -303,12 +307,12 @@
         .tarjeta.color-secundario.p-3.mb-5
           .row.justify-content-around.align-items-center
             .col-3.col-sm-2.col-lg-1
-              img(src="@/assets/curso/temas/tema-1/tema1-img20.svg").bgr-tarjeta-7
+              img(src="@/assets/curso/temas/tema-1/tema1-img20.svg")
             .col-9
               .row.justify-content-between.align-items-center
                 .col.mb-3.mb-sm-0
                   h3.mb-1 Modificación al contrato de seguros
-                  p Para conocer más a profundidad sobre las modificaciones que pueden tener los contratos de seguros, lo invitamos a leer el siguiente documento:
+                  p.text-small Para conocer más a profundidad sobre las modificaciones que pueden tener los contratos de seguros, lo invitamos a leer el siguiente documento:
                 .col-sm-auto
                   a.boton.color-acento-botones.texto-blanco(:href="obtenerLink('/downloads/Modificación al contrato de seguros.docx')" target="_blank")
                     span Descargar

@@ -16,18 +16,18 @@
     top: -10%
     right: 55%
   &-4
-    animation: rotate 4s linear infinite
+    animation: rotate 8s linear infinite
     position: absolute
     top: 37%
     right: 15% 
     z-index: -1
   &-5
-    animation: rotate 4s linear infinite
+    animation: rotate 8s linear infinite
     position: absolute
     top: 22%
     right: 68% 
   &-6
-    animation: rotate 4s linear infinite
+    animation: rotate 8s linear infinite
     position: absolute
     top: 28%
     right: 88%
@@ -60,16 +60,24 @@
 .imagen-decorativa-2
   animation: float1 2.5s ease-in-out infinite alternate
   position: absolute
-  top: 61%
+  top: 62%
   right: 69%
-  width: 21%;
+  width: 21%
 
 .imagen-decorativa-3
   animation: float1 2.5s ease-in-out infinite alternate
   position: absolute
   top: 73%
   right: 8%
-  width: 27%;
+  width: 27%
+
+@media (max-width: 500px) 
+  .imagen-decorativa-2
+    animation: float1 2.5s ease-in-out infinite alternate
+    position: absolute
+    top: 547rem
+    right: 18%
+    width: 59%
 
 .imagen-decorativa-4
   width: 75%
@@ -88,6 +96,9 @@
 .bgr-tarjeta-3
     background: #F0F8EA
 
+.bgr-tarjeta-4
+    background: #6AAE2A
+
 .bgr-tarjeta-5
     background: #F0F8EA
 
@@ -99,7 +110,6 @@
     max-width: initial
 
 .bgr-tarjeta-7
-    width: 200%
     max-width: initial      
 
 .img.tarjeta-tema-2
@@ -118,3 +128,25 @@
     padding: 15px
     height: 400px
     width: 250px
+
+.crd_hover_txt
+  position: relative  
+  padding: 0 !important
+  overflow: hidden !important  
+  &:hover    
+    .crd_hover_txt--body   
+      transition: all 0.5s cubic-bezier(0.42, 0, 0.58, 1) 
+      transform: translateY(0)
+
+  .crd_hover_txt--body
+    position: absolute
+    padding: 1.5rem
+    bottom: 0    
+    transition: all 0.5s cubic-bezier(0.42, 0, 0.58, 1)
+    transform: translateY(calc( 100% - 3.85rem ))
+    background-color: #6aae2ae0
+  
+  @media (min-width:1200px) and (max-width:1400px)  
+    .crd_hover_txt--body
+      p
+        font-size: 0.85em
