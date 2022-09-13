@@ -9,7 +9,7 @@
 
     .row.justify-content-around.align-items-center.mt-5.mb-5
       .row.justify-content-around.align-items-center
-        .col-6.mb-5
+        .col-lg-6.sm-10
           h2 ¿Cuál es la importancia de los informes de riesgo?
           p.mt-5 La inspección de riesgos es el conjunto de tareas y técnicas dirigidas a conocer y describir, las distintas características de un riesgo, que se entiende como el patrimonio expuesto.
           p.mt-5 Es una tarea netamente de observación, y el propósito de descripción que se realiza con la idea de que otras personas puedan ser las que tomen ciertas decisiones, a la vista del informe de inspección. En general, conviene tener presente la relevancia de una adecuada inspección, pues de la calidad de la primera impresión que se haya manifestado, depende el acierto que se vaya a lograr en la toma de decisiones. 
@@ -28,11 +28,11 @@
 
     .row.justify-content-around.align-items-center.mt-5.mb-5
       .row.justify-content-around.align-items-center
-        .col-lg-6
+        .col-lg-6.sm-10
           figure
             img(src='@/assets/curso/temas/tema-2/tema2-img2.svg', alt='Texto que describa la imagen')
 
-        .col-6.mb-5
+        .col-lg-6.sm-10.mt-5
           h2 ¿Cuál es la importancia de los informes de riesgo?
           p.mt-5 En el presente contexto de crisis y de constantes cambios, se debe ser precavidos con las empresas con las que se tiene una relación comercial, para la finalidad de asegurar riesgos. Son cada vez más las empresas que están presentando impagos, que quieren contratar seguros; es por esta razón que se deben identificar y en lo posible evitar este tipo de lazos comerciales.
           p.mt-3 La cantidad de empresas que no pagan, ha aumentado de una manera notable en los últimos años, y se debe evitar que las relaciones se den con una empresa afectada por esta situación. 
@@ -44,51 +44,51 @@
 
     .row.mt-5.justify-content-around.align-items-center
       .col-10
-        LineaTiempoD.color-acento-contenido
-          .row(numero="1" titulo="Facilita el acceso a la financiación")
-            .col-2
-              figure
-                img(src='@/assets/curso/temas/tema-2/tema2-img3.svg', alt='Texto que describa la imagen')
+        LineaTiempoD.color-acento-contenido.justify-content-around.align-items-center
+          .row(numero="1" titulo="Facilita el acceso a la financiación").justify-content-around.align-items-center
+            .col-lg-2.col-sm-2.mt-3.justify-content-around.align-items-center
+              figure.justify-content-around.align-items-center
+                img(src='@/assets/curso/temas/tema-2/tema2-img3.svg', alt='Texto que describa la imagen').img-tarjeta-linea-1
 
             .col-10
               p.mt-4 Al contar con información precisa sobre los pagarés recibidos, estos se convierten, con facilidad, en liquidez para la empresa.
 
           .row(numero="2" titulo="Riesgo calificado y controlado")
-            .col-2
+            .col-lg-2.col-sm-10.mt-3
               figure
-                img(src='@/assets/curso/temas/tema-2/tema2-img4.svg', alt='Texto que describa la imagen')
+                img(src='@/assets/curso/temas/tema-2/tema2-img4.svg', alt='Texto que describa la imagen').img-tarjeta-linea-1
 
             .col-10
               p.mt-4 Con información más exacta sobre el riesgo y con un vínculo más cercano con la empresa cliente, se puede llegar a minimizar el riesgo y así tenerlo controlado.
 
           .row(numero="3" titulo="Evaluación de la capacidad de pago")
-            .col-md-2
+            .col-lg-2.col-sm-10.mt-3
               figure
-                img(src='@/assets/curso/temas/tema-2/tema2-img5.svg', alt='Texto que describa la imagen')
+                img(src='@/assets/curso/temas/tema-2/tema2-img5.svg', alt='Texto que describa la imagen').img-tarjeta-linea-1
 
             .col-10
               p.mt-4 Se puede identificar la solvencia y estabilidad económica de la empresa, para efectos de evitar impagos y poder sostener relaciones comerciales.
 
           .row(numero="4" titulo="Política de precios adaptada al riesgo del cliente")
-            .col-md-2
+            .col-lg-2.col-sm-10.mt-4
               figure
-                img(src='@/assets/curso/temas/tema-2/tema2-img6.svg', alt='Texto que describa la imagen')
-
-            .col-10.mt-3
-              p Cada detalle que se pueda conocer del cliente, ayuda a poder fortalecer los vínculos comerciales a la hora de evaluar la estabilidad económica del mismo. Un aspecto relevante, a tener en cuenta, es la capacidad de contar con variedad de fuentes de ingreso, es decir, que no tenga exclusivamente una sola fuente que, en caso de crisis, pudiera afectar su estabilidad.
-
-          .row(numero="5" titulo="Valoración de la empresa ajustada a la realidad")
-            .col-md-2
-              figure
-                img(src='@/assets/curso/temas/tema-2/tema2-img7.svg', alt='Texto que describa la imagen')
+                img(src='@/assets/curso/temas/tema-2/tema2-img6.svg', alt='Texto que describa la imagen').img-tarjeta-linea-1
 
             .col-10
-              p.mt-2 Como base fundamental para establecer informes sobre los riesgos ajustados a la realidad, es fundamental disponer y acceder a datos de fuentes oficiales; es decir, la fiabilidad de los informes depende fuertemente de las fuentes y datos utilizados por quienes realizan los reportes.
+              p.mt-4 Cada detalle que se pueda conocer del cliente, ayuda a poder fortalecer los vínculos comerciales a la hora de evaluar la estabilidad económica del mismo. Un aspecto relevante, a tener en cuenta, es la capacidad de contar con variedad de fuentes de ingreso, es decir, que no tenga exclusivamente una sola fuente que, en caso de crisis, pudiera afectar su estabilidad.
+
+          .row(numero="5" titulo="Valoración de la empresa ajustada a la realidad")
+            .col-lg-2.col-sm-10.mt-3
+              figure
+                img(src='@/assets/curso/temas/tema-2/tema2-img7.svg', alt='Texto que describa la imagen').img-tarjeta-linea-1
+
+            .col-10
+              p.mt-4 Como base fundamental para establecer informes sobre los riesgos ajustados a la realidad, es fundamental disponer y acceder a datos de fuentes oficiales; es decir, la fiabilidad de los informes depende fuertemente de las fuentes y datos utilizados por quienes realizan los reportes.
 
           .row(numero="6" titulo="Empresa con solvencias y liquidez")
-            .col-md-2
+            .col-lg-2.col-sm-10.mt-3
               figure
-                img(src='@/assets/curso/temas/tema-2/tema2-img8.svg', alt='Texto que describa la imagen')
+                img(src='@/assets/curso/temas/tema-2/tema2-img8.svg', alt='Texto que describa la imagen').img-tarjeta-linea-1
 
             .col-10
               p.mt-4 Es necesario identificar la capacidad financiera de la empresa, que pueda evaluar la capacidad y voluntad de pagos y, de igual forma, la capacidad de liquidez en el corto plazo, para responder por sus obligaciones.
@@ -104,7 +104,7 @@
       p No todos los riesgos son asegurables; se debe tener en cuenta que cualquier situación adversa podría afectar a las personas pudiendo ser cubiertas por un seguro. Para que un riesgo sea asegurable es necesario que su materialización sea determinada por causas independientes y aleatorias del deseo de las partes. Es así, como existen hechos o siniestros que están por encima de las partes que lo ocasionan, y que cumplen unas condiciones para que el riesgo pueda ser asumido por una entidad de seguros. 
       p.mt-5 En este esquema se presentan las consideraciones para identificar que un riesgo sea asegurable.
 
-    TabsB.color-acento-contenido
+    TabsB.color-acento-contenido.mt-5
       .py-4.py-md-5(titulo="Inspección inicial del riesgo" :icono="require('@/assets/curso/temas/tema-2/tema2-img9.svg')")
         .row
           .col-md-8.mb-4.mb-md-0.mt-5
@@ -112,7 +112,7 @@
             p.mt-5 Se lleva a cabo la verificación de la información referenciada en la declaración de asegurabilidad. De manera simultánea, se revisa físicamente la persona o el bien a asegurar, lo que conlleva a la concreción de la inspección inicial del riesgo.        
           .col-md-4
             figure
-              img(src='@/assets/curso/temas/tema-2/tema2-img10.svg', alt='Texto que describa la imagen')
+              img(src='@/assets/curso/temas/tema-2/tema2-img10.svg', alt='Texto que describa la imagen').img-tarjeta-linea-1
 
       .py-4.py-md-5(titulo="Requisitos" :icono="require('@/assets/curso/temas/tema-2/tema2-img11.svg')")
         .row
@@ -126,7 +126,7 @@
             
           .col-md-4
             figure
-              img(src='@/assets/curso/temas/tema-2/tema2-img12.svg', alt='Texto que describa la imagen')
+              img(src='@/assets/curso/temas/tema-2/tema2-img12.svg', alt='Texto que describa la imagen').img-tarjeta-linea-1
 
       .py-4.py-md-5(titulo="Condiciones" :icono="require('@/assets/curso/temas/tema-2/tema2-img13.svg')")
         .row
@@ -155,9 +155,9 @@
             
           .col-md-4
             figure
-              img(src='@/assets/curso/temas/tema-2/tema2-img14.svg', alt='Texto que describa la imagen')
+              img(src='@/assets/curso/temas/tema-2/tema2-img14.svg', alt='Texto que describa la imagen').img-tarjeta-linea-1
 
-    .row
+    .row.mt-5
       h3 Solicitud de asegurabilidad
       p.mt-5 Para realizar una solicitud de asegurabilidad, se debe realizar una serie de procedimientos para aprobar y aceptar la asegurabilidad de un riesgo.
       p.mt-5 Entre estas tenemos:
@@ -227,17 +227,18 @@
       .col-10
         .tarjeta.color-secundario.p-3.mb-5
           .row.justify-content-around.align-items-center
-            .col-3.col-sm-2.col-lg-1.img.tarjeta-tema-2
+            .col-3.col-sm-2.col-lg-1
               img(src="@/assets/curso/temas/tema-2/tema2-img19.svg")
             .col-9
               .row.justify-content-between.align-items-center
                 .col.mb-3.mb-sm-0
-                  h3.mt-3 Formato Declaración de asegurabilidad
-                  p.mt-3 Para conocer el formato de declaración de asegurabilidad, lo invitamos a leer el siguiente documento:
+                  h3.mb-1 Formato Declaración de asegurabilidad
+                  p.text-small Para conocer el formato de declaración de asegurabilidad, lo invitamos a leer el siguiente documento:
                 .col-sm-auto
                   a.boton.color-acento-botones.texto-blanco(:href="obtenerLink('/downloads/Formato Declaración de asegurabilidad.docx')" target="_blank")
                     span Descargar
                     i.fas.fa-file-download
+               
               
     
     separador    
@@ -258,17 +259,18 @@
 
     .row.justify-content-around.align-items-center.mt-3
           .row.justify-content-around.align-items-center
-            .col-7
+            .col-lg-7.sm-10
               p.mt-5 En general, las pólizas, en sus estructuras, se dividen en dos componentes o condiciones: las condiciones generales y las condiciones particulares.
               h2 Condiciones generales
               p.mt-5 Hacen referencia a los textos que se incluyen en las pólizas, que contienen las regulaciones y las consideraciones propias del contrato; para establecer las condiciones generales, se debe contar mínimo con los siguientes puntos: la cobertura y el objeto asegurado, elementos de alteración o agravación del riesgo, exclusiones, declaraciones del asegurado, terminación, prima, comunicación entre las partes, y que incluyan los aspectos que permiten regular el contrato y que no sean condiciones 
               .h5 Condiciones particulares
               p Hacen referencia a condiciones propias que por naturaleza no se expresan en las condiciones generales; en este caso, hacen referencia a elementos particulares como: requisitos de aseguramiento, especificidad de la materia asegurada, individualización de las partes del asegurado, el contratante, el asegurado y el beneficiario, ubicación de la materia asegurada, prima pactada, monto asegurado, deducibles, duración y la forma de pago.  
               p En general, tanto las condiciones generales como las particulares, deben ser redactadas de forma clara y de fácil entendimiento; no podrán conducir al error y deben estar contempladas dentro del marco de la ley.
-            .col-5
+            .col-lg-5.sm-10
               figure
                 img(src='@/assets/curso/temas/tema-2/tema2-img21.svg', alt='Texto que describa la imagen')
-            img(src='@/assets/curso/temas/tema-2/tema2-img22.svg', alt='Texto que describa la imagen').imagen-decorativa-3
+            .row
+              img(src='@/assets/curso/temas/tema-2/tema2-img22.svg', alt='Texto que describa la imagen').imagen-decorativa-3
     .row.mt-5
       p Para la formalización del contrato de seguro, es necesario reunir una serie de documentos y elementos adicionales, para continuar con el proceso de emisión del contrato. Entre estos se pueden observar los que siguen a continuación:
 
@@ -279,8 +281,8 @@
       h3 Características de un contrato
       p.mt-5 A continuación, se presentan las características o atributos que describen a los contratos:
 
-    .row.mt-5
-      .col-7
+    .row.mt-5.justify-content-around.align-items-center
+      .col-lg-7.sm-10
         LineaTiempoD.color-acento-contenido
           .row(tarjeta bgr-tarjeta-3 numero="1" titulo="Simple")
             p.text-small Se presenta al cumplir con su obligación sin condiciones porque no depende de otros, y está en su marco de limitaciones de la ocurrencia del riesgo.
@@ -309,8 +311,8 @@
 
           .row(numero="9" titulo="Conmutativo")
             p.text-small Se presenta este atributo al evidenciar que cada una de las partes conlleva obligaciones.
-      .col-5
-        figure.justify-content-around.align-items-centerrd
+      .col-lg-5.sm-10.mt-5
+        figure
           img(src='@/assets/curso/temas/tema-2/tema2-img29.svg', alt='Texto que describa la imagen')
 
 
