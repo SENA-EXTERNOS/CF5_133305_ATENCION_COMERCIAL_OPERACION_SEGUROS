@@ -241,65 +241,67 @@
       p.mt-5 Las coberturas se pueden clasificar en tres categorías:
       h4.mt-5 Seguros personales
       p Los seguros personales se refieren a todos los riesgos que afectan a una persona en su salud y en su integridad física. Estos se pueden clasificar en:
-      .col-10
+      .col-lg-10.colsm-12
         LineaTiempoD.color-acento-contenido.mt-5
-          .row(numero="1" titulo="Seguro de dependencia")
-            .col-md-6.mb-4.mb-md-0
+          .row(numero="1" titulo="Seguro de dependencia").justify-content-around.align-items-center
+            .col-lg-12.col-sm-10
               p.text-small Tienen cobertura para los beneficiados con limitaciones físicas o psíquicas ya diagnosticadas, en el sentido que requieren de asistencia. 
           .row(numero="2" titulo="Seguros de salud")
-            .col-md-6.mb-4.mb-md-0
+            .col-lg-12.col-sm-10
               p.text-small Se aplica la cobertura de salud cuando se solicite o amerite su utilización y, adicionalmente, cubre los gastos médicos ocasionados.
           .row(numero="3" titulo="Seguros de accidentes de personas")
-            .col-md-6.mb-4.mb-md-0
+            .col-lg-12.col-sm-10
               p.text-small Esta cobertura se aplica al asegurado en caso de sufrir una lesión o alguna incapacidad por causa de un accidente, y además cuenta con la cobertura en caso de fallecer el asegurado. 
           .row(numero="4" titulo="Seguros de vida")
-            .col-md-6.mb-4.mb-md-0
+            .col-lg-12.col-sm-10
               p.text-small Esta cobertura se aplica en caso de fallecimiento del asegurado o por invalidez; en este caso, el o los beneficiarios pueden acceder al aseguramiento de unos ingresos, lo que les garantiza esa compensación económica, posterior al fallecimiento del asegurado. 
     .row.mt-5.justify-content-around.align-items-center
       
       h4.mt-5 Seguros de daños o patrimoniales
       p Los seguros por daños patrimoniales, cubren los riesgos del patrimonio de la persona y de las empresas. Se dividen en:
-      .col-10
+ 
+      .col-lg-10.colsm-12
         LineaTiempoD.color-acento-contenido.mt-5
           .row(numero="1" titulo="Seguro de incendios")
-            .col-md-6.mb-4.mb-md-0
+            .col-lg-12.col-sm-10
               p.text-small Se refieren a la cobertura en caso que el objeto asegurado se incendie.  
           .row(numero="2" titulo="Seguros de vehículos")
-            .col-md-6.mb-4.mb-md-0
+            .col-lg-12.col-sm-10
               p.text-small Se refieren a la cobertura por los riesgos que se pueden ocasionar por conducir un vehículo (obligatorios por Ley). Es viable que incorporen coberturas por incendio, por daños al vehículo, o por robo.
           .row(numero="3" titulo="Seguros multirriesgo")
-            .col-md-6.mb-4.mb-md-0
+            .col-lg-12.col-sm-10
               p.text-small Se refieren a la cobertura por varios riesgos en una sola póliza. 
           .row(numero="4" titulo="Seguros de crédito")
-            .col-md-6.mb-4.mb-md-0
+            .col-lg-12.col-sm-10
               p.text-small Se refieren a la cobertura de los deudores, debido a la insolvencia económica por pérdidas o quiebra.
           .row(numero="5" titulo="Seguro de robo")
-            .col-md-6.mb-4.mb-md-0
+            .col-lg-12.col-sm-10
               p.text-small Se refieren a la cobertura de los bienes asegurados que sean afectados por robo y, en algunos casos, acompañados por violencia. 
           .row(numero="6" titulo="Seguros de transportes")
-            .col-md-6.mb-4.mb-md-0
+            .col-lg-12.col-sm-10
               p.text-small Se refieren a la cobertura de lo que le pueda suceder a las mercancías o al transporte, por daños materiales.
           .row(numero="7" titulo="Seguros de ingeniería")
-            .col-md-6.mb-4.mb-md-0
+            .col-lg-12.col-sm-10
               p.text-small Se refieren a cobertura especializada para el patrimonio, por daños debido a accidentes por fallas humanas, desgaste natural, fenómenos naturales, entre otros, que sean de carácter técnico. 
           .row(numero="8" titulo="Seguros de responsabilidad civil")
-            .col-md-6.mb-4.mb-md-0
+            .col-lg-12.col-sm-10
               p.text-small Se refieren a la cobertura para un tercero, como consecuencia de que el asegurado sea responsable civilmente por la generación de daños o perjuicios sobre el afectado. 
     
     .row.mt-5.justify-content-around.align-items-center
 
       h4.mt-5 Seguros de prestación de servicios
       p Los seguros de prestación de servicios tratan de la obligación de prestar el servicio que ha sido asegurado por parte del asegurador, para llevar a cabo el servicio al asegurado, según las condiciones pactadas. Estos seguros son:
-      .col-10
+
+      .col-lg-10.colsm-12
         LineaTiempoD.color-acento-contenido.mt-5
           .row(numero="1" titulo="De defensa jurídica")
-            .col-md-6.mb-4.mb-md-0
+            .col-lg-12.col-sm-10
               p.text-small Se dan para asistir, jurídica y extrajurídicamente, a los beneficiarios de la póliza de seguros, en caso de ser responsables sobre daños materiales o personales sobre un tercero. 
           .row(numero="2" titulo="De decesos")
-            .col-md-6.mb-4.mb-md-0
+            .col-lg-12.col-sm-10
               p.text-small Se refiere a la cobertura de los gastos y gestiones, propios del funeral del asegurado, al momento de fallecimiento del mismo. 
           .row(numero="3" titulo="De asistencia en viaje")
-            .col-md-6.mb-4.mb-md-0
+            .col-lg-12.col-sm-10
               p.text-small Se refiere a la cobertura de los posibles imprevistos en un viaje, por parte del asegurado. 
 
     .row.justify-content-around.align-items-centerrd.mt-5
