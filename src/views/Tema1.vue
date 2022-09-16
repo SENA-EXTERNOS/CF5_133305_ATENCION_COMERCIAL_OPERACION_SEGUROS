@@ -26,8 +26,8 @@
       p La expedición de una póliza se puede expresar como: serie de acciones y procedimientos que se llevan a cabo para que la empresa aseguradora apruebe o acepte tomar el riesgo manifiesto. Como resultado de esta acción, se definen las condiciones y la prima del seguro.
       p.mt-4 Algunas de las funciones propias de los departamentos responsables de la emisión de pólizas dentro de las compañías aseguradoras, son las que veremos a continuación:          
 
-    .row.mt-5
-      .col-lg-3.sm-10
+    .row.mt-5.justify-content-center
+      .col-8.col-lg-3.mt-3
         .tarjeta.tarjeta-slide.arriba.color-acento-contenido(@mouseover="indicadorTarjetaSlide = false")
           .indicador--hover(v-if="indicadorTarjetaSlide")
           .tarjeta-slide__contenedor
@@ -37,7 +37,7 @@
                 img(src='@/assets/curso/temas/tema-1/tema1-img3.1.svg', alt='Texto que describa la imagen').img.tarjeta-tema-1
               p.mt-2 Creación de normas y políticas de expedición en cada rama de los seguros., 
 
-      .col-lg-3.sm-10
+      .col-8.col-lg-3.mt-3
         .tarjeta.tarjeta-slide.arriba.color-acento-contenido(@mouseover="indicadorTarjetaSlide = false")
           .tarjeta-slide__contenedor
             .tarjeta-slide__img(:style="{'background-image': `url(${require('@/assets/curso/temas/tema-1/tema1-img4.svg')})`}")
@@ -46,7 +46,7 @@
                 img(src='@/assets/curso/temas/tema-1/tema1-img4.1.svg', alt='Texto que describa la imagen').img.tarjeta-tema-1
               p.mt-2 Definir las normas que permitan describir los suplementos de los seguros.
 
-      .col-lg-3.sm-10
+      .col-8.col-lg-3.mt-3
         .tarjeta.tarjeta-slide.arriba.color-acento-contenido(@mouseover="indicadorTarjetaSlide = false")
           .tarjeta-slide__contenedor
             .tarjeta-slide__img(:style="{'background-image': `url(${require('@/assets/curso/temas/tema-1/tema1-img5.svg')})`}")
@@ -55,7 +55,7 @@
                 img(src='@/assets/curso/temas/tema-1/tema1-img5.1.svg', alt='Texto que describa la imagen').img.tarjeta-tema-1
               p.mt-2 Vigilar y monitorear que se cumplan las normas de expedición, antes que sea aceptado el riesgo.
 
-      .col-lg-3.sm-10
+      .col-8.col-lg-3.mt-3
         .tarjeta.tarjeta-slide.arriba.color-acento-contenido(@mouseover="indicadorTarjetaSlide = false")
           .tarjeta-slide__contenedor
             .tarjeta-slide__img(:style="{'background-image': `url(${require('@/assets/curso/temas/tema-1/tema1-img6.svg')})`}")
@@ -155,7 +155,7 @@
 
 
     .row.justify-content-center.mb-5.mt-5
-      .col-xl-4.col-lg-7.col-md-9.col-11.mb-4.mb-xl-0
+      .col-8.col-lg-4.mb-4
         .crd_hover_txt(data-aos="flip-left")
           .crd_hover_txt--img.bgr-tarjeta-4
             figure
@@ -164,7 +164,7 @@
             h4.mb-3 Indemnización pactada 
             p.mb-0 Daño reparado en donde las partes acuerdan, conjuntamente, el valor de una cuantía
 
-      .col-xl-4.col-lg-7.col-md-9.col-11.mb-4.mb-xl-0
+      .col-8.col-lg-4.mb-4
         .crd_hover_txt(data-aos="flip-left")
           .crd_hover_txt--img
             figure
@@ -173,7 +173,7 @@
             h4.mb-3 Indemnización a tanto alzado
             p.mb-0 A tanto alzado es un pago fijado en una determinada cantidad, y se caracteriza por ser realizado antes de la obtención de un bien o la prestación de un servicio concreto.
 
-      .col-xl-4.col-lg-7.col-md-9.col-11.mb-4.mb-xl-0
+      .col-8.col-lg-4.mb-4
         .crd_hover_txt(data-aos="flip-left")
           .crd_hover_txt--img
             figure

@@ -17,42 +17,42 @@
           img(src='@/assets/curso/temas/tema-3/tema3-img1.svg', alt='Texto que describa la imagen')
     
 
-    .row.mt-5
-      .col-lg-2
-        .tarjeta.bgr-tarjeta-11.p-4
+    .row.mt-5.justify-content-center
+      .col-8.col-lg-2
+        .tarjeta.bgr-tarjeta-11.p-4.mt-3
           .row.justify-content-center.mb-3
-            .col-8.mt-4
-              img(src='@/assets/curso/temas/tema-3/tema3-img2.1.svg' alt='AvatarTop')
+            .col-lg-8.mt-4
+              img(src='@/assets/curso/temas/tema-3/tema3-img2.1.svg' alt='AvatarTop').img.tarjeta-tema-3
           p.text-center.mt-5 Los ingresos de ventas semanales
-      .col-lg-2
-        .tarjeta.bgr-tarjeta-11.p-4
+      .col-8.col-lg-2
+        .tarjeta.bgr-tarjeta-11.p-4.mt-3
           .row.justify-content-center.mb-3
-            .col-8.mt-3
-              img(src='@/assets/curso/temas/tema-3/tema3-img2.2.svg' alt='AvatarTop')
+            .col-lg-8.mt-3
+              img(src='@/assets/curso/temas/tema-3/tema3-img2.2.svg' alt='AvatarTop').img.tarjeta-tema-3
           p.text-center La cantidad de llamadas realizadas por los vendedores
-      .col-lg-2
-        .tarjeta.bgr-tarjeta-11.p-4
+      .col-8.col-lg-2
+        .tarjeta.bgr-tarjeta-11.p-4.mt-3
           .row.justify-content-center.mb-3
             .col-8.mt-4
-              img(src='@/assets/curso/temas/tema-3/tema3-img2.3.svg' alt='AvatarTop')
+              img(src='@/assets/curso/temas/tema-3/tema3-img2.3.svg' alt='AvatarTop').img.tarjeta-tema-3-1
           p.text-center.mt-4.mb-4 Las visitas comerciales a las empresas clientes
-      .col-lg-2
-        .tarjeta.bgr-tarjeta-11.p-4
+      .col-8.col-lg-2
+        .tarjeta.bgr-tarjeta-11.p-4.mt-3
           .row.justify-content-center.mb-3
-            .col-8.mt-3
-              img(src='@/assets/curso/temas/tema-3/tema3-img2.4.svg' alt='AvatarTop')
+            .col-lg-8.mt-3
+              img(src='@/assets/curso/temas/tema-3/tema3-img2.4.svg' alt='AvatarTop').img.tarjeta-tema-3
           p.text-center.mt-4 Los incrementos de la cuota de mercado
-      .col-lg-2
-        .tarjeta.bgr-tarjeta-11.p-4
+      .col-8.col-lg-2
+        .tarjeta.bgr-tarjeta-11.p-4.mt-3
           .row.justify-content-center.mb-3
-            .col-8
-              img(src='@/assets/curso/temas/tema-3/tema3-img2.5.svg' alt='AvatarTop')
+            .col-lg-8
+              img(src='@/assets/curso/temas/tema-3/tema3-img2.5.svg' alt='AvatarTop').img.tarjeta-tema-3
           p.text-center.mt-4.mb-4 La tasa media de conversión de oportunidades llevadas a ventas
-      .col-lg-2
-        .tarjeta.bgr-tarjeta-11.p-4
+      .col-8.col-lg-2
+        .tarjeta.bgr-tarjeta-11.p-4.mt-3
           .row.justify-content-center.mb-3
-            .col-8
-              img(src='@/assets/curso/temas/tema-3/tema3-img2.6.svg' alt='AvatarTop')
+            .col-lg-8
+              img(src='@/assets/curso/temas/tema-3/tema3-img2.6.svg' alt='AvatarTop').img.tarjeta-tema-3
           p.text-center Los indicadores de fidelidad y la retención del cliente
      
     .row.mt-5
@@ -167,36 +167,6 @@ export default {
   name: 'Tema3',
   data: () => ({
     // variables de vue
-    datosSlyder: [
-      {
-        titulo: 'Importancia de un análisis de ventas',
-        texto:
-          'El análisis de ventas debe centrarse en mejorar y desarrollar una estrategia para hacer crecer el rendimiento de las ventas, tanto a corto como a largo plazo. Un ejemplo común de una actividad de análisis de ventas es la establecer objetivos específicos para que el equipo de ventas lo pueda concretar en forma de indicadores de ventas. La importancia se verá reflejada en la mejora de las ventas y una mejor gestión en las actividades de las mismas.',
-        imagen: require('@/assets/curso/temas/tema-3/tema3-img2.svg'),
-        // leyendaImagen: 'Leyenda de la imagen',
-      },
-      {
-        titulo: 'El informe de ventas y su contenido',
-        texto:
-          'El reporte de ventas es un informe que contribuye con las empresas para disponer de una clara gestión de resultantes de sus operaciones comerciales. El objetivo de los informes de ventas con base en información del volumen de ventas y la gestión de los asesores comerciales, se fundamenta en la toma de decisiones oportunas y acertadas para una mejor gestión en las ventas.',
-        imagen: require('@/assets/curso/temas/tema-3/tema3-img3.svg'),
-        // leyendaImagen: 'Leyenda de la imagen',
-      },
-      {
-        titulo: 'Atracción de cliente',
-        texto:
-          'La atracción de nuevos clientes es una de las razones misionales de las empresas; en este sentido, un informe completo de ventas es el insumo estrella para analizar las estrategias implementadas, el volumen de ventas por periodo, evaluar el rendimiento de los agentes comerciales y recursos utilizados, es decir, permitirá identificar las nuevas acciones y planes de la empresa para la atracción de nuevos clientes.',
-        imagen: require('@/assets/curso/temas/tema-3/tema3-img4.svg'),
-        // leyendaImagen: 'Leyenda de la imagen',
-      },
-      {
-        titulo: 'Cuestionamiento sobre los informes de ventas',
-        texto:
-          'Las preguntas que se deben responder sobre un informe de ventas:<br><i class="fas fa-chevron-right" STYLE="Color: green"></i>¿Cómo se hace?<br><i class="fas fa-chevron-right" STYLE="Color: green"></i>¿Para qué sirve?<br><i class="fas fa-chevron-right" STYLE="Color: green"></i>¿Cómo se hace diariamente?<br><i class="fas fa-chevron-right" STYLE="Color: green"></i>¿Cuáles son las técnicas para elaborarlo?',
-        imagen: require('@/assets/curso/temas/tema-3/tema3-img5.svg'),
-        // leyendaImagen: 'Leyenda de la imagen',
-      },
-    ],
   }),
   mounted() {
     this.$nextTick(() => {
