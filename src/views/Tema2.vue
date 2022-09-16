@@ -245,7 +245,7 @@
                   h3.mb-1 Formato Declaración de asegurabilidad
                   p.text-small Para conocer el formato de declaración de asegurabilidad, lo invitamos a leer el siguiente documento:
                 .col-sm-auto
-                  a.boton.color-acento-botones.texto-blanco(:href="obtenerLink('/downloads/Formato Declaración de asegurabilidad.docx')" target="_blank")
+                  a.boton.color-acento-botones.texto-blanco(:href="obtenerLink('/downloads/Formato_Declaración_asegurabilidad.pdf')" target="_blank")
                     span Descargar
                     i.fas.fa-file-download
                

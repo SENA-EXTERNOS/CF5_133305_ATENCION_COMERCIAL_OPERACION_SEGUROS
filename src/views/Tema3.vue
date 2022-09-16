@@ -150,7 +150,7 @@
           p.mt-5 Los informes de ventas son cada vez más fáciles de elaborar con la ayuda de herramientas informáticas basadas en hojas de cálculo (Excel, Drive); se inicia con la organización de la información y luego se procede con el análisis y presentación de los mismos.
         figure
           .video
-            iframe(width="560" height="315" src="https://www.youtube.com/embed/2L91WMqw96A" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
+            iframe(width="560" height="315" src="https://www.youtube.com/embed/lLKxX5DFwDs" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
           figcaption VIDEO
           
         .row.justify-content-center.mt-5

@@ -254,7 +254,7 @@
                   h3.mb-1 Tipos de Pólizas
                   p.text-small Para conocer los diferentes tipos de pólizas, lo invitamos a leer el siguiente documento:
                 .col-sm-auto
-                  a.boton.color-acento-botones.texto-blanco(:href="obtenerLink('/downloads/Tipos de Pólizas.docx')" target="_blank")
+                  a.boton.color-acento-botones.texto-blanco(:href="obtenerLink('/downloads/Tipos_de_Pólizas.pdf')" target="_blank")
                     span Descargar
                     i.fas.fa-file-download
 
@@ -392,7 +392,7 @@
                   h3.mb-1 Modificación al contrato de seguros
                   p.text-small Para conocer más a profundidad sobre las modificaciones que pueden tener los contratos de seguros, lo invitamos a leer el siguiente documento:
                 .col-sm-auto
-                  a.boton.color-acento-botones.texto-blanco(:href="obtenerLink('/downloads/Modificación al contrato de seguros.docx')" target="_blank")
+                  a.boton.color-acento-botones.texto-blanco(:href="obtenerLink('/downloads/Modificación_contrato_seguros.pdf')" target="_blank")
                     span Descargar
                     i.fas.fa-file-download
 
