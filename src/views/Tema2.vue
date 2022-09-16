@@ -7,18 +7,20 @@
         span 2
       h1 Informe de inspección
 
-    .row.justify-content-around.align-items-center.mt-5.mb-5
-      .row.justify-content-around.align-items-center
-        .col-lg-6.sm-10
-          h2 ¿Cuál es la importancia de los informes de riesgo?
-          p.mt-5 La inspección de riesgos es el conjunto de tareas y técnicas dirigidas a conocer y describir, las distintas características de un riesgo, que se entiende como el patrimonio expuesto.
-          p.mt-5 Es una tarea netamente de observación, y el propósito de descripción que se realiza con la idea de que otras personas puedan ser las que tomen ciertas decisiones, a la vista del informe de inspección. En general, conviene tener presente la relevancia de una adecuada inspección, pues de la calidad de la primera impresión que se haya manifestado, depende el acierto que se vaya a lograr en la toma de decisiones. 
-          p #[b Las inspecciones de riesgo las podrán llevar a cabo:] gerentes de riesgos, inspectores de compañías aseguradoras, intermediarios de seguros, técnicos en seguridad, peritos de seguros, entre otros.
- 
-        .col-lg-6
-          figure
-            img(src='@/assets/curso/temas/tema-2/tema2-img1.svg', alt='Texto que describa la imagen')
-    
+    .bloque-texto-g.p-3.p-sm-4.p-md-5      
+      .bloque-texto-g__img(
+        :style="{'background-image': `url(${require('@/assets/curso/temas/tema-2/tema2-img1.png')})`}"
+      )
+      .bloque-texto-g__texto.p-4.bgr-tarjeta-12
+        h3.mt-5 ¿Cuál es la importancia de los informes de riesgo?
+        br
+        br
+        p La inspección de riesgos es el conjunto de tareas y técnicas dirigidas a conocer y describir, las distintas características de un riesgo, que se entiende como el patrimonio expuesto.
+        br
+        br     
+        p Es una tarea netamente de observación, y el propósito de descripción que se realiza con la idea de que otras personas puedan ser las que tomen ciertas decisiones, a la vista del informe de inspección. En general, conviene tener presente la relevancia de una adecuada inspección, pues de la calidad de la primera impresión que se haya manifestado, depende el acierto que se vaya a lograr en la toma de decisiones.
+
+
     separador
 
     #t_2_1
@@ -35,15 +37,23 @@
         .col-lg-6.sm-10.mt-5
           h2 ¿Cuál es la importancia de los informes de riesgo?
           p.mt-5 En el presente contexto de crisis y de constantes cambios, se debe ser precavidos con las empresas con las que se tiene una relación comercial, para la finalidad de asegurar riesgos. Son cada vez más las empresas que están presentando impagos, que quieren contratar seguros; es por esta razón que se deben identificar y en lo posible evitar este tipo de lazos comerciales.
-          p.mt-3 La cantidad de empresas que no pagan, ha aumentado de una manera notable en los últimos años, y se debe evitar que las relaciones se den con una empresa afectada por esta situación. 
-          p.mt-3 En estos casos, más que hacer contactos con los encargados de las empresas y reuniones formales de presentación, es necesario disponer de soportes y evidencias de la realidad económica y financiera de todas las posibles empresas y clientes de las aseguradoras; es decir, con balances, estados de resultados e indicadores financieros.
+          p.mt-3 La cantidad de empresas que no pagan, ha aumentado de una manera notable en los últimos años, y se debe evitar que las relaciones se den con una empresa afectada por esta situación.      
 
-    .row.mt-5
-      p La elaboración de los informes de riesgo se realiza con información periódica, y se presenta de manera organizada y, en muchos casos, con gráficos y tablas para un fácil entendimiento y una buena presentación. 
-      p.mt-3 Estos informes traen consigo ventajas y permiten extraer información importante como se observa a continuación:
-
+    .row
+      .col-lg-6.col-sm-10
+        p En estos casos, más que hacer contactos con los encargados de las empresas y reuniones formales de presentación, es necesario disponer de soportes y evidencias de la realidad económica y financiera de todas las posibles empresas y clientes de las aseguradoras; es decir, con balances, estados de resultados e indicadores financieros.
+        .cajon.bgr-tarjeta-2.p-3
+          p.mt-3 La elaboración de los informes de riesgo se realiza con información periódica, y se presenta de manera organizada y, en muchos casos, con gráficos y tablas para un fácil entendimiento y una buena presentación. 
+      .col-lg-6.col-sm-10
+        figure
+          img(src='@/assets/curso/temas/tema-2/tema2-img2.1.svg', alt='Texto que describa la imagen').imagen-decorativa-6
+      p Estos informes traen consigo ventajas y permiten extraer información importante como se observa a continuación:
+    
     .row.mt-5.justify-content-around.align-items-center
-      .col-10
+      .col-lg-4
+        figure
+          img(src='@/assets/curso/temas/tema-2/tema2-img3.1.svg', alt='Texto que describa la imagen').imagen-decorativa-5
+      .col-lg-8
         LineaTiempoD.color-acento-contenido.justify-content-around.align-items-center
           .row(numero="1" titulo="Facilita el acceso a la financiación").justify-content-around.align-items-center
             .col-lg-2.col-sm-2.mt-3.justify-content-around.align-items-center
@@ -104,13 +114,13 @@
       p No todos los riesgos son asegurables; se debe tener en cuenta que cualquier situación adversa podría afectar a las personas pudiendo ser cubiertas por un seguro. Para que un riesgo sea asegurable es necesario que su materialización sea determinada por causas independientes y aleatorias del deseo de las partes. Es así, como existen hechos o siniestros que están por encima de las partes que lo ocasionan, y que cumplen unas condiciones para que el riesgo pueda ser asumido por una entidad de seguros. 
       p.mt-5 En este esquema se presentan las consideraciones para identificar que un riesgo sea asegurable.
 
-    TabsB.color-acento-contenido.mt-5
+    TabsB.color-acento-contenido.bgr-tarjeta-10.mt-5
       .py-4.py-md-5(titulo="Inspección inicial del riesgo" :icono="require('@/assets/curso/temas/tema-2/tema2-img9.svg')")
         .row
           .col-md-8.mb-4.mb-md-0.mt-5
             h3 Inspección inicial del riesgo
             p.mt-5 Se lleva a cabo la verificación de la información referenciada en la declaración de asegurabilidad. De manera simultánea, se revisa físicamente la persona o el bien a asegurar, lo que conlleva a la concreción de la inspección inicial del riesgo.        
-          .col-md-4
+          .col-md-4.justify-content-center.ml-5
             figure
               img(src='@/assets/curso/temas/tema-2/tema2-img10.svg', alt='Texto que describa la imagen').img-tarjeta-linea-1
 
@@ -249,72 +259,159 @@
     .titulo-segundo.color-acento-contenido
       h2 2.3 Documentación asociada a los contratos de seguros
 
-    .row.justify-content-around.align-items-center.mt-5
-      .col-10
-        figure
-          img(src='@/assets/curso/temas/tema-2/tema2-img20.svg', alt='Texto que describa la imagen')
+    .row.ampliar.fondo-tema2-1.px-5.margen-fondo-tema2-1
+      .col-12
 
-    .row.mt-5
-      h3 Componentes de las pólizas
+        .row.justify-content-around.align-items-center.margen-contenido-fondo-tema2-1
+          .col-10
+            figure
+              img(src='@/assets/curso/temas/tema-2/tema2-img20.svg', alt='Texto que describa la imagen')
 
-    .row.justify-content-around.align-items-center.mt-3
+        .row.mt-5
+          h3 Componentes de las pólizas
+
+        .row.justify-content-around.align-items-center.mt-3
           .row.justify-content-around.align-items-center
             .col-lg-7.sm-10
               p.mt-5 En general, las pólizas, en sus estructuras, se dividen en dos componentes o condiciones: las condiciones generales y las condiciones particulares.
               h2 Condiciones generales
               p.mt-5 Hacen referencia a los textos que se incluyen en las pólizas, que contienen las regulaciones y las consideraciones propias del contrato; para establecer las condiciones generales, se debe contar mínimo con los siguientes puntos: la cobertura y el objeto asegurado, elementos de alteración o agravación del riesgo, exclusiones, declaraciones del asegurado, terminación, prima, comunicación entre las partes, y que incluyan los aspectos que permiten regular el contrato y que no sean condiciones 
-              .h5 Condiciones particulares
-              p Hacen referencia a condiciones propias que por naturaleza no se expresan en las condiciones generales; en este caso, hacen referencia a elementos particulares como: requisitos de aseguramiento, especificidad de la materia asegurada, individualización de las partes del asegurado, el contratante, el asegurado y el beneficiario, ubicación de la materia asegurada, prima pactada, monto asegurado, deducibles, duración y la forma de pago.  
-              p En general, tanto las condiciones generales como las particulares, deben ser redactadas de forma clara y de fácil entendimiento; no podrán conducir al error y deben estar contempladas dentro del marco de la ley.
             .col-lg-5.sm-10
               figure
                 img(src='@/assets/curso/temas/tema-2/tema2-img21.svg', alt='Texto que describa la imagen')
             .row
               img(src='@/assets/curso/temas/tema-2/tema2-img22.svg', alt='Texto que describa la imagen').imagen-decorativa-3
-    .row.mt-5
-      p Para la formalización del contrato de seguro, es necesario reunir una serie de documentos y elementos adicionales, para continuar con el proceso de emisión del contrato. Entre estos se pueden observar los que siguen a continuación:
-
-
-    SlyderB.mb-5.mt-5(:datos="datosSlyder").mt-5
     
-    .row-mt-5
-      h3 Características de un contrato
-      p.mt-5 A continuación, se presentan las características o atributos que describen a los contratos:
+        .row.justify-content-around.align-items-center.mt-3
+          .row.justify-content-around.align-items-center
+            .col-lg-5.sm-10
+              figure
+                img(src='@/assets/curso/temas/tema-2/tema2-img22.1.svg', alt='Texto que describa la imagen')      
+            .col-lg-7.sm-10
+              h5 Condiciones particulares
+              p Hacen referencia a condiciones propias que por naturaleza no se expresan en las condiciones generales; en este caso, hacen referencia a elementos particulares como: requisitos de aseguramiento, especificidad de la materia asegurada, individualización de las partes del asegurado, el contratante, el asegurado y el beneficiario, ubicación de la materia asegurada, prima pactada, monto asegurado, deducibles, duración y la forma de pago.  
+              .cajon.bgr-tarjeta-2.p-3
+                p En general, tanto las condiciones generales como las particulares, deben ser redactadas de forma clara y de fácil entendimiento; no podrán conducir al error y deben estar contempladas dentro del marco de la ley.
 
-    .row.mt-5.justify-content-around.align-items-center
-      .col-lg-7.sm-10
-        LineaTiempoD.color-acento-contenido
-          .row(tarjeta bgr-tarjeta-3 numero="1" titulo="Simple")
-            p.text-small Se presenta al cumplir con su obligación sin condiciones porque no depende de otros, y está en su marco de limitaciones de la ocurrencia del riesgo.
+        .row.mt-5
+          p Para la formalización del contrato de seguro, es necesario reunir una serie de documentos y elementos adicionales, para continuar con el proceso de emisión del contrato. Entre estos se pueden observar los que siguen a continuación:
 
-          .row(numero="2" titulo="Principal")
-            p.text-small Se presenta al identificar su propia autonomía, tiene su existencia sin condicionamientos porque tiene su función clara y esto le da su característica de principal.
+    .row.ampliar-2.fondo-tema2-2.px-5
+      .col-12
+        .tarjeta.p-4
+          SlyderA(tipo="b")
+            .row
+              .col-md-5.mb-4.mb-md-0
+                h4.mt-5 Solicitud
+                p Es el primer contacto con la aseguradora; se refiere al documento en donde el interesado tomador, expresa la descripción del riesgo que desea contratar y es detallado, de manera precisa, de acuerdo con la información solicitada por parte de la aseguradora.
 
-          .row(numero="3" titulo="Oneroso")
-            p.text-small Se presenta al identificar que tiene un costo y, en contraprestación, tiene un servicio definido.
+              .col-md-7
+                figure
+                  img(src='@/assets/curso/temas/tema-2/tema2-img23.svg', alt='Texto que describa la imagen')
+            .row
+              .col-md-5.mb-4.mb-md-0
+                h4.mt-5 Propuesta de seguro de cotización
+                p Posterior a la solicitud por parte del interesado, la aseguradora, con base en la información, analiza y valora el riesgo y además establece una cotización o propuesta de seguro, al posible tomador.
 
-          .row(numero="4" titulo="Mercantil")
-            p.text-small Es un contrato mercantil ya que se encuentra referenciado en el código civil; al mismo tiempo, es un acto de comercio que se encuentra en el código de comercio colombiano.
+              .col-md-7
+                figure
+                  img(src='@/assets/curso/temas/tema-2/tema2-img24.svg', alt='Texto que describa la imagen')
+            .row
+              .col-md-5.mb-4.mb-md-0
+                h4.mt-5 Póliza
+                p Es el documento final que incluye las condiciones propias del seguro y de los bienes que serán objeto de asegurar, por la compañía aseguradora.
 
-          .row(numero="5" titulo="De buena fe")
-            p.text-small Se basa en las actuaciones del asegurado, partiendo del principio de honestidad, en donde se obliga a describir con claridad, la naturaleza del riesgo; asimismo, procura que no ocurra el mismo y, en caso de ocurrencia del siniestro, tratar de minimizar las consecuencias. Por el lado del asegurador, se parte de la buena fe en la formalización del contrato y la redacción e interpretación de las cláusulas.
+              .col-md-7
+                figure
+                  img(src='@/assets/curso/temas/tema-2/tema2-img25.svg', alt='Texto que describa la imagen')
 
-          .row(numero="6" titulo="De adhesión")
-            p.text-small Se presenta como adhesión teniendo en cuenta la reciprocidad en la aceptación de las cláusulas por las partes, es decir, en primera instancia, una de las partes las propone por escrito y, consecuentemente, la otra parte las acepta.
+            .row
+              .col-md-5.mb-4.mb-md-0
+                h4.mt-5 Certificado individual de seguro
+                p Es la certificación que expide la compañía aseguradora al asegurado dentro de una póliza colectiva, explicando las condiciones.
 
-          .row(numero="7" titulo="Aleatorio")
-            p.text-small Como consecuencia del azar o situación fortuita, cabe la posibilidad de una afectación o pérdida y, por este motivo, en el contrato se establece la ocurrencia.
+              .col-md-7
+                figure
+                  img(src='@/assets/curso/temas/tema-2/tema2-img26.svg', alt='Texto que describa la imagen')
 
-          .row(numero="8" titulo="Indivisible")
-            p.text-small El contrato de seguros es único, así sea que en ocasiones esté dividido en términos periódicos para facilitar el pago de la prima; el contrato es indivisible y, por lo tanto, el consentimiento dado al comienzo, lo rige en su duración completa.
-            p.text-small Un contrato es indivisible teniendo en cuenta su fundamento y característica de único, ya que la modalidad de pagos, en muchos casos, se hace periódicamente y no lo hace particionado; además, desde su emisión se ha definido por una duración específica en el tiempo.
+            .row
+              .col-md-5.mb-4.mb-md-0
+                h4.mt-5 Recibo
+                p Es el soporte del pago del seguro, quedando justificado el detalle del pago de la prima.
 
-          .row(numero="9" titulo="Conmutativo")
-            p.text-small Se presenta este atributo al evidenciar que cada una de las partes conlleva obligaciones.
-      .col-lg-5.sm-10.mt-5
-        figure
-          img(src='@/assets/curso/temas/tema-2/tema2-img29.svg', alt='Texto que describa la imagen')
+              .col-md-7
+                figure
+                  img(src='@/assets/curso/temas/tema-2/tema2-img27.svg', alt='Texto que describa la imagen')
 
+            .row
+              .col-md-5.mb-4.mb-md-0
+                h5.mt-5 Carta de garantía
+                p Se expide cuando aún no se tiene la póliza definitiva. Es solicitada por parte del tomador, quien requiere demostrar que cuenta con un seguro y que no ha sido expedido por la aseguradora. Esta carta es una extensión provisional, como garantía de la existencia de una cobertura a solicitud del tomador.
+
+              .col-md-7.mb-5
+                figure
+                  img(src='@/assets/curso/temas/tema-2/tema2-img28.svg', alt='Texto que describa la imagen')
+
+        .row.mt-5
+          .col-lg-3.col-sm-10
+            h4.mt-5 Características de un contrato
+            p.mt-3 A continuación, se presentan las características o atributos que describen a los contratos:
+          .col-9
+            SlyderF(columnas="col-lg-8 col-xl-6 col-sm-10")
+              .tarjeta.bgr-tarjeta-5.p-3
+                .row.justify-content-center.mb-3
+
+                h2.text-center Simple
+                p.text-center Se presenta al cumplir con su obligación sin condiciones porque no depende de otros, y está en su marco de limitaciones de la ocurrencia del riesgo.
+
+              .tarjeta.bgr-tarjeta-5.p-3
+                .row.justify-content-center.mb-3
+
+                h2.text-center Principal
+                p.text-center Se presenta al identificar su propia autonomía, tiene su existencia sin condicionamientos porque tiene su función clara y esto le da su característica de principal.
+
+              .tarjeta.bgr-tarjeta-5.p-3
+                .row.justify-content-center.mb-3
+
+                h2.text-center Oneroso
+                p.text-center Se presenta al identificar que tiene un costo y, en contraprestación, tiene un servicio definido.
+              
+              .tarjeta.bgr-tarjeta-5.p-3
+                .row.justify-content-center.mb-3
+
+                h2.text-center Mercantil
+                p.text-center Es un contrato mercantil ya que se encuentra referenciado en el código civil; al mismo tiempo, es un acto de comercio que se encuentra en el código de comercio colombiano.
+            
+              .tarjeta.bgr-tarjeta-5.p-3
+                .row.justify-content-center.mb-3
+
+                h2.text-center De buena fe
+                p.text-center Se basa en las actuaciones del asegurado, partiendo del principio de honestidad, en donde se obliga a describir con claridad, la naturaleza del riesgo; asimismo, procura que no ocurra el mismo y, en caso de ocurrencia del siniestro, tratar de minimizar las consecuencias. Por el lado del asegurador, se parte de la buena fe en la formalización del contrato y la redacción e interpretación de las cláusulas.
+              
+              .tarjeta.bgr-tarjeta-5.p-3
+                .row.justify-content-center.mb-3
+
+                h2.text-center De adhesión
+                p.text-center Se presenta como adhesión teniendo en cuenta la reciprocidad en la aceptación de las cláusulas por las partes, es decir, en primera instancia, una de las partes las propone por escrito y, consecuentemente, la otra parte las acepta.
+              
+              .tarjeta.bgr-tarjeta-5.p-3
+                .row.justify-content-center.mb-3
+
+                h2.text-center Aleatorio
+                p.text-center Como consecuencia del azar o situación fortuita, cabe la posibilidad de una afectación o pérdida y, por este motivo, en el contrato se establece la ocurrencia.
+              
+              .tarjeta.bgr-tarjeta-5.p-3
+                .row.justify-content-center.mb-3
+
+                h2.text-center Indivisible
+                p.text-center El contrato de seguros es único, así sea que en ocasiones esté dividido en términos periódicos para facilitar el pago de la prima; el contrato es indivisible y, por lo tanto, el consentimiento dado al comienzo, lo rige en su duración completa.
+                p.text-center Un contrato es indivisible teniendo en cuenta su fundamento y característica de único, ya que la modalidad de pagos, en muchos casos, se hace periódicamente y no lo hace particionado; además, desde su emisión se ha definido por una duración específica en el tiempo.
+              
+              .tarjeta.bgr-tarjeta-5.p-3
+                .row.justify-content-center.mb-3
+
+                h2.text-center Conmutativo
+                p.text-center Se presenta este atributo al evidenciar que cada una de las partes conlleva obligaciones.
 
 
 </template>
@@ -324,50 +421,6 @@ export default {
   name: 'Tema2',
   data: () => ({
     // variables de vue
-    datosSlyder: [
-      {
-        titulo: 'Solicitud',
-        texto:
-          'Es el primer contacto con la aseguradora; se refiere al documento en donde el interesado tomador, expresa la descripción del riesgo que desea contratar y es detallado, de manera precisa, de acuerdo con la información solicitada por parte de la aseguradora.',
-        imagen: require('@/assets/curso/temas/tema-2/tema2-img23.svg'),
-        // leyendaImagen: 'Leyenda de la imagen',
-      },
-      {
-        titulo: 'Propuesta de seguro de cotización',
-        texto:
-          'Posterior a la solicitud por parte del interesado, la aseguradora, con base en la información, analiza y valora el riesgo y además establece una cotización o propuesta de seguro, al posible tomador.',
-        imagen: require('@/assets/curso/temas/tema-2/tema2-img24.svg'),
-        // leyendaImagen: 'Leyenda de la imagen',
-      },
-      {
-        titulo: 'Póliza',
-        texto:
-          'Es el documento final que incluye las condiciones propias del seguro y de los bienes que serán objeto de asegurar, por la compañía aseguradora.',
-        imagen: require('@/assets/curso/temas/tema-2/tema2-img25.svg'),
-        // leyendaImagen: 'Leyenda de la imagen',
-      },
-      {
-        titulo: 'Certificado individual de seguro',
-        texto:
-          'Es la certificación que expide la compañía aseguradora al asegurado dentro de una póliza colectiva, explicando las condiciones.',
-        imagen: require('@/assets/curso/temas/tema-2/tema2-img26.svg'),
-        // leyendaImagen: 'Leyenda de la imagen',
-      },
-      {
-        titulo: 'Recibo',
-        texto:
-          'Es el soporte del pago del seguro, quedando justificado el detalle del pago de la prima.',
-        imagen: require('@/assets/curso/temas/tema-2/tema2-img27.svg'),
-        // leyendaImagen: 'Leyenda de la imagen',
-      },
-      {
-        titulo: 'Carta de garantía',
-        texto:
-          'Se expide cuando aún no se tiene la póliza definitiva. Es solicitada por parte del tomador, quien requiere demostrar que cuenta con un seguro y que no ha sido expedido por la aseguradora. Esta carta es una extensión provisional, como garantía de la existencia de una cobertura a solicitud del tomador.',
-        imagen: require('@/assets/curso/temas/tema-2/tema2-img28.svg'),
-        // leyendaImagen: 'Leyenda de la imagen',
-      },
-    ],
   }),
   mounted() {
     this.$nextTick(() => {

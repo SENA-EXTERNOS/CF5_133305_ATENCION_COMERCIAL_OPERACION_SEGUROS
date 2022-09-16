@@ -10,24 +10,18 @@
       h1 Introducción
 
     .row.justify-content-around.align-items-center.mb-5.mt-5
-      .col-10
-        .row.justify-content-around.align-items-center
-          .col-lg-2.col-sm-10
-            figure
-              img(src='@/assets/curso/temas/introduccion/intro-img-1.svg', alt='Texto que describa la imagen').img-tarjeta-linea-1
-          .col-lg-10.col-sm-10
-            p.mt-5 El proceso para la suscripción de una póliza, se fundamenta en el resultado de contar con algún tipo de protección frente a un riesgo que pueda surgir en determinado momento o circunstancia de la vida. Se hace necesario entonces, contratar a una aseguradora para la adquisición de una póliza de seguro, considerado un recurso adecuado para ahorrar, proteger y compensar, debido a las posibles consecuencias no favorables de un evento negativo.
-
-    .row.justify-content-around.align-items-center.mt-5.mb-5
       .row.justify-content-around.align-items-center
-        .col-lg-8.mb-5
-          p Durante el desarrollo de este componente formativo se ubican conceptos y herramientas útiles para validar las coberturas y tipos de pólizas que se presentan en el mercado, que le van a permitir aprender y conocer la ruta que utilizan las aseguradoras cuando se suscriben pólizas. Adicionalmente, aprenderá a verificar los datos del informe de inspección y generar los documentos que se acomoden a las organizaciones solicitantes.
-          p.mt-2 Los temas serán abordados de manera que usted pueda interactuar con los conceptos y herramientas brindadas, para lograr el cumplimiento de las temáticas indicadas en cada sección del componente.
-          p.mt-2 Entre algunos de los elementos incluidos en los seguros se pueden enfatizar: coberturas y modificaciones, indemnizaciones, amparos y exclusiones, tasas, valores asegurados, deducibles y amparos adicionales.
-        .col-lg-4
+        .col-lg-9.col-sm-10
+          .bloque-texto-a.bgr-tarjeta-1.p-4
+            .bloque-texto-b__texto
+              p.mt-5 Apreciado aprendiz, bienvenido a este recurso educativo, a continuación, conocerá sobre los conceptos y herramientas útiles para validar las coberturas y tipos de pólizas que se presentan en el mercado, que le van a permitir aprender y conocer la ruta que utilizan las aseguradoras cuando se suscriben pólizas. Adicionalmente, aprenderá a verificar los datos del informe de inspección y generar los documentos que se acomoden a las organizaciones solicitantes.
+        .col-lg-3.col-sm-10
           figure
-            img(src='@/assets/curso/temas/introduccion/intro-img-2.svg', alt='Texto que describa la imagen')
-    img(src='@/assets/curso/temas/introduccion/intro-img-3.svg', alt='Texto que describa la imagen').imagen-decorativa-1
+            img(src='@/assets/curso/temas/introduccion/intro-img-1.svg', alt='Texto que describa la imagen').img-tarjeta-linea-1
+
+    .row.mt-5
+      p En el siguiente video conocerá de forma general, la temática que estudiará a lo largo del componente formativo.
+      b ¡Muchos éxitos en este proceso de aprendizaje!
 
     figure.mb-5.mt-5
       .video
