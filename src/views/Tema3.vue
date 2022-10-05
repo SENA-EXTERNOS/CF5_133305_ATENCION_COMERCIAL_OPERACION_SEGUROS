@@ -158,8 +158,7 @@
             .cajon.bgr-tarjeta-2.p-3
               p.mt-3 Recuerde explorar los demás recursos que se encuentran disponibles en este componente formativo, para ello diríjase al menú principal en donde encontrará la síntesis, una actividad didáctica, material complementario, entre otros.
 
-
-
+ 
 </template>
 
 <script>

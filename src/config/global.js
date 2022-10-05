@@ -3,7 +3,7 @@ export default {
     componenteFormativo:
       'Manuales de suscripción, inspección y elaboración de informes',
     descripcionCurso:
-      'Tramitar un contrato para una póliza de riesgo surge de la necesidad de protección frente a un peligro. Es menester, entonces, contratar un seguro para evitar o mitigar consecuencias desfavorables, y es por esto que las pólizas son fundamentales para ahorrar y proteger. Esto implica tener en cuenta: amparos, exclusiones, valores asegurados, deducibles, tasas, amparos adicionales, indemnizaciones, coberturas y modificaciones.',
+      'La expedición de contrato de una póliza de riesgo surge de la necesidad de protección frente a un peligro. Es menester, entonces, contratar un seguro para evitar o mitigar consecuencias desfavorables, y es por esto que las pólizas son fundamentales para ahorrar y proteger. Esto implica tener en cuenta: amparos, exclusiones, valores asegurados, deducibles, tasas, amparos adicionales, indemnizaciones, coberturas y modificaciones.',
     imagenBannerPrincipal: require('@/assets/curso/portada/banner-princiapal.svg'),
     fondoBannerPrincipal: require('@/assets/curso/portada/fondo-banner-principal.png'),
     imagenesDecorativasBanner: [
@@ -155,76 +155,76 @@ export default {
   ],
   glosario: [
     {
-      termino: 'Asegurado:',
+      termino: 'Asegurado',
       significado:
         'persona o bien que recibe la protección de la aseguradora, y se obliga a indemnizar las pérdidas o los perjuicios que puedan sobrevenir a la otra parte, en casos determinados, fortuitos o de fuerza mayor.',
     },
     {
-      termino: 'Asegurador:',
+      termino: 'Asegurador',
       significado:
         'entidad o persona jurídica, que expide la póliza y se compromete a cubrir el riesgo con el fin de indemnizar o reparar el daño o la pérdida, cuando cuando se presente la ocurrencia.',
     },
     {
-      termino: 'Asegurar:',
+      termino: 'Asegurar',
       significado:
         'prevenir las consecuencias económicas nocivas o que generen daño de una situación futura e incierta.',
     },
     {
-      termino: 'Beneficiario:',
+      termino: 'Beneficiario',
       significado:
         'el designado como titular de los derechos en caso de siniestro. Lo nombra el contratante de la póliza.',
     },
     {
-      termino: 'Bienes asegurados:',
+      termino: 'Bienes asegurados',
       significado: 'son aquellos que se definen con el objeto asegurable.',
     },
     {
-      termino: 'Cobertura:',
+      termino: 'Cobertura',
       significado:
         'garantía que acepta la aseguradora para encargarse de las indemnizaciones.',
     },
     {
-      termino: 'Contratante:',
+      termino: 'Contratante',
       significado:
         'aquella persona natural o jurídica, quien solicita el seguro a favor, ya sea para un beneficiario o a título propio.',
     },
     {
-      termino: 'Cotización:',
+      termino: 'Cotización',
       significado:
         'valor comercial de un seguro previamente analizado por una compañía aseguradora; cumple con todas las condiciones y coberturas definidas.',
     },
     {
-      termino: 'Deducible:',
+      termino: 'Deducible',
       significado:
         'cantidad definida por la aseguradora, como valores no indemnizables; se considera que este valor lo debe pagar el beneficiario.',
     },
     {
-      termino: 'Exclusiones:',
+      termino: 'Exclusiones',
       significado:
         'se refiere a aquellos riesgos que no son asegurables por las aseguradoras y quedan excluidos expresamente en las cláusulas del contrato.',
     },
     {
-      termino: 'Interés asegurable:',
+      termino: 'Interés asegurable',
       significado:
         'el interés del tomador o asegurado, para que el siniestro asegurado no ocurra. Se expresa como ese vínculo entre el tomador y lo que asegura (la vida, un bien, algún patrimonio).',
     },
     {
-      termino: 'Rama:',
+      termino: 'Rama',
       significado:
         'conjunto de modalidades relativas de los seguros con base en los riesgos similares o con características similares.',
     },
     {
-      termino: 'Seguro o cobertura:',
+      termino: 'Seguro o cobertura',
       significado:
         'se refiere al riesgo que recae sobre el asegurado, por contraprestación del pago de una prima.',
     },
     {
-      termino: 'Siniestro:',
+      termino: 'Siniestro',
       significado:
         'serie de daños o perjuicios que son derivados de una causa.',
     },
     {
-      termino: 'Valor asegurado:',
+      termino: 'Valor asegurado',
       significado:
         'valor máximo que el asegurado le atribuye al objeto o bien asegurado, y se convierte en responsabilidad de la aseguradora.',
     },

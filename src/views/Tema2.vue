@@ -12,7 +12,7 @@
         :style="{'background-image': `url(${require('@/assets/curso/temas/tema-2/tema2-img1.png')})`}"
       )
       .bloque-texto-g__texto.p-4.bgr-tarjeta-12
-        h3.mt-5 ¿Cuál es la importancia de los informes de riesgo?
+        h3.mt-5 ¿Cómo se define la inspección de un seguro?
         br
         br
         p La inspección de riesgos es el conjunto de tareas y técnicas dirigidas a conocer y describir, las distintas características de un riesgo, que se entiende como el patrimonio expuesto.
@@ -20,6 +20,8 @@
         br     
         p Es una tarea netamente de observación, y el propósito de descripción que se realiza con la idea de que otras personas puedan ser las que tomen ciertas decisiones, a la vista del informe de inspección. En general, conviene tener presente la relevancia de una adecuada inspección, pues de la calidad de la primera impresión que se haya manifestado, depende el acierto que se vaya a lograr en la toma de decisiones.
 
+    .row.mt-5
+      p #[strong Las inspecciones de riesgo las podrán llevar a cabo:]gerentes de riesgos, inspectores de compañías aseguradoras, intermediarios de seguros, técnicos en seguridad, peritos de seguros, entre otros.
 
     separador
 

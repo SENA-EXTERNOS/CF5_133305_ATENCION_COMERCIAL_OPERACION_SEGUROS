@@ -35,7 +35,7 @@
             .tarjeta-slide__contenido.p-4.p-xl-5
               figure
                 img(src='@/assets/curso/temas/tema-1/tema1-img3.1.svg', alt='Texto que describa la imagen').img.tarjeta-tema-1
-              p.mt-2 Creación de normas y políticas de expedición en cada rama de los seguros., 
+              p.mt-2 Creación de normas y políticas de expedición en cada rama de los seguros.
 
       .col-8.col-lg-3.mt-3
         .tarjeta.tarjeta-slide.arriba.color-acento-contenido(@mouseover="indicadorTarjetaSlide = false")
@@ -96,7 +96,7 @@
 
 
     .row.mt-5
-      p En la contratación, de modalidades en seguros, se hace necesario llevar a cabo una serie de requerimientos denominados normas de contratación. Estas normas son las que permiten regular las condiciones para la suscripción de la póliza, aportando como resultado, el cubrimiento correcto del riesgo del objeto que va a ser asegurado.         
+      p En la contratación, de modalidades en seguros, se hace necesario llevar a cabo una serie de requerimientos denominados #[strong normas de contratación.] Estas normas son las que permiten regular las condiciones para la suscripción de la póliza, aportando como resultado, el cubrimiento correcto del riesgo del objeto que va a ser asegurado.         
     separador
 
     #t_1_1
@@ -142,10 +142,6 @@
     .row.mt-5
       h5 Tipos de indemnizaciones
 
-    .row.mt-5.justify-content-around.align-items-center
-      .col-10
-        figure
-          img(src='@/assets/curso/temas/tema-1/tema1-img10.svg', alt='Texto que describa la imagen')
 
     .row.mt-5
       p Un seguro es un servicio que se contrata con una compañía o empresa de seguros; en caso de sufrir un riesgo como un daño o pérdida de bienes, muerte, enfermedad, la aseguradora ayuda a restablecer la situación para hacerla llevadera, debido al pago en dinero o indemnización. El monto será pagado, o el beneficio será otorgado por la compañía de seguros, a la persona que presente una reclamación después de haber ocurrido el riesgo, el daño o la pérdida.
@@ -199,23 +195,25 @@
         img(src='@/assets/curso/temas/tema-1/tema1-img12.svg', alt='Texto que describa la imagen').imagen-decorativa-2
         .col-lg-8.mb-5
           p.mt-5 En términos de coberturas, el asegurador está obligado a responder hasta el valor límite del valor asegurado; es decir, sobre las afectaciones económicas como resultado de la ocurrencia de un siniestro.
-          p.mt-5 Ese valor a pagar por concepto de indemnización, al asegurado, por parte de la compañía aseguradora, es el compromiso asumido que se denomina como cobertura de un seguro y se realiza con la finalidad de reparar las afectaciones resultantes del siniestro. Es necesario resaltar, que las coberturas tienen un valor límite que se denomina capital asegurado y fue definido al instante de pactar el contrato
+          p.mt-5 Ese valor a pagar por concepto de indemnización, al asegurado, por parte de la compañía aseguradora, es el compromiso asumido que se denomina como cobertura de un seguro y se realiza con la finalidad de reparar las afectaciones resultantes del siniestro. Es necesario resaltar, que las coberturas tienen un valor límite que se denomina capital asegurado y fue definido al instante de pactar el contrato.
           .cajon.bgr-tarjeta-2.p-4.mt-5
             p Una póliza de seguro es un documento que establece las relaciones entre el asegurador y el asegurado, donde quedan pactadas las condiciones del contrato de seguro, plasmando las normas generales, particulares o especiales. Su materialización se da cuando las dos partes han aceptado, y de ahí surgen los derechos y obligaciones.
 
+      p Las pólizas se pueden diferenciar de acuerdo con el alcance de las partes de sus componentes. Estos pueden ser:
+
     TabsB.color-acento-contenido.bgr-tarjeta-10
-      .py-4.py-md-5(titulo="Condiciones generales" :icono="require('@/assets/curso/temas/tema-1/tema1-img13.svg')")
+      .p-4.py-md-5(titulo="Condiciones generales" :icono="require('@/assets/curso/temas/tema-1/tema1-img13.svg')")
         .row
-          .col-md-8.mb-4.mb-md-0.mt-5
+          .col-md-8.mb-4.mb-md-0.mt-5.p-4
             h2 Condiciones generales
-            p.mt-5 Se refieren al establecimiento de los principios básicos por parte del asegurador, de manera que se regulen los contratos que hacen parte del mismo ramo, es decir, los elementos referidos al objeto del seguro, su extensión, los riesgos excluidos, manera de liquidación de los siniestros, cobro de los recibos, las indemnizaciones, las comunicaciones, la subrogación, la jurisdicción, entre otros        
+            p.mt-5 Se refieren al establecimiento de los principios básicos por parte del asegurador, de manera que se regulen los contratos que hacen parte del mismo ramo, es decir, los elementos referidos al objeto del seguro, su extensión, los riesgos excluidos, manera de liquidación de los siniestros, cobro de los recibos, las indemnizaciones, las comunicaciones, la subrogación, la jurisdicción, entre otros.    
           .col-md-4
             figure
               img(src='@/assets/curso/temas/tema-1/tema1-img14.svg', alt='Texto que describa la imagen').img-tarjeta-linea-1
 
-      .py-4.py-md-5(titulo="Condiciones particulares" :icono="require('@/assets/curso/temas/tema-1/tema1-img15.svg')")
+      .p-4.py-md-5(titulo="Condiciones particulares" :icono="require('@/assets/curso/temas/tema-1/tema1-img15.svg')")
         .row
-          .col-md-8.mb-4.mb-md-0.mt-5
+          .col-md-8.mb-4.mb-md-0.mt-5.p-4
             h2 Condiciones particulares
             p.mt-5 A continuación se describen los elementos de las condiciones particulares con respecto al riesgo individual:
             <i class="fas fa-angle-right" STYLE="Color: green"></i> Nombre, domicilio, y clara designación del asegurado y del beneficiario; concepto con el cual se asegura.
@@ -233,11 +231,11 @@
             figure
               img(src='@/assets/curso/temas/tema-1/tema1-img16.svg', alt='Texto que describa la imagen').img-tarjeta-linea-1
 
-      .py-4.py-md-5(titulo="Condiciones especiales" :icono="require('@/assets/curso/temas/tema-1/tema1-img17.svg')")
+      .p-4.py-md-5(titulo="Condiciones especiales" :icono="require('@/assets/curso/temas/tema-1/tema1-img17.svg')")
         .row
-          .col-md-8.mb-4.mb-md-0.mt-5
+          .col-md-8.mb-4.mb-md-0.mt-5.p-4
             h2 Condiciones especiales
-            p.mt-5 Son aquellos que se componen por agua y tierra, dado que son elementos frecuentes en la naturaleza es muy usual encontrar este tipo de ecosistemas. Así, los principales tipos de ecosistemas mixtos que existen en la naturaleza son: humedales, manglares, marismas y costas.        
+            p.mt-5 Las condiciones especiales permiten regular y focalizar el alcance de las garantías que proporciona el asegurador en el seguro principal y para cada una de las coberturas complementarias. Es entonces que se pueden incluir o excluir garantías u otras situaciones que modifiquen lo indicado, inicialmente, en las condiciones generales. 
           .col-md-4
             figure
               img(src='@/assets/curso/temas/tema-1/tema1-img18.svg', alt='Texto que describa la imagen').img-tarjeta-linea-1
@@ -367,7 +365,7 @@
       p Los seguros de prestación de servicios tratan de la obligación de prestar el servicio que ha sido asegurado por parte del asegurador, para llevar a cabo el servicio al asegurado, según las condiciones pactadas. Estos seguros son:
     .row
       .col-lg-7.colsm-12
-        LineaTiempoD.color-secundario.mt-5
+        LineaTiempoD.color-secundario.mt-5.linea-tiempo-d1
           .row(numero="1" titulo="De defensa jurídica")
             .col-lg-12.col-sm-10
               p Se dan para asistir, jurídica y extrajurídicamente, a los beneficiarios de la póliza de seguros, en caso de ser responsables sobre daños materiales o personales sobre un tercero. 
