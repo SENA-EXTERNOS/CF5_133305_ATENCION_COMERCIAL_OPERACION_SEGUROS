@@ -307,7 +307,7 @@
 
   
     .row.mt-5.justify-content-around.align-items-center     
-      h4.mt-5 Seguros de daños o patrimoniales
+      h4 Seguros de daños o patrimoniales
       p Los seguros por daños patrimoniales, cubren los riesgos del patrimonio de la persona y de las empresas. Se dividen en:
     .row
       .col-lg-6.col-sm-12
@@ -372,7 +372,7 @@
     
   .container.tarjeta.tarjeta.tarjeta--blanca2.bgr-fondo-banner.p-4.p-md-5.mb-5
       
-      .row.mt-5.justify-content-around.align-items-center
+      .row.justify-content-around.align-items-center
 
         h4.mt-5 Seguros de prestación de servicios
         p Los seguros de prestación de servicios tratan de la obligación de prestar el servicio que ha sido asegurado por parte del asegurador, para llevar a cabo el servicio al asegurado, según las condiciones pactadas. Estos seguros son:
@@ -396,7 +396,7 @@
       
       .row.justify-content-around.align-items-centerrd.mt-5
         .col-10
-          .tarjeta.color-secundario.p-3.mb-5
+          .tarjeta.color-secundario.p-3
             .row.justify-content-around.align-items-center
               .col-3.col-lg-2
                 img(src="@/assets/curso/temas/tema-1/tema1-img20.svg").img19-tm1
