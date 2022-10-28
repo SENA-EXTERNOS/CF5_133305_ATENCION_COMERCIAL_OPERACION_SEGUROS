@@ -295,34 +295,36 @@
             figure
               img(src='@/assets/curso/temas/tema-2/tema2-img20.svg', alt='Texto que describa la imagen')
 
-        .row.mt-5
-          h3 Componentes de las pólizas
+  .container.tarjeta.tarjeta.tarjeta--blanca3.bgr-fondo-banner-tm2.p-4.p-md-5.mb-5
 
-        .row.justify-content-around.align-items-center.mt-3
-          .row.justify-content-around.align-items-center
-            .col-lg-7.sm-10
-              p.mt-5 En general, las pólizas, en sus estructuras, se dividen en dos componentes o condiciones: las condiciones generales y las condiciones particulares.
-              h3 Condiciones generales
-              p.mt-5 Hacen referencia a los textos que se incluyen en las pólizas, que contienen las regulaciones y las consideraciones propias del contrato; para establecer las condiciones generales, se debe contar mínimo con los siguientes puntos: la cobertura y el objeto asegurado, elementos de alteración o agravación del riesgo, exclusiones, declaraciones del asegurado, terminación, prima, comunicación entre las partes, y que incluyan los aspectos que permiten regular el contrato y que no sean condiciones 
-            .col-lg-5.sm-10.my-5
-              figure
-                img(src='@/assets/curso/temas/tema-2/tema2-img21.png', alt='Texto que describa la imagen').imagen-decorativa-1
-    
-        .row.justify-content-around.align-items-center.mt-3
-          .row.justify-content-around.align-items-center
-            .col-lg-5.sm-10.my-5
-              figure
-                img(src='@/assets/curso/temas/tema-2/tema2-img22.1.svg', alt='Texto que describa la imagen')      
-            .col-lg-7.sm-10
-              h3 Condiciones particulares
-              p Hacen referencia a condiciones propias que por naturaleza no se expresan en las condiciones generales; en este caso, hacen referencia a elementos particulares como: requisitos de aseguramiento, especificidad de la materia asegurada, individualización de las partes del asegurado, el contratante, el asegurado y el beneficiario, ubicación de la materia asegurada, prima pactada, monto asegurado, deducibles, duración y la forma de pago.  
-              .cajon.bgr-tarjeta-2.p-3
-                p En general, tanto las condiciones generales como las particulares, deben ser redactadas de forma clara y de fácil entendimiento; no podrán conducir al error y deben estar contempladas dentro del marco de la ley.
+    .row.mt-5
+      h3 Componentes de las pólizas
 
-        .row.mt-5
-          p Para la formalización del contrato de seguro, es necesario reunir una serie de documentos y elementos adicionales, para continuar con el proceso de emisión del contrato. Entre estos se pueden observar los que siguen a continuación:
+    .row.justify-content-around.align-items-center.mt-3
+      .row.justify-content-around.align-items-center
+        .col-lg-7.sm-10
+          p.mt-5 En general, las pólizas, en sus estructuras, se dividen en dos componentes o condiciones: las condiciones generales y las condiciones particulares.
+          h3 Condiciones generales
+          p.mt-5 Hacen referencia a los textos que se incluyen en las pólizas, que contienen las regulaciones y las consideraciones propias del contrato; para establecer las condiciones generales, se debe contar mínimo con los siguientes puntos: la cobertura y el objeto asegurado, elementos de alteración o agravación del riesgo, exclusiones, declaraciones del asegurado, terminación, prima, comunicación entre las partes, y que incluyan los aspectos que permiten regular el contrato y que no sean condiciones 
+        .col-lg-5.sm-10.my-5
+          figure
+            img(src='@/assets/curso/temas/tema-2/tema2-img21.png', alt='Texto que describa la imagen').imagen-decorativa-1
 
-    //.row.ampliar-2.fondo-tema2-2.px-5
+    .row.justify-content-around.align-items-center.mt-3
+      .row.justify-content-around.align-items-center
+        .col-lg-5.sm-10.my-5
+          figure
+            img(src='@/assets/curso/temas/tema-2/tema2-img22.1.svg', alt='Texto que describa la imagen')      
+        .col-lg-7.sm-10
+          h3 Condiciones particulares
+          p Hacen referencia a condiciones propias que por naturaleza no se expresan en las condiciones generales; en este caso, hacen referencia a elementos particulares como: requisitos de aseguramiento, especificidad de la materia asegurada, individualización de las partes del asegurado, el contratante, el asegurado y el beneficiario, ubicación de la materia asegurada, prima pactada, monto asegurado, deducibles, duración y la forma de pago.  
+          .cajon.bgr-tarjeta-2.p-3
+            p En general, tanto las condiciones generales como las particulares, deben ser redactadas de forma clara y de fácil entendimiento; no podrán conducir al error y deben estar contempladas dentro del marco de la ley.
+
+    .row.mt-5
+      p Para la formalización del contrato de seguro, es necesario reunir una serie de documentos y elementos adicionales, para continuar con el proceso de emisión del contrato. Entre estos se pueden observar los que siguen a continuación:
+
+
     .col-12
       .tarjeta.p-4.bgr-fondo.my-5
         SlyderA(tipo="b")

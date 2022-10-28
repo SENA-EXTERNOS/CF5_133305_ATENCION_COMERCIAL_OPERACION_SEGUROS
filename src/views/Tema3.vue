@@ -57,54 +57,56 @@
      
     .row.my-5
         h3 Participaciones en ventas y siniestros
-    //.row.ampliar-3.fondo-tema3.margen-fondo-tema3.px-5
     .row.my-5 
       p.mt-4 Los análisis de informes de ventas ayudan al equipo comercial, de las empresas, a tener una visión clara de sus ventas periódicas y de igual manera, permiten evaluar las estrategias y acciones implementadas.
       p.mt-4 A continuación, se presentan unas recomendaciones y acciones para ser llevadas a cabo por los departamentos de ventas.
 
-      .tarjeta.bgr-fondo.p-4.my-5
-        SlyderA(tipo="b")
-          .row
-            .col-md-5.mb-4.mb-md-0
-              h4.mt-5 Importancia de un análisis de ventas
-              p.mt-5 El análisis de ventas debe centrarse en mejorar y desarrollar una estrategia para hacer crecer el rendimiento de las ventas, tanto a corto como a largo plazo. Un ejemplo común de una actividad de análisis de ventas es la establecer objetivos específicos para que el equipo de ventas lo pueda concretar en forma de indicadores de ventas. La importancia se verá reflejada en la mejora de las ventas y una mejor gestión en las actividades de las mismas.
+  .container.tarjeta.tarjeta.tarjeta--blanca4.bgr-fondo-banner-tm3.p-4.p-md-5.mb-5
+    
+    .tarjeta.bgr-fondo.p-4.my-5
+      SlyderA(tipo="b")
+        .row
+          .col-md-5.mb-4.mb-md-0
+            h4.mt-5 Importancia de un análisis de ventas
+            p.mt-5 El análisis de ventas debe centrarse en mejorar y desarrollar una estrategia para hacer crecer el rendimiento de las ventas, tanto a corto como a largo plazo. Un ejemplo común de una actividad de análisis de ventas es la establecer objetivos específicos para que el equipo de ventas lo pueda concretar en forma de indicadores de ventas. La importancia se verá reflejada en la mejora de las ventas y una mejor gestión en las actividades de las mismas.
 
-            .col-md-7
-              figure
-                img(src='@/assets/curso/temas/tema-3/tema3-img2.svg', alt='Texto que describa la imagen')
-          .row
-            .col-md-5.mb-4.mb-md-0
-              h4.mt-5 El informe de ventas y su contenido
-              p El reporte de ventas es un informe que contribuye con las empresas para disponer de una clara gestión de resultantes de sus operaciones comerciales. El objetivo de los informes de ventas con base en información del volumen de ventas y la gestión de los asesores comerciales, se fundamenta en la toma de decisiones oportunas y acertadas para una mejor gestión en las ventas.
+          .col-md-7
+            figure
+              img(src='@/assets/curso/temas/tema-3/tema3-img2.svg', alt='Texto que describa la imagen')
+        .row
+          .col-md-5.mb-4.mb-md-0
+            h4.mt-5 El informe de ventas y su contenido
+            p El reporte de ventas es un informe que contribuye con las empresas para disponer de una clara gestión de resultantes de sus operaciones comerciales. El objetivo de los informes de ventas con base en información del volumen de ventas y la gestión de los asesores comerciales, se fundamenta en la toma de decisiones oportunas y acertadas para una mejor gestión en las ventas.
 
-            .col-md-7
-              figure
-                img(src='@/assets/curso/temas/tema-3/tema3-img3.svg', alt='Texto que describa la imagen')
-          .row
-            .col-md-5.mb-4.mb-md-0
-              h4.mt-5 Atracción de cliente
-              p La atracción de nuevos clientes es una de las razones misionales de las empresas; en este sentido, un informe completo de ventas es el insumo estrella para analizar las estrategias implementadas, el volumen de ventas por periodo, evaluar el rendimiento de los agentes comerciales y recursos utilizados, es decir, permitirá identificar las nuevas acciones y planes de la empresa para la atracción de nuevos clientes.
+          .col-md-7
+            figure
+              img(src='@/assets/curso/temas/tema-3/tema3-img3.svg', alt='Texto que describa la imagen')
+        .row
+          .col-md-5.mb-4.mb-md-0
+            h4.mt-5 Atracción de cliente
+            p La atracción de nuevos clientes es una de las razones misionales de las empresas; en este sentido, un informe completo de ventas es el insumo estrella para analizar las estrategias implementadas, el volumen de ventas por periodo, evaluar el rendimiento de los agentes comerciales y recursos utilizados, es decir, permitirá identificar las nuevas acciones y planes de la empresa para la atracción de nuevos clientes.
 
-            .col-md-7
-              figure
-                img(src='@/assets/curso/temas/tema-3/tema3-img4.svg', alt='Texto que describa la imagen')
+          .col-md-7
+            figure
+              img(src='@/assets/curso/temas/tema-3/tema3-img4.svg', alt='Texto que describa la imagen')
 
-          .row
-            .col-md-5.mb-4.mb-md-0
-              h4.mt-5 Cuestionamiento sobre los informes de ventas
-              p Las preguntas que se deben responder sobre un #[b informe de ventas:]
-              br
-              <i class="fas fa-angle-right" STYLE="Color: green"></i> ¿Cómo se hace?
-              br
-              <i class="fas fa-angle-right" STYLE="Color: green"></i> ¿Para qué sirve?
-              br
-              <i class="fas fa-angle-right" STYLE="Color: green"></i> ¿Cómo se hace diariamente?
-              br
-              <i class="fas fa-angle-right" STYLE="Color: green"></i> ¿Cuáles son las técnicas para elaborarlo?
+        .row
+          .col-md-5.mb-4.mb-md-0
+            h4.mt-5 Cuestionamiento sobre los informes de ventas
+            p Las preguntas que se deben responder sobre un #[b informe de ventas:]
+            br
+            <i class="fas fa-angle-right" STYLE="Color: green"></i> ¿Cómo se hace?
+            br
+            <i class="fas fa-angle-right" STYLE="Color: green"></i> ¿Para qué sirve?
+            br
+            <i class="fas fa-angle-right" STYLE="Color: green"></i> ¿Cómo se hace diariamente?
+            br
+            <i class="fas fa-angle-right" STYLE="Color: green"></i> ¿Cuáles son las técnicas para elaborarlo?
 
-            .col-md-7
-              figure
-                img(src='@/assets/curso/temas/tema-3/tema3-img5.svg', alt='Texto que describa la imagen')
+          .col-md-7
+            figure
+              img(src='@/assets/curso/temas/tema-3/tema3-img5.svg', alt='Texto que describa la imagen')
+
 
     .row.mt-5
       h3.mt-4 Tipos de requerimientos

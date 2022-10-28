@@ -370,13 +370,16 @@
             .col-lg-10
               p.mt-3 Se refieren a la cobertura para un tercero, como consecuencia de que el asegurado sea responsable civilmente por la generación de daños o perjuicios sobre el afectado. 
     
-  .container.tarjeta.tarjeta.tarjeta--blanca2.bgr-fondo-banner.p-4.p-md-5.mb-5
       
       .row.justify-content-around.align-items-center
 
         h4.mt-5 Seguros de prestación de servicios
+        
         p Los seguros de prestación de servicios tratan de la obligación de prestar el servicio que ha sido asegurado por parte del asegurador, para llevar a cabo el servicio al asegurado, según las condiciones pactadas. Estos seguros son:
-      
+
+
+  .container.tarjeta.tarjeta.tarjeta--blanca2.bgr-fondo-banner-tm1.p-4.p-md-5.mb-5
+
       .row
         .col-lg-7.colsm-12
           LineaTiempoD.color-secundario.mt-5.linea-tiempo-d1
