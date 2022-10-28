@@ -46,63 +46,63 @@
         p En estos casos, más que hacer contactos con los encargados de las empresas y reuniones formales de presentación, es necesario disponer de soportes y evidencias de la realidad económica y financiera de todas las posibles empresas y clientes de las aseguradoras; es decir, con balances, estados de resultados e indicadores financieros.
         .cajon.bgr-tarjeta-2.p-3
           p.mt-3 La elaboración de los informes de riesgo se realiza con información periódica, y se presenta de manera organizada y, en muchos casos, con gráficos y tablas para un fácil entendimiento y una buena presentación. 
-      .col-lg-6.col-sm-10
+      .col-10.col-lg-6.my-3
         figure
-          img(src='@/assets/curso/temas/tema-2/tema2-img2.1.svg', alt='Texto que describa la imagen').imagen-decorativa-6
-      p Estos informes traen consigo ventajas y permiten extraer información importante como se observa a continuación:
+          img(src='@/assets/curso/temas/tema-2/tema2-img2.1.svg', alt='Texto que describa la imagen')
+      p.my-3 Estos informes traen consigo ventajas y permiten extraer información importante como se observa a continuación:
     
-    .row.mt-5.justify-content-around.align-items-center
-      .col-lg-4
+    .row.mt-5.justify-content-center
+      .col-5.col-lg-4.my-3
         figure
-          img(src='@/assets/curso/temas/tema-2/tema2-img3.1.svg', alt='Texto que describa la imagen').imagen-decorativa-5
+          img(src='@/assets/curso/temas/tema-2/tema2-img3.1.svg', alt='Texto que describa la imagen')
       .col-lg-8
         LineaTiempoD.color-acento-contenido.justify-content-around.align-items-center
-          .row(numero="1" titulo="Facilita el acceso a la financiación").justify-content-around.align-items-center
-            .col-lg-2.col-sm-2.mt-3.justify-content-around.align-items-center
+          .row.justify-content-center(numero="1" titulo="Facilita el acceso a la financiación")
+            .col-5.col-lg-2
               figure.justify-content-around.align-items-center
-                img(src='@/assets/curso/temas/tema-2/tema2-img3.svg', alt='Texto que describa la imagen').img-tarjeta-linea-1
+                img(src='@/assets/curso/temas/tema-2/tema2-img3.svg', alt='Texto que describa la imagen')
 
-            .col-10
+            .col-lg-10
               p.mt-4 Al contar con información precisa sobre los pagarés recibidos, estos se convierten, con facilidad, en liquidez para la empresa.
 
-          .row(numero="2" titulo="Riesgo calificado y controlado")
-            .col-lg-2.col-sm-10.mt-3
+          .row.justify-content-center(numero="2" titulo="Riesgo calificado y controlado")
+            .col-5.col-lg-2
               figure
-                img(src='@/assets/curso/temas/tema-2/tema2-img4.svg', alt='Texto que describa la imagen').img-tarjeta-linea-1
+                img(src='@/assets/curso/temas/tema-2/tema2-img4.svg', alt='Texto que describa la imagen')
 
-            .col-10
+            .col-lg-10
               p.mt-4 Con información más exacta sobre el riesgo y con un vínculo más cercano con la empresa cliente, se puede llegar a minimizar el riesgo y así tenerlo controlado.
 
-          .row(numero="3" titulo="Evaluación de la capacidad de pago")
-            .col-lg-2.col-sm-10.mt-3
+          .row.justify-content-center(numero="3" titulo="Evaluación de la capacidad de pago")
+            .col-5.col-lg-2
               figure
-                img(src='@/assets/curso/temas/tema-2/tema2-img5.svg', alt='Texto que describa la imagen').img-tarjeta-linea-1
+                img(src='@/assets/curso/temas/tema-2/tema2-img5.svg', alt='Texto que describa la imagen')
 
-            .col-10
+            .col-lg-10
               p.mt-4 Se puede identificar la solvencia y estabilidad económica de la empresa, para efectos de evitar impagos y poder sostener relaciones comerciales.
 
-          .row(numero="4" titulo="Política de precios adaptada al riesgo del cliente")
-            .col-lg-2.col-sm-10.mt-4
+          .row.justify-content-center(numero="4" titulo="Política de precios adaptada al riesgo del cliente")
+            .col-5.col-lg-2
               figure
-                img(src='@/assets/curso/temas/tema-2/tema2-img6.svg', alt='Texto que describa la imagen').img-tarjeta-linea-1
+                img(src='@/assets/curso/temas/tema-2/tema2-img6.svg', alt='Texto que describa la imagen')
 
-            .col-10
+            .col-lg-10
               p.mt-4 Cada detalle que se pueda conocer del cliente, ayuda a poder fortalecer los vínculos comerciales a la hora de evaluar la estabilidad económica del mismo. Un aspecto relevante, a tener en cuenta, es la capacidad de contar con variedad de fuentes de ingreso, es decir, que no tenga exclusivamente una sola fuente que, en caso de crisis, pudiera afectar su estabilidad.
 
-          .row(numero="5" titulo="Valoración de la empresa ajustada a la realidad")
-            .col-lg-2.col-sm-10.mt-3
+          .row.justify-content-center(numero="5" titulo="Valoración de la empresa ajustada a la realidad")
+            .col-5.col-lg-2
               figure
-                img(src='@/assets/curso/temas/tema-2/tema2-img7.svg', alt='Texto que describa la imagen').img-tarjeta-linea-1
+                img(src='@/assets/curso/temas/tema-2/tema2-img7.svg', alt='Texto que describa la imagen')
 
-            .col-10
+            .col-lg-10
               p.mt-4 Como base fundamental para establecer informes sobre los riesgos ajustados a la realidad, es fundamental disponer y acceder a datos de fuentes oficiales; es decir, la fiabilidad de los informes depende fuertemente de las fuentes y datos utilizados por quienes realizan los reportes.
 
-          .row(numero="6" titulo="Empresa con solvencias y liquidez")
-            .col-lg-2.col-sm-10.mt-3
+          .row.justify-content-center(numero="6" titulo="Empresa con solvencias y liquidez")
+            .col-5.col-lg-2
               figure
-                img(src='@/assets/curso/temas/tema-2/tema2-img8.svg', alt='Texto que describa la imagen').img-tarjeta-linea-1
+                img(src='@/assets/curso/temas/tema-2/tema2-img8.svg', alt='Texto que describa la imagen')
 
-            .col-10
+            .col-lg-10
               p.mt-4 Es necesario identificar la capacidad financiera de la empresa, que pueda evaluar la capacidad y voluntad de pagos y, de igual forma, la capacidad de liquidez en el corto plazo, para responder por sus obligaciones.
 
     separador
@@ -116,90 +116,114 @@
       p No todos los riesgos son asegurables; se debe tener en cuenta que cualquier situación adversa podría afectar a las personas pudiendo ser cubiertas por un seguro. Para que un riesgo sea asegurable es necesario que su materialización sea determinada por causas independientes y aleatorias del deseo de las partes. Es así, como existen hechos o siniestros que están por encima de las partes que lo ocasionan, y que cumplen unas condiciones para que el riesgo pueda ser asumido por una entidad de seguros. 
       p.mt-5 En este esquema se presentan las consideraciones para identificar que un riesgo sea asegurable.
 
-    TabsB.color-acento-contenido.bgr-tarjeta-10.mt-5
+
+    TabsB.color-acento-contenido.bgr-tarjeta-10.my-5
       .py-4.py-md-5(titulo="Inspección inicial del riesgo" :icono="require('@/assets/curso/temas/tema-2/tema2-img9.svg')")
-        .row
-          .col-md-8.mb-4.mb-md-0.mt-5
-            h3 Inspección inicial del riesgo
-            p.mt-5 Se lleva a cabo la verificación de la información referenciada en la declaración de asegurabilidad. De manera simultánea, se revisa físicamente la persona o el bien a asegurar, lo que conlleva a la concreción de la inspección inicial del riesgo.        
-          .col-md-4.justify-content-center.ml-5
+        .row.justify-content-center
+          .col-md-8.mb-4.mb-md-0.mt-5.p-5
+            h2 Inspección inicial del riesgo
+            p.mt-5 Se lleva a cabo la verificación de la información referenciada en la declaración de asegurabilidad. De manera simultánea, se revisa físicamente la persona o el bien a asegurar, lo que conlleva a la concreción de la inspección inicial del riesgo. 
+          .col-7.col-lg-4
             figure
-              img(src='@/assets/curso/temas/tema-2/tema2-img10.svg', alt='Texto que describa la imagen').img-tarjeta-linea-1
+              img(src='@/assets/curso/temas/tema-2/tema2-img10.svg', alt='Texto que describa la imagen')
 
-      .py-4.py-md-5(titulo="Requisitos" :icono="require('@/assets/curso/temas/tema-2/tema2-img11.svg')")
-        .row
-          .col-md-8.mb-4.mb-md-0.mt-5
-            h3 Requisitos 
-            p Se identifican requisitos que permiten identificar los atributos de los riesgos asegurables en el sector asegurador, los cuales deben ser tenidos en cuenta ante la evaluación del riesgo, aunque no sean obligatorios. 
+      .p-4.py-md-5(titulo="Condiciones particulares" :icono="require('@/assets/curso/temas/tema-2/tema2-img11.svg')")
+        .row.justify-content-center
+          .col-md-8.mb-4.mb-md-0.mt-5.p-5
+            h2 Requisitos
+            p.mt-5 Se identifican requisitos que permiten identificar los atributos de los riesgos asegurables en el sector asegurador, los cuales deben ser tenidos en cuenta ante la evaluación del riesgo, aunque no sean obligatorios. 
             p Los riegos podrán ser asegurables de acuerdo con:
-            <i class="fas fa-angle-right" STYLE="Color: green"></i> Se establece la probabilidad de ocurrencia del siniestro y, como consecuencia, se puede definir una prima justa.
-            br
-            <i class="fas fa-angle-right" STYLE="Color: green"></i> Existe una cantidad de asegurados que necesitan que el seguro les pueda amparar de una específica clase de riesgo.
-            
-          .col-md-4
-            figure
-              img(src='@/assets/curso/temas/tema-2/tema2-img12.svg', alt='Texto que describa la imagen').img-tarjeta-linea-1
+            .row
+              ul.lista-ul
+                li
+                  i.fas.fa-angle-right
+                  | Se establece la probabilidad de ocurrencia del siniestro y, como consecuencia, se puede definir una prima justa.
+                li
+                  i.fas.fa-angle-right
+                  | Existe una cantidad de asegurados que necesitan que el seguro les pueda amparar de una específica clase de riesgo.
 
-      .py-4.py-md-5(titulo="Condiciones" :icono="require('@/assets/curso/temas/tema-2/tema2-img13.svg')")
-        .row
-          .col-md-8.mb-4.mb-md-0.mt-5
-            h3 Condiciones 
-            p Para que un riesgo se pueda considerar asegurable, debe cumplir con las siguientes características:        
-            <i class="fas fa-angle-right" STYLE="Color: green"></i> Debe tratarse de un hecho lícito, ya que los hechos ilícitos no pueden ser objeto de seguro.
-            br
-            <i class="fas fa-angle-right" STYLE="Color: green"></i> Debe referirse a la posibilidad de un acontecimiento o hecho futuro.
-            br
-            <i class="fas fa-angle-right" STYLE="Color: green"></i> Debe afectar, por igual, a todas las personas o cosas sujetas al mismo riesgo.
-            br
-            <i class="fas fa-angle-right" STYLE="Color: green"></i> Debe ser conocido en toda su extensión y alcance, por el asegurador.
-            br
-            <i class="fas fa-angle-right" STYLE="Color: green"></i> Debe ser incierta su realización o el tiempo en que se produzca.
-            br
-            <i class="fas fa-angle-right" STYLE="Color: green"></i> Debe tener la probabilidad de ocurrencia real de la situación de riesgo.
-            br
-            <i class="fas fa-angle-right" STYLE="Color: green"></i> Debe ocurrir independiente de la voluntad, es decir, su ocurrencia no puede ser estimada o programada.
-            br
-            <i class="fas fa-angle-right" STYLE="Color: green"></i> Debe ser susceptible de causar un perjuicio valorable en dinero.
-            br
-            <i class="fas fa-angle-right" STYLE="Color: green"></i> Las posibilidades de que ocurra el acontecimiento previsto, deben de existir en semejante proporción.
-            br
-            <i class="fas fa-angle-right" STYLE="Color: green"></i> Teniendo en cuenta estos factores, el riesgo podrá ser considerado o no, por parte de la entidad aseguradora.
-            
-          .col-md-4
+          .col-7.col-lg-4
             figure
-              img(src='@/assets/curso/temas/tema-2/tema2-img14.svg', alt='Texto que describa la imagen').img-tarjeta-linea-1
+              img(src='@/assets/curso/temas/tema-2/tema2-img12.svg', alt='Texto que describa la imagen')
+
+      .p-4.py-md-5(titulo="Condiciones especiales" :icono="require('@/assets/curso/temas/tema-2/tema2-img13.svg')")
+        .row.justify-content-center
+          .col-md-8.mb-4.mb-md-0.mt-5.p-5
+            h2 Condiciones especiales
+            p.mt-5 Las condiciones especiales permiten regular y focalizar el alcance de las garantías que proporciona el asegurador en el seguro principal y para cada una de las coberturas complementarias. Es entonces que se pueden incluir o excluir garantías u otras situaciones que modifiquen lo indicado, inicialmente, en las condiciones generales. 
+            .row
+              ul.lista-ul
+                li
+                  i.fas.fa-angle-right
+                  |  Debe tratarse de un hecho lícito, ya que los hechos ilícitos no pueden ser objeto de seguro.
+                li
+                  i.fas.fa-angle-right
+                  |  Debe referirse a la posibilidad de un acontecimiento o hecho futuro.
+                li
+                  i.fas.fa-angle-right
+                  |  Debe afectar, por igual, a todas las personas o cosas sujetas al mismo riesgo.
+                li
+                  i.fas.fa-angle-right
+                  |  Debe ser conocido en toda su extensión y alcance, por el asegurador.
+                li
+                  i.fas.fa-angle-right
+                  |  Debe ser incierta su realización o el tiempo en que se produzca.
+                li
+                  i.fas.fa-angle-right
+                  |  Debe tener la probabilidad de ocurrencia real de la situación de riesgo.
+                li
+                  i.fas.fa-angle-right
+                  |  Debe ocurrir independiente de la voluntad, es decir, su ocurrencia no puede ser estimada o programada.
+                li
+                  i.fas.fa-angle-right
+                  |  Debe ser susceptible de causar un perjuicio valorable en dinero.
+                li
+                  i.fas.fa-angle-right
+                  |  Las posibilidades de que ocurra el acontecimiento previsto, deben de existir en semejante proporción.
+                li
+                  i.fas.fa-angle-right
+                  |  Teniendo en cuenta estos factores, el riesgo podrá ser considerado o no, por parte de la entidad aseguradora.
+                  
+          .col-7.col-lg-4
+            figure
+              img(src='@/assets/curso/temas/tema-2/tema2-img14.svg', alt='Texto que describa la imagen')
+   
+
+
 
     .row.mt-5
       h3 Solicitud de asegurabilidad
       p.mt-5 Para realizar una solicitud de asegurabilidad, se debe realizar una serie de procedimientos para aprobar y aceptar la asegurabilidad de un riesgo.
       p.mt-5 Entre estas tenemos:
 
-    .row.mt-5
-      .col-sm-6.col-xl-4.mb-4.mb-xl-0
-        .tarjeta.tarjeta-slide.arriba.color-acento-contenido(@mouseover="indicadorTarjetaSlide = false")
+    .row.justify-content-center.mt-5
+      .col-7.col-lg-4.my-3
+        .tarjeta.tarjeta-slide.arriba.color-acento-contenido(@mouseover="indicadorTarjetaSlide = false").tarjeta-tm-2-2
           .indicador--hover(v-if="indicadorTarjetaSlide")
           .tarjeta-slide__contenedor
             .tarjeta-slide__img(:style="{'background-image': `url(${require('@/assets/curso/temas/tema-2/tema2-img15.png')})`}")
-            .tarjeta-slide__contenido.p-4.p-xl-5
-              h3.text-center ¿Cuándo aplica la asegurabilidad?
-              p.text-small En primera instancia, la asegurabilidad de un riesgo debe cumplir con las situaciones de que sea incierto, tenga posibilidad de ocurrir, sea concreto, sea lícito y ocurra de manera fortuita. Es de esta manera que puede ser aceptada su cobertura por parte de la aseguradora.
-              p.text-small Según todas las condiciones descritas, acepta o no, la asegurabilidad del riesgo en cuestión.
+            .tarjeta-slide__contenido.p-3
+              h4.text-center ¿Cuándo aplica la asegurabilidad?
+              p En primera instancia, la asegurabilidad de un riesgo debe cumplir con las situaciones de que sea incierto, tenga posibilidad de ocurrir, sea concreto, sea lícito y ocurra de manera fortuita. Es de esta manera que puede ser aceptada su cobertura por parte de la aseguradora.
+              p Según todas las condiciones descritas, acepta o no, la asegurabilidad del riesgo en cuestión.
             
-      .col-sm-6.col-xl-4.mb-4.mb-xl-0
-        .tarjeta.tarjeta-slide.arriba.color-acento-contenido(@mouseover="indicadorTarjetaSlide = false")
+      .col-7.col-lg-4.my-3
+        .tarjeta.tarjeta-slide.arriba.color-acento-contenido(@mouseover="indicadorTarjetaSlide = false").tarjeta-tm-2-2
           .tarjeta-slide__contenedor
             .tarjeta-slide__img(:style="{'background-image': `url(${require('@/assets/curso/temas/tema-2/tema2-img16.png')})`}")
-            .tarjeta-slide__contenido.p-4.p-xl-5
-              h3.text-center Declaración de asegurabilidad
-              p.text-small Hace referencia a la información previa que el potencial asegurado informa a la aseguradora, a través de un formato (documento impreso o descargable en PDF), sobre el riesgo que afecta o podría afectar sus intereses asegurables. En el formato deben ser diligenciadas cada una de las amenazas identificadas, que puedan afectar a la persona.
+            .tarjeta-slide__contenido.p-4
+              h4.text-center Declaración de asegurabilidad
+              p Hace referencia a la información previa que el potencial asegurado informa a la aseguradora, a través de un formato (documento impreso o descargable en PDF), sobre el riesgo que afecta o podría afectar sus intereses asegurables. En el formato deben ser diligenciadas cada una de las amenazas identificadas, que puedan afectar a la persona.
 
-      .col-sm-6.col-xl-4.mb-4.mb-sm-0
-        .tarjeta.tarjeta-slide.arriba.color-acento-contenido(@mouseover="indicadorTarjetaSlide = false")
+      .col-7.col-lg-4.my-3
+        .tarjeta.tarjeta-slide.arriba.color-acento-contenido(@mouseover="indicadorTarjetaSlide = false").tarjeta-tm-2-2
           .tarjeta-slide__contenedor
             .tarjeta-slide__img(:style="{'background-image': `url(${require('@/assets/curso/temas/tema-2/tema2-img17.png')})`}")
-            .tarjeta-slide__contenido.p-4.p-xl-5
-              h3.text-center Análisis del riesgo
-              p.text-small El análisis de riesgo es el resultado de un procedimiento que tendrá como resultado la decisión final de aceptar o no, la admisión y establecer el precio al tomador del seguro, en decir, es aquí donde la aseguradora se hace responsable del riesgo evaluado y este se formaliza en un contrato. 
+            .tarjeta-slide__contenido.p-4
+              h4.text-center Análisis del riesgo
+              p El análisis de riesgo es el resultado de un procedimiento que tendrá como resultado la decisión final de aceptar o no, la admisión y establecer el precio al tomador del seguro, en decir, es aquí donde la aseguradora se hace responsable del riesgo evaluado y este se formaliza en un contrato. 
+
+
 
     .row.mt-5
       p La declaración de asegurabilidad, es un documento que hará parte integral del contrato en el cual se debe consignar, con total claridad y honestidad, todos los antecedentes médicos; en caso de encontrar diferencia o que no se ajuste a la realidad, será causa de anulación y, por consiguiente, no se podrá pagar, en ningún caso, alguna indemnización.
@@ -235,22 +259,24 @@
         .h5.mb-2 Firma y huella:
         p Finalmente, debe firmar con identificación, la fecha y la huella dactilar
 
+
     .row.justify-content-around.align-items-centerrd.mt-5
       .col-10
         .tarjeta.color-secundario.p-3.mb-5
           .row.justify-content-around.align-items-center
-            .col-3.col-sm-2.col-lg-1
-              img(src="@/assets/curso/temas/tema-2/tema2-img19.svg")
-            .col-9
+            .col-3.col-lg-2
+              img(src="@/assets/curso/temas/tema-2/tema2-img19.svg").img19-tm1
+            .col-9.col-lg-9
               .row.justify-content-between.align-items-center
                 .col.mb-3.mb-sm-0
                   h3.mb-1 Formato Declaración de asegurabilidad
-                  p.text-small Para conocer el formato de declaración de asegurabilidad, lo invitamos a leer el siguiente documento:
+                  p Para conocer el formato de declaración de asegurabilidad, lo invitamos a leer el siguiente documento:
                 .col-sm-auto
                   a.boton.color-acento-botones.texto-blanco(:href="obtenerLink('/downloads/Formato_Declaración_asegurabilidad.pdf')" target="_blank")
                     span Descargar
                     i.fas.fa-file-download
-               
+
+         
               
     
     separador    
@@ -276,21 +302,19 @@
           .row.justify-content-around.align-items-center
             .col-lg-7.sm-10
               p.mt-5 En general, las pólizas, en sus estructuras, se dividen en dos componentes o condiciones: las condiciones generales y las condiciones particulares.
-              h2 Condiciones generales
+              h3 Condiciones generales
               p.mt-5 Hacen referencia a los textos que se incluyen en las pólizas, que contienen las regulaciones y las consideraciones propias del contrato; para establecer las condiciones generales, se debe contar mínimo con los siguientes puntos: la cobertura y el objeto asegurado, elementos de alteración o agravación del riesgo, exclusiones, declaraciones del asegurado, terminación, prima, comunicación entre las partes, y que incluyan los aspectos que permiten regular el contrato y que no sean condiciones 
-            .col-lg-5.sm-10
+            .col-lg-5.sm-10.my-5
               figure
-                img(src='@/assets/curso/temas/tema-2/tema2-img21.svg', alt='Texto que describa la imagen')
-            .row
-              img(src='@/assets/curso/temas/tema-2/tema2-img22.svg', alt='Texto que describa la imagen').imagen-decorativa-3
+                img(src='@/assets/curso/temas/tema-2/tema2-img21.png', alt='Texto que describa la imagen').imagen-decorativa-1
     
         .row.justify-content-around.align-items-center.mt-3
           .row.justify-content-around.align-items-center
-            .col-lg-5.sm-10
+            .col-lg-5.sm-10.my-5
               figure
                 img(src='@/assets/curso/temas/tema-2/tema2-img22.1.svg', alt='Texto que describa la imagen')      
             .col-lg-7.sm-10
-              h5 Condiciones particulares
+              h3 Condiciones particulares
               p Hacen referencia a condiciones propias que por naturaleza no se expresan en las condiciones generales; en este caso, hacen referencia a elementos particulares como: requisitos de aseguramiento, especificidad de la materia asegurada, individualización de las partes del asegurado, el contratante, el asegurado y el beneficiario, ubicación de la materia asegurada, prima pactada, monto asegurado, deducibles, duración y la forma de pago.  
               .cajon.bgr-tarjeta-2.p-3
                 p En general, tanto las condiciones generales como las particulares, deben ser redactadas de forma clara y de fácil entendimiento; no podrán conducir al error y deben estar contempladas dentro del marco de la ley.
@@ -298,122 +322,122 @@
         .row.mt-5
           p Para la formalización del contrato de seguro, es necesario reunir una serie de documentos y elementos adicionales, para continuar con el proceso de emisión del contrato. Entre estos se pueden observar los que siguen a continuación:
 
-    .row.ampliar-2.fondo-tema2-2.px-5
-      .col-12
-        .tarjeta.p-4
-          SlyderA(tipo="b")
-            .row
-              .col-md-5.mb-4.mb-md-0
-                h4.mt-5 Solicitud
-                p Es el primer contacto con la aseguradora; se refiere al documento en donde el interesado tomador, expresa la descripción del riesgo que desea contratar y es detallado, de manera precisa, de acuerdo con la información solicitada por parte de la aseguradora.
+    //.row.ampliar-2.fondo-tema2-2.px-5
+    .col-12
+      .tarjeta.p-4.bgr-fondo.my-5
+        SlyderA(tipo="b")
+          .row
+            .col-md-5.mb-4.mb-md-0
+              h4.mt-5 Solicitud
+              p Es el primer contacto con la aseguradora; se refiere al documento en donde el interesado tomador, expresa la descripción del riesgo que desea contratar y es detallado, de manera precisa, de acuerdo con la información solicitada por parte de la aseguradora.
 
-              .col-md-7
-                figure
-                  img(src='@/assets/curso/temas/tema-2/tema2-img23.svg', alt='Texto que describa la imagen')
-            .row
-              .col-md-5.mb-4.mb-md-0
-                h4.mt-5 Propuesta de seguro de cotización
-                p Posterior a la solicitud por parte del interesado, la aseguradora, con base en la información, analiza y valora el riesgo y además establece una cotización o propuesta de seguro, al posible tomador.
+            .col-md-7
+              figure
+                img(src='@/assets/curso/temas/tema-2/tema2-img23.svg', alt='Texto que describa la imagen')
+          .row
+            .col-md-5.mb-4.mb-md-0
+              h4.mt-5 Propuesta de seguro de cotización
+              p Posterior a la solicitud por parte del interesado, la aseguradora, con base en la información, analiza y valora el riesgo y además establece una cotización o propuesta de seguro, al posible tomador.
 
-              .col-md-7
-                figure
-                  img(src='@/assets/curso/temas/tema-2/tema2-img24.svg', alt='Texto que describa la imagen')
-            .row
-              .col-md-5.mb-4.mb-md-0
-                h4.mt-5 Póliza
-                p Es el documento final que incluye las condiciones propias del seguro y de los bienes que serán objeto de asegurar, por la compañía aseguradora.
+            .col-md-7
+              figure
+                img(src='@/assets/curso/temas/tema-2/tema2-img24.svg', alt='Texto que describa la imagen')
+          .row
+            .col-md-5.mb-4.mb-md-0
+              h4.mt-5 Póliza
+              p Es el documento final que incluye las condiciones propias del seguro y de los bienes que serán objeto de asegurar, por la compañía aseguradora.
 
-              .col-md-7
-                figure
-                  img(src='@/assets/curso/temas/tema-2/tema2-img25.svg', alt='Texto que describa la imagen')
+            .col-md-7
+              figure
+                img(src='@/assets/curso/temas/tema-2/tema2-img25.svg', alt='Texto que describa la imagen')
 
-            .row
-              .col-md-5.mb-4.mb-md-0
-                h4.mt-5 Certificado individual de seguro
-                p Es la certificación que expide la compañía aseguradora al asegurado dentro de una póliza colectiva, explicando las condiciones.
+          .row
+            .col-md-5.mb-4.mb-md-0
+              h4.mt-5 Certificado individual de seguro
+              p Es la certificación que expide la compañía aseguradora al asegurado dentro de una póliza colectiva, explicando las condiciones.
 
-              .col-md-7
-                figure
-                  img(src='@/assets/curso/temas/tema-2/tema2-img26.svg', alt='Texto que describa la imagen')
+            .col-md-7
+              figure
+                img(src='@/assets/curso/temas/tema-2/tema2-img26.svg', alt='Texto que describa la imagen')
 
-            .row
-              .col-md-5.mb-4.mb-md-0
-                h4.mt-5 Recibo
-                p Es el soporte del pago del seguro, quedando justificado el detalle del pago de la prima.
+          .row
+            .col-md-5.mb-4.mb-md-0
+              h4.mt-5 Recibo
+              p Es el soporte del pago del seguro, quedando justificado el detalle del pago de la prima.
 
-              .col-md-7
-                figure
-                  img(src='@/assets/curso/temas/tema-2/tema2-img27.svg', alt='Texto que describa la imagen')
+            .col-md-7
+              figure
+                img(src='@/assets/curso/temas/tema-2/tema2-img27.svg', alt='Texto que describa la imagen')
 
-            .row
-              .col-md-5.mb-4.mb-md-0
-                h5.mt-5 Carta de garantía
-                p Se expide cuando aún no se tiene la póliza definitiva. Es solicitada por parte del tomador, quien requiere demostrar que cuenta con un seguro y que no ha sido expedido por la aseguradora. Esta carta es una extensión provisional, como garantía de la existencia de una cobertura a solicitud del tomador.
+          .row
+            .col-md-5.mb-4.mb-md-0
+              h5.mt-5 Carta de garantía
+              p Se expide cuando aún no se tiene la póliza definitiva. Es solicitada por parte del tomador, quien requiere demostrar que cuenta con un seguro y que no ha sido expedido por la aseguradora. Esta carta es una extensión provisional, como garantía de la existencia de una cobertura a solicitud del tomador.
 
-              .col-md-7.mb-5
-                figure
-                  img(src='@/assets/curso/temas/tema-2/tema2-img28.svg', alt='Texto que describa la imagen')
+            .col-md-7.mb-5
+              figure
+                img(src='@/assets/curso/temas/tema-2/tema2-img28.svg', alt='Texto que describa la imagen')
 
-        .row.mt-5
-          .col-lg-3.col-sm-10
-            h4.mt-5 Características de un contrato
-            p.mt-3 A continuación, se presentan las características o atributos que describen a los contratos:
-          .col-9
-            SlyderF(columnas="col-lg-8 col-xl-6 col-sm-10")
-              .tarjeta.bgr-tarjeta-5.p-3
-                .row.justify-content-center.mb-3
+      .row.mt-5
+        .col-lg-3.col-sm-10
+          h4.mt-5 Características de un contrato
+          p.mt-3 A continuación, se presentan las características o atributos que describen a los contratos:
+        .col-lg-9
+          SlyderF(columnas="col-lg-8 col-xl-6 col-sm-10")
+            .tarjeta.border.bgr-tarjeta-5.p-3
+              .row.justify-content-center.mb-3
 
-                h2.text-center Simple
-                p.text-center Se presenta al cumplir con su obligación sin condiciones porque no depende de otros, y está en su marco de limitaciones de la ocurrencia del riesgo.
+              h2.text-center.mt-5 Simple
+              p.text-center Se presenta al cumplir con su obligación sin condiciones porque no depende de otros, y está en su marco de limitaciones de la ocurrencia del riesgo.
 
-              .tarjeta.bgr-tarjeta-5.p-3
-                .row.justify-content-center.mb-3
+            .tarjeta.border.bgr-tarjeta-5.p-3
+              .row.justify-content-center.mb-3
 
-                h2.text-center Principal
-                p.text-center Se presenta al identificar su propia autonomía, tiene su existencia sin condicionamientos porque tiene su función clara y esto le da su característica de principal.
+              h2.text-center.mt-5 Principal
+              p.text-center Se presenta al identificar su propia autonomía, tiene su existencia sin condicionamientos porque tiene su función clara y esto le da su característica de principal.
 
-              .tarjeta.bgr-tarjeta-5.p-3
-                .row.justify-content-center.mb-3
+            .tarjeta.border.bgr-tarjeta-5.p-3
+              .row.justify-content-center.mb-3
 
-                h2.text-center Oneroso
-                p.text-center Se presenta al identificar que tiene un costo y, en contraprestación, tiene un servicio definido.
-              
-              .tarjeta.bgr-tarjeta-5.p-3
-                .row.justify-content-center.mb-3
-
-                h2.text-center Mercantil
-                p.text-center Es un contrato mercantil ya que se encuentra referenciado en el código civil; al mismo tiempo, es un acto de comercio que se encuentra en el código de comercio colombiano.
+              h2.text-center.mt-5 Oneroso
+              p.text-center Se presenta al identificar que tiene un costo y, en contraprestación, tiene un servicio definido.
             
-              .tarjeta.bgr-tarjeta-5.p-3
-                .row.justify-content-center.mb-3
+            .tarjeta.border.bgr-tarjeta-5.p-3
+              .row.justify-content-center.mb-3
 
-                h2.text-center De buena fe
-                p.text-center Se basa en las actuaciones del asegurado, partiendo del principio de honestidad, en donde se obliga a describir con claridad, la naturaleza del riesgo; asimismo, procura que no ocurra el mismo y, en caso de ocurrencia del siniestro, tratar de minimizar las consecuencias. Por el lado del asegurador, se parte de la buena fe en la formalización del contrato y la redacción e interpretación de las cláusulas.
-              
-              .tarjeta.bgr-tarjeta-5.p-3
-                .row.justify-content-center.mb-3
+              h2.text-center.mt-5 Mercantil
+              p.text-center Es un contrato mercantil ya que se encuentra referenciado en el código civil; al mismo tiempo, es un acto de comercio que se encuentra en el código de comercio colombiano.
+          
+            .tarjeta.border.bgr-tarjeta-5-1.p-3
+              .row.justify-content-center.mb-3
 
-                h2.text-center De adhesión
-                p.text-center Se presenta como adhesión teniendo en cuenta la reciprocidad en la aceptación de las cláusulas por las partes, es decir, en primera instancia, una de las partes las propone por escrito y, consecuentemente, la otra parte las acepta.
-              
-              .tarjeta.bgr-tarjeta-5.p-3
-                .row.justify-content-center.mb-3
+              h2.text-center De buena fe
+              p.text-center Se basa en las actuaciones del asegurado, partiendo del principio de honestidad, en donde se obliga a describir con claridad, la naturaleza del riesgo; asimismo, procura que no ocurra el mismo y, en caso de ocurrencia del siniestro, tratar de minimizar las consecuencias. Por el lado del asegurador, se parte de la buena fe en la formalización del contrato y la redacción e interpretación de las cláusulas.
+            
+            .tarjeta.border.bgr-tarjeta-5.p-3
+              .row.justify-content-center.mb-3
 
-                h2.text-center Aleatorio
-                p.text-center Como consecuencia del azar o situación fortuita, cabe la posibilidad de una afectación o pérdida y, por este motivo, en el contrato se establece la ocurrencia.
-              
-              .tarjeta.bgr-tarjeta-5.p-3
-                .row.justify-content-center.mb-3
+              h2.text-center De adhesión
+              p.text-center Se presenta como adhesión teniendo en cuenta la reciprocidad en la aceptación de las cláusulas por las partes, es decir, en primera instancia, una de las partes las propone por escrito y, consecuentemente, la otra parte las acepta.
+            
+            .tarjeta.border.bgr-tarjeta-5.p-3
+              .row.justify-content-center.mb-3
 
-                h2.text-center Indivisible
-                p.text-center El contrato de seguros es único, así sea que en ocasiones esté dividido en términos periódicos para facilitar el pago de la prima; el contrato es indivisible y, por lo tanto, el consentimiento dado al comienzo, lo rige en su duración completa.
-                p.text-center Un contrato es indivisible teniendo en cuenta su fundamento y característica de único, ya que la modalidad de pagos, en muchos casos, se hace periódicamente y no lo hace particionado; además, desde su emisión se ha definido por una duración específica en el tiempo.
-              
-              .tarjeta.bgr-tarjeta-5.p-3
-                .row.justify-content-center.mb-3
+              h2.text-center.mt-5 Aleatorio
+              p.text-center Como consecuencia del azar o situación fortuita, cabe la posibilidad de una afectación o pérdida y, por este motivo, en el contrato se establece la ocurrencia.
+            
+            .tarjeta.border.bgr-tarjeta-5-1.p-3
+              .row.justify-content-center.mb-3
 
-                h2.text-center Conmutativo
-                p.text-center Se presenta este atributo al evidenciar que cada una de las partes conlleva obligaciones.
+              h2.text-center Indivisible
+              p.text-center El contrato de seguros es único, así sea que en ocasiones esté dividido en términos periódicos para facilitar el pago de la prima; el contrato es indivisible y, por lo tanto, el consentimiento dado al comienzo, lo rige en su duración completa.
+              p.text-center Un contrato es indivisible teniendo en cuenta su fundamento y característica de único, ya que la modalidad de pagos, en muchos casos, se hace periódicamente y no lo hace particionado; además, desde su emisión se ha definido por una duración específica en el tiempo.
+            
+            .tarjeta.border.bgr-tarjeta-5.p-3
+              .row.justify-content-center.mb-3
+
+              h2.text-center.mt-5 Conmutativo
+              p.text-center Se presenta este atributo al evidenciar que cada una de las partes conlleva obligaciones.
 
 
 </template>

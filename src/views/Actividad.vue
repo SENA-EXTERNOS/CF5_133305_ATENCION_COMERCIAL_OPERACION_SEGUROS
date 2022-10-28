@@ -8,7 +8,7 @@
           i.fas.fa-puzzle-piece
       h1 Actividad didáctica
     .titulo-segundo.color-acento-contenido
-      h2 Arrastrar y soltar
+      h2 Falso y verdadero
     
     .row.mb-5.justify-content-center.align-items-center.align-items-lg-stretch
       .col-6.col-md-4.col-lg-3.mb-4.mb-md-0
@@ -21,7 +21,7 @@
         .tarjeta.actividad.p-3
           .row.justify-content-around.align-items-center            
             .col-sm.mb-3.mb-sm-0
-              p.fw-bold.mb-0 Tipo de actividad
+              p.fw-bold.mb-0 Falso y verdadero
             .col-auto
               a.boton.boton--b(:href="obtenerLink('/actividades/actividad1/story.html')" target="_blank")
                 span Realizar

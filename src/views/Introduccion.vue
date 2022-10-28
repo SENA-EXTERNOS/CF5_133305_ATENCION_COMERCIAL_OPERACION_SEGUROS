@@ -15,7 +15,7 @@
           .bloque-texto-a.bgr-tarjeta-1.p-4
             .bloque-texto-b__texto
               p.mt-5 Apreciado aprendiz, bienvenido a este recurso educativo, a continuación, conocerá sobre los conceptos y herramientas útiles para validar las coberturas y tipos de pólizas que se presentan en el mercado, que le van a permitir aprender y conocer la ruta que utilizan las aseguradoras cuando se suscriben pólizas. Adicionalmente, aprenderá a verificar los datos del informe de inspección y generar los documentos que se acomoden a las organizaciones solicitantes.
-        .col-lg-3.col-sm-10
+        .col-lg-3.col-sm-10(data-aos="fade-left")
           figure
             img(src='@/assets/curso/temas/introduccion/intro-img-1.svg', alt='Texto que describa la imagen').img-tarjeta-linea-1
 

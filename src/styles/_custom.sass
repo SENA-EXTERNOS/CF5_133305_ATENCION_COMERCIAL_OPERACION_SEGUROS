@@ -52,18 +52,17 @@
 
 .imagen-decorativa-1
   animation: float1 2.8s ease-in-out infinite alternate
-  position: absolute
-  top: 18%
+  position: relative
   right: 4%
-  width: 31%;
+  width: 100%
 
 @media (max-width: 500px) 
   .imagen-decorativa-1
     animation: float1 2.5s ease-in-out infinite alternate
-    position: absolute
-    top: 80rem
-    right: 15%
-    width: 70%
+    position: relative
+    top: 0rem
+    left: 0%
+    width: 100%
   
 .imagen-decorativa-2
   animation: float1 2.5s ease-in-out infinite alternate
@@ -125,6 +124,12 @@
 
 .bgr-tarjeta-5
     background: #FFFF
+    width: 310px
+    height: 310px
+
+.bgr-tarjeta-5-1
+    background: #FFFF
+    width: 300px
 
 .tarjeta--gris 
     background-color: #F0F8EA
@@ -148,7 +153,8 @@
 
 .bgr-tarjeta-11
     background-color: #FFF8DB
-
+    width: 165px
+    height: 265px
 .bgr-tarjeta-12
     background-color: #FDFCF4
 
@@ -166,12 +172,12 @@
     margin-left: 37%
 
 .img.tarjeta-tema-1-1
-    width: 100%
-    
-
+    width: 90%
+    position: relative
+    top: 3rem
 @media (max-width: 500px) 
   .img.tarjeta-tema-1-1
-    width: 40%
+    width: 80%
     margin-left: 25%
 
 .img.tarjeta-tema-2
@@ -266,7 +272,7 @@
     margin-left: 25%
 
 
-.fondo-tema2-1
+//.fondo-tema2-1
   background-image: url('../assets/curso/temas/tema-2/tema2-fondo1.svg')
   background-size: cover
   background-repeat: no-repeat
@@ -287,7 +293,7 @@
 .margen-fondo-tema2-1
     margin-top: 10rem 
 
-.fondo-tema2-2
+//.fondo-tema2-2
   background-image: url('../assets/curso/temas/tema-2/tema2-fondo2.svg')
   background-size: cover
   background-repeat: no-repeat
@@ -320,3 +326,55 @@
   .linea-tiempo-d__item.row.linea-tiempo-d__item--selected
     .linea-tiempo-d__item__content.tarjeta.tarjeta--gris
       background-color: #fcf2c7 
+
+.tarjeta-verde
+  width: 250px
+  height: 330px
+
+.tarjeta-hover
+  width: 300px
+  height: 400px
+
+.lista-ul li > i:first-of-type, .lista-ul--separador li > i:first-of-type, .lista-ul--color li > i:first-of-type 
+    position: relative
+    top: 4px
+    margin-right: 7px
+    color: #30610C
+
+.img19-tm1
+  width: 70%
+  position: relative
+  left: 30%
+  @media (max-width: 500px)
+    width: 100%
+    position: relative
+    left: 0%
+
+.tarjeta-tm-2-2
+  width: 340px
+  height: 310px
+  @media (max-width: 500px)
+    right: 30%
+
+.border 
+    border: 3px solid #dee2e6!important
+
+.bgr-fondo
+  background-image: url('../assets/curso/temas/tema-2/bgr-fondo.png')    
+  background-repeat: no-repeat
+  background-size: cover
+  background-position: center 
+  border-radius: 10px !important
+
+.tarjeta-amarilla
+  width: 150px
+  height: 200px
+
+.bgr-fondo-banner
+  background-image: url('../assets/curso/temas/tema-1/fondo-tm-1.png')    
+  background-repeat: no-repeat
+
+.tarjeta--blanca2
+      background-color: #fff
+      margin-top: -5%
+      padding-bottom: 10%
