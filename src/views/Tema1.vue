@@ -18,6 +18,10 @@
           figure
             img(src='@/assets/curso/temas/tema-1/tema1-img1.svg', alt='Texto que describa la imagen')
 
+    .row.my-5
+      p A continuación, se presentan algunas funciones de las partes que conforman un contrato de seguro:
+
+
     .row.justify-content-around.align-items-center
       .col-lg-8(data-aos="fade-up")
         figure
@@ -27,7 +31,7 @@
       p.mt-4 Algunas de las funciones propias de los departamentos responsables de la emisión de pólizas dentro de las compañías aseguradoras, son las que veremos a continuación:          
 
     .row.mt-5.justify-content-center
-      .col-8.col-md-7.col-lg-3.mt-3(data-aos="fade-left")
+      .col-8.col-lg-3.mt-3(data-aos="fade-left")
         .tarjeta.tarjeta-slide.arriba.color-acento-contenido(@mouseover="indicadorTarjetaSlide = false").tarjeta-verde
           .indicador--hover(v-if="indicadorTarjetaSlide")
           .tarjeta-slide__contenedor
@@ -35,34 +39,38 @@
             .tarjeta-slide__contenido.p-4.p-xl-4
               figure
                 img(src='@/assets/curso/temas/tema-1/tema1-img3.1.svg', alt='Texto que describa la imagen').img.tarjeta-tema-1
-              p.mt-2 Creación de normas y políticas de expedición en cada rama de los seguros.
+              h4.mt-3.text-center Creación de normas y políticas
+              p.text-center Creación de normas y políticas de expedición en cada rama de los seguros.
 
-      .col-8.col-md-7.col-lg-3.mt-3(data-aos="fade-up")
+      .col-8.col-lg-3.mt-3(data-aos="fade-up")
         .tarjeta.tarjeta-slide.arriba.color-acento-contenido(@mouseover="indicadorTarjetaSlide = false").tarjeta-verde
           .tarjeta-slide__contenedor
             .tarjeta-slide__img(:style="{'background-image': `url(${require('@/assets/curso/temas/tema-1/tema1-img4.svg')})`}")
             .tarjeta-slide__contenido.p-4.p-xl-4
               figure
                 img(src='@/assets/curso/temas/tema-1/tema1-img4.1.svg', alt='Texto que describa la imagen').img.tarjeta-tema-1
-              p.mt-2 Definir las normas que permitan describir los suplementos de los seguros.
+              h4.mt-3.text-center Definición de normas             
+              p.text-center Definir las normas que permitan describir los suplementos de los seguros.
 
-      .col-8.col-md-7.col-lg-3.mt-3(data-aos="fade-up")
+      .col-8.col-lg-3.mt-3(data-aos="fade-up")
         .tarjeta.tarjeta-slide.arriba.color-acento-contenido(@mouseover="indicadorTarjetaSlide = false").tarjeta-verde
           .tarjeta-slide__contenedor
             .tarjeta-slide__img(:style="{'background-image': `url(${require('@/assets/curso/temas/tema-1/tema1-img5.svg')})`}")
             .tarjeta-slide__contenido.p-4.p-xl-4
               figure
                 img(src='@/assets/curso/temas/tema-1/tema1-img5.1.svg', alt='Texto que describa la imagen').img.tarjeta-tema-1
-              p.mt-2 Vigilar y monitorear que se cumplan las normas de expedición, antes que sea aceptado el riesgo.
+              h4.mt-3.text-center Vigilancia y monitoreo
+              p.text-center Vigilar y monitorear que se cumplan las normas de expedición, antes que sea aceptado el riesgo.
 
-      .col-8.col-md-7.col-lg-3.mt-3(data-aos="fade-right")
+      .col-8.col-lg-3.mt-3(data-aos="fade-right")
         .tarjeta.tarjeta-slide.arriba.color-acento-contenido(@mouseover="indicadorTarjetaSlide = false").tarjeta-verde
           .tarjeta-slide__contenedor
             .tarjeta-slide__img(:style="{'background-image': `url(${require('@/assets/curso/temas/tema-1/tema1-img6.svg')})`}")
             .tarjeta-slide__contenido.p-4.p-xl-4
               figure
                 img(src='@/assets/curso/temas/tema-1/tema1-img6.1.svg', alt='Texto que describa la imagen').img.tarjeta-tema-1
-              p.mt-2  Ofrecer alternativas de atención al cliente, derivadas de la interpretación de las condiciones generales y particulares, propias de la póliza.
+              h4.mt-3.text-center Ofrecimiento de alternativas
+              p.text-center Ofrecer alternativas de atención al cliente, derivadas de la interpretación de las condiciones generales y particulares, propias de la póliza.
 
     .row.mt-5
       p.mt-5 Son diversas las razones que una aseguradora utiliza para aceptar asegurar un riesgo, y entre estas se encuentran los elementos fundamentales para la expedición de la póliza: el riesgo, la cobertura y el valor asegurable.
@@ -106,6 +114,7 @@
 
     .row.mt-5
       p En un contrato de seguro se destacan elementos esenciales contemplados en el Código de Comercio, artículo 1045. Sin la aplicación de alguno de estos elementos, el contrato no tiene efecto alguno.
+      p.mt-5 Los componentes de un contrato de seguros son: 
     .row.justify-content-center.mt-5
       .col-6.col-lg-4.mb-3(data-aos="fade-right")
         figure
@@ -158,7 +167,7 @@
               img(src="@/assets/curso/temas/tema-1/tema1-img21.svg", alt="alt")
           .crd_hover_txt--body
             h4.mb-3 Indemnización pactada 
-            p.mb-0 Daño reparado en donde las partes acuerdan, conjuntamente, el valor de una cuantía
+            p.mb-0 Daño reparado en donde las partes acuerdan, conjuntamente, el valor de una cuantía.
 
       .col-11.col-lg-4.mb-4
         .crd_hover_txt(data-aos="flip-left")
@@ -194,9 +203,9 @@
             img(src='@/assets/curso/temas/tema-1/tema1-img11.png', alt='Texto que describa la imagen').imagen-decorativa-1
         .col-lg-8.mb-5
           p.mt-5 En términos de coberturas, el asegurador está obligado a responder hasta el valor límite del valor asegurado; es decir, sobre las afectaciones económicas como resultado de la ocurrencia de un siniestro.
-          p.mt-5 Ese valor a pagar por concepto de indemnización, al asegurado, por parte de la compañía aseguradora, es el compromiso asumido que se denomina como cobertura de un seguro y se realiza con la finalidad de reparar las afectaciones resultantes del siniestro. Es necesario resaltar, que las coberturas tienen un valor límite que se denomina capital asegurado y fue definido al instante de pactar el contrato.
+          p.mt-5 Ese valor a pagar por concepto de indemnización, al asegurado, por parte de la compañía aseguradora, es el compromiso asumido que se denomina como #[strong cobertura de un seguro] y se realiza con la finalidad de reparar las afectaciones resultantes del siniestro. Es necesario resaltar, que las coberturas tienen un valor límite que se denomina capital asegurado y fue definido al instante de pactar el contrato.
           .cajon.bgr-tarjeta-2.p-4.mt-5
-            p Una póliza de seguro es un documento que establece las relaciones entre el asegurador y el asegurado, donde quedan pactadas las condiciones del contrato de seguro, plasmando las normas generales, particulares o especiales. Su materialización se da cuando las dos partes han aceptado, y de ahí surgen los derechos y obligaciones.
+            p Una póliza de seguro es un documento que establece las relaciones entre el asegurador y el asegurado, donde quedan pactadas las condiciones del #[strong contrato de seguro], plasmando las normas generales, particulares o especiales. Su materialización se da cuando las dos partes han aceptado, y de ahí surgen los derechos y obligaciones.
 
       p Las pólizas se pueden diferenciar de acuerdo con el alcance de las partes de sus componentes. Estos pueden ser:
 
@@ -204,7 +213,6 @@
       .p-4.py-md-5(titulo="Condiciones generales" :icono="require('@/assets/curso/temas/tema-1/tema1-img13.svg')")
         .row.justify-content-center
           .col-md-8.mb-4.mb-md-0.mt-5.p-4
-            h2 Condiciones generales
             p.mt-5 Se refieren al establecimiento de los principios básicos por parte del asegurador, de manera que se regulen los contratos que hacen parte del mismo ramo, es decir, los elementos referidos al objeto del seguro, su extensión, los riesgos excluidos, manera de liquidación de los siniestros, cobro de los recibos, las indemnizaciones, las comunicaciones, la subrogación, la jurisdicción, entre otros.    
           .col-7.col-lg-4
             figure
@@ -213,7 +221,6 @@
       .p-4.py-md-5(titulo="Condiciones particulares" :icono="require('@/assets/curso/temas/tema-1/tema1-img15.svg')")
         .row.justify-content-center
           .col-md-8.mb-4.mb-md-0.mt-5.p-4
-            h2 Condiciones particulares
             p.mt-5 A continuación se describen los elementos de las condiciones particulares con respecto al riesgo individual:
             .row
               ul.lista-ul
@@ -242,7 +249,6 @@
       .p-4.py-md-5(titulo="Condiciones especiales" :icono="require('@/assets/curso/temas/tema-1/tema1-img17.svg')")
         .row.justify-content-center
           .col-md-8.mb-4.mb-md-0.mt-5.p-4
-            h2 Condiciones especiales
             p.mt-5 Las condiciones especiales permiten regular y focalizar el alcance de las garantías que proporciona el asegurador en el seguro principal y para cada una de las coberturas complementarias. Es entonces que se pueden incluir o excluir garantías u otras situaciones que modifiquen lo indicado, inicialmente, en las condiciones generales. 
           .col-7.col-lg-4
             figure

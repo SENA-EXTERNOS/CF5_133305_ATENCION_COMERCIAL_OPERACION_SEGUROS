@@ -68,7 +68,7 @@
         .row
           .col-md-5.mb-4.mb-md-0
             h4.mt-5 Importancia de un análisis de ventas
-            p.mt-5 El análisis de ventas debe centrarse en mejorar y desarrollar una estrategia para hacer crecer el rendimiento de las ventas, tanto a corto como a largo plazo. Un ejemplo común de una actividad de análisis de ventas es la establecer objetivos específicos para que el equipo de ventas lo pueda concretar en forma de indicadores de ventas. La importancia se verá reflejada en la mejora de las ventas y una mejor gestión en las actividades de las mismas.
+            p.mt-5 El análisis de ventas debe centrarse en mejorar y desarrollar una estrategia para hacer crecer el rendimiento de las ventas, tanto a corto como a largo plazo. Un ejemplo común de una actividad de análisis de ventas es establecer objetivos específicos para que el equipo de ventas lo pueda concretar en forma de indicadores de ventas. La importancia se verá reflejada en la mejora de las ventas y una mejor gestión en las actividades de las mismas.
 
           .col-md-7
             figure
@@ -76,7 +76,7 @@
         .row
           .col-md-5.mb-4.mb-md-0
             h4.mt-5 El informe de ventas y su contenido
-            p El reporte de ventas es un informe que contribuye con las empresas para disponer de una clara gestión de resultantes de sus operaciones comerciales. El objetivo de los informes de ventas con base en información del volumen de ventas y la gestión de los asesores comerciales, se fundamenta en la toma de decisiones oportunas y acertadas para una mejor gestión en las ventas.
+            p El reporte de ventas es un informe que contribuye con las empresas para disponer de una clara gestión de resultados de sus operaciones comerciales. El objetivo de los informes de ventas con base en información del volumen de ventas y la gestión de los asesores comerciales, se fundamenta en la toma de decisiones oportunas y acertadas para una mejor gestión en las ventas. 
 
           .col-md-7
             figure
@@ -94,14 +94,20 @@
           .col-md-5.mb-4.mb-md-0
             h4.mt-5 Cuestionamiento sobre los informes de ventas
             p Las preguntas que se deben responder sobre un #[b informe de ventas:]
-            br
-            <i class="fas fa-angle-right" STYLE="Color: green"></i> ¿Cómo se hace?
-            br
-            <i class="fas fa-angle-right" STYLE="Color: green"></i> ¿Para qué sirve?
-            br
-            <i class="fas fa-angle-right" STYLE="Color: green"></i> ¿Cómo se hace diariamente?
-            br
-            <i class="fas fa-angle-right" STYLE="Color: green"></i> ¿Cuáles son las técnicas para elaborarlo?
+            .row
+              ul.lista-ul
+                li
+                  i.fas.fa-angle-right
+                  | ¿Cómo se hace?
+                li
+                  i.fas.fa-angle-right
+                  | ¿Para qué sirve?
+                li
+                  i.fas.fa-angle-right
+                  | ¿Cómo se hace diariamente?
+                li
+                  i.fas.fa-angle-right
+                  | ¿Cuáles son las técnicas para elaborarlo?
 
           .col-md-7
             figure
@@ -136,7 +142,7 @@
                   img(src='@/assets/curso/temas/tema-3/tema3-img7.png', alt='Texto que describa la imagen')
               .col-lg-8
                 h2.mt-4 Ganancias y pérdidas
-                p.mt-3 Se presentan, de manera concreta, las ventas de la empresa por periodos, ya sea semanal, mensual, trimestral, semestral o anual.
+                p.mt-3 Un estado de ganancias y pérdidas permite conocer, de primera mano, la situación general de las finanzas y los rendimientos de las operaciones comerciales; asimismo, es posible conocer las proyecciones de las inversiones y gastos de la gestión comercial. 
 
           .tarjeta.color-secundario--borde.p-4(titulo="Información de los clientes")
             .row

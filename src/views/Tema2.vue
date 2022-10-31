@@ -21,7 +21,7 @@
         p Es una tarea netamente de observación, y el propósito de descripción que se realiza con la idea de que otras personas puedan ser las que tomen ciertas decisiones, a la vista del informe de inspección. En general, conviene tener presente la relevancia de una adecuada inspección, pues de la calidad de la primera impresión que se haya manifestado, depende el acierto que se vaya a lograr en la toma de decisiones.
 
     .row.mt-5
-      p #[strong Las inspecciones de riesgo las podrán llevar a cabo:]gerentes de riesgos, inspectores de compañías aseguradoras, intermediarios de seguros, técnicos en seguridad, peritos de seguros, entre otros.
+      p #[strong Las inspecciones de riesgo las podrán llevar a cabo:] gerentes de riesgos, inspectores de compañías aseguradoras, intermediarios de seguros, técnicos en seguridad, peritos de seguros, entre otros.
 
     separador
 
@@ -121,7 +121,6 @@
       .py-4.py-md-5(titulo="Inspección inicial del riesgo" :icono="require('@/assets/curso/temas/tema-2/tema2-img9.svg')")
         .row.justify-content-center
           .col-md-8.mb-4.mb-md-0.mt-5.p-5
-            h2 Inspección inicial del riesgo
             p.mt-5 Se lleva a cabo la verificación de la información referenciada en la declaración de asegurabilidad. De manera simultánea, se revisa físicamente la persona o el bien a asegurar, lo que conlleva a la concreción de la inspección inicial del riesgo. 
           .col-7.col-lg-4
             figure
@@ -130,7 +129,6 @@
       .p-4.py-md-5(titulo="Condiciones particulares" :icono="require('@/assets/curso/temas/tema-2/tema2-img11.svg')")
         .row.justify-content-center
           .col-md-8.mb-4.mb-md-0.mt-5.p-5
-            h2 Requisitos
             p.mt-5 Se identifican requisitos que permiten identificar los atributos de los riesgos asegurables en el sector asegurador, los cuales deben ser tenidos en cuenta ante la evaluación del riesgo, aunque no sean obligatorios. 
             p Los riegos podrán ser asegurables de acuerdo con:
             .row
@@ -149,7 +147,6 @@
       .p-4.py-md-5(titulo="Condiciones especiales" :icono="require('@/assets/curso/temas/tema-2/tema2-img13.svg')")
         .row.justify-content-center
           .col-md-8.mb-4.mb-md-0.mt-5.p-5
-            h2 Condiciones especiales
             p.mt-5 Las condiciones especiales permiten regular y focalizar el alcance de las garantías que proporciona el asegurador en el seguro principal y para cada una de las coberturas complementarias. Es entonces que se pueden incluir o excluir garantías u otras situaciones que modifiquen lo indicado, inicialmente, en las condiciones generales. 
             .row
               ul.lista-ul
@@ -187,8 +184,6 @@
           .col-7.col-lg-4
             figure
               img(src='@/assets/curso/temas/tema-2/tema2-img14.svg', alt='Texto que describa la imagen')
-   
-
 
 
     .row.mt-5
@@ -235,15 +230,15 @@
           img(src='@/assets/curso/temas/tema-2/tema2-img18.svg', alt='Texto que describa la imagen')
 
       .tarjeta.color-primario.p-3(x="68%" y="17%" numero="")
-        .h5.mb-2 Datos generales:
+        .h5.mb-2 Datos generales
         p Se ingresan los datos generales: el código de la póliza, el NIT del tomador, el valor de la cobertura.
 
       .tarjeta.color-primario.p-3(x="75.5%" y="48%" numero="")
-        .h5.mb-2 Datos personales:
+        .h5.mb-2 Datos personales
         p Se ingresan los datos personales: apellidos, nombres, tipo de identificación y demás datos personales.
 
       .tarjeta.color-primario.p-3(x="68%" y="79%" numero="")
-        .h5.mb-2 Datos del beneficiario:
+        .h5.mb-2 Datos del beneficiario
         p Se ingresan los datos del beneficiario: quién o quiénes son los beneficiarios.
       
       .tarjeta.color-primario.p-3(x="31.8%" y="79%" numero="")
@@ -252,12 +247,12 @@
         p Asimismo, si ha tenido incapacidad u hospitalización por más de 60 días.
 
       .tarjeta.color-primario.p-3(x="24.3%" y="48%" numero="")
-        .h5.mb-2 Seguimiento médico:
-        p Se refiere a la tabla seguida del punto 4. Se debe precisar la información de las enfermedades que padece, informando el nombre del médico, la institución médica, la fecha y la causa.
+        .h5.mb-2 Seguimiento médico
+        p Se debe precisar la información de las enfermedades que padece, informando el nombre del médico, la institución médica, la fecha y la causa.
       
       .tarjeta.color-primario.p-3(x="32%" y="17%" numero="")
-        .h5.mb-2 Firma y huella:
-        p Finalmente, debe firmar con identificación, la fecha y la huella dactilar
+        .h5.mb-2 Firma y huella
+        p Finalmente, debe firmar con identificación, la fecha y la huella dactilar.
 
 
     .row.justify-content-around.align-items-centerrd.mt-5
@@ -297,15 +292,15 @@
 
   .container.tarjeta.tarjeta.tarjeta--blanca3.bgr-fondo-banner-tm2.p-4.p-md-5.mb-5
 
-    .row.mt-5
-      h3 Componentes de las pólizas
+
 
     .row.justify-content-around.align-items-center.mt-3
       .row.justify-content-around.align-items-center
         .col-lg-7.sm-10
-          p.mt-5 En general, las pólizas, en sus estructuras, se dividen en dos componentes o condiciones: las condiciones generales y las condiciones particulares.
+          h3 Componentes de las pólizas
+          p En general, las pólizas, en sus estructuras, se dividen en dos componentes o condiciones: las condiciones generales y las condiciones particulares.
           h3 Condiciones generales
-          p.mt-5 Hacen referencia a los textos que se incluyen en las pólizas, que contienen las regulaciones y las consideraciones propias del contrato; para establecer las condiciones generales, se debe contar mínimo con los siguientes puntos: la cobertura y el objeto asegurado, elementos de alteración o agravación del riesgo, exclusiones, declaraciones del asegurado, terminación, prima, comunicación entre las partes, y que incluyan los aspectos que permiten regular el contrato y que no sean condiciones 
+          p Hacen referencia a los textos que se incluyen en las pólizas, que contienen las regulaciones y las consideraciones propias del contrato; para establecer las condiciones generales, se debe contar mínimo con los siguientes puntos: la cobertura y el objeto asegurado, elementos de alteración o agravación del riesgo, exclusiones, declaraciones del asegurado, terminación, prima, comunicación entre las partes, y que incluyan los aspectos que permiten regular el contrato y que no sean condiciones particulares.
         .col-lg-5.sm-10.my-5
           figure
             img(src='@/assets/curso/temas/tema-2/tema2-img21.png', alt='Texto que describa la imagen').imagen-decorativa-1
