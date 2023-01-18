@@ -11,7 +11,7 @@
       .col-lg-7
         p Los encargados de las áreas comerciales suelen enfrentarse, día a día, con dos situaciones a la hora de realizar el informe de ventas. En primer lugar, no cuentan con datos, y en segundo, por el contrario, cuentan con una sobrecarga de información comercial.
         .cajon.bgr-tarjeta-2.p-3
-          p Actualmente, con las capacidades y beneficios de un CRM (Customer Relationship Management, o Gestión de las relaciones con clientes) y los avances tecnológicos en ventas, se puede segmentar, parametrizar y analizar una gran cantidad de datos comerciales de muchas formas, para poder acceder a datos como:
+          p Actualmente, con las capacidades y beneficios de un CRM (#[i Customer Relationship Management], o Gestión de las relaciones con clientes) y los avances tecnológicos en ventas, se puede segmentar, parametrizar y analizar una gran cantidad de datos comerciales de muchas formas, para poder acceder a datos como:
       .col-lg-5
         figure
           img(src='@/assets/curso/temas/tema-3/tema3-img1.svg', alt='Texto que describa la imagen')
@@ -23,37 +23,37 @@
           .row.justify-content-center.mb-3
             .col-lg-8
               img(src='@/assets/curso/temas/tema-3/tema3-img2.1.svg' alt='AvatarTop')
-          p.text-center Los ingresos de ventas semanales
+          p.text-center Los ingresos de ventas semanales.
       .col-6.col-lg-2
         .tarjeta.bgr-tarjeta-11.p-4.mt-3
           .row.justify-content-center.mb-3
             .col-8.col-lg-8
               img(src='@/assets/curso/temas/tema-3/tema3-img2.2.svg' alt='AvatarTop')
-          p.text-center La cantidad de llamadas realizadas por los vendedores
+          p.text-center La cantidad de llamadas realizadas por los vendedores.
       .col-6.col-lg-2
         .tarjeta.bgr-tarjeta-11.p-4.mt-3
           .row.justify-content-center.mb-3
             .col-8.col-lg-8
               img(src='@/assets/curso/temas/tema-3/tema3-img2.3.svg' alt='AvatarTop')
-          p.text-center.mt-4.mb-4 Las visitas comerciales a las empresas clientes
+          p.text-center.mt-4.mb-4 Las visitas comerciales a las empresas clientes.
       .col-6.col-lg-2
         .tarjeta.bgr-tarjeta-11.p-4.mt-3
           .row.justify-content-center.mb-3
             .col-8.col-lg-8
               img(src='@/assets/curso/temas/tema-3/tema3-img2.4.svg' alt='AvatarTop')
-          p.text-center Los incrementos de la cuota de mercado
+          p.text-center Los incrementos de la cuota de mercado.
       .col-6.col-lg-2
         .tarjeta.bgr-tarjeta-11.p-4.mt-3
           .row.justify-content-center.mb-3
             .col-8.col-lg-8
               img(src='@/assets/curso/temas/tema-3/tema3-img2.5.svg' alt='AvatarTop')
-          p.text-center.mt-4.mb-4 La tasa media de conversión de oportunidades llevadas a ventas
+          p.text-center.mt-4.mb-4 La tasa media de conversión de oportunidades llevadas a ventas.
       .col-6.col-lg-2
         .tarjeta.bgr-tarjeta-11.p-4.mt-3
           .row.justify-content-center.mb-3
             .col-8.col-lg-8
               img(src='@/assets/curso/temas/tema-3/tema3-img2.6.svg' alt='AvatarTop')
-          p.text-center Los indicadores de fidelidad y la retención del cliente
+          p.text-center Los indicadores de fidelidad y la retención del cliente.
      
     .row.my-5
         h3 Participaciones en ventas y siniestros
@@ -68,7 +68,7 @@
         .row
           .col-md-5.mb-4.mb-md-0
             h4.mt-5 Importancia de un análisis de ventas
-            p.mt-5 El análisis de ventas debe centrarse en mejorar y desarrollar una estrategia para hacer crecer el rendimiento de las ventas, tanto a corto como a largo plazo. Un ejemplo común de una actividad de análisis de ventas es establecer objetivos específicos para que el equipo de ventas lo pueda concretar en forma de indicadores de ventas. La importancia se verá reflejada en la mejora de las ventas y una mejor gestión en las actividades de las mismas.
+            p.mt-5 El análisis de ventas debe centrarse en mejorar y desarrollar una estrategia para hacer crecer el rendimiento de las ventas tanto a corto, como a largo plazo. Un ejemplo común de una actividad de análisis de ventas es establecer objetivos específicos para que el equipo de ventas lo pueda concretar en forma de indicadores de ventas. La importancia se verá reflejada en la mejora de las ventas y una mejor gestión en las actividades de las mismas.
 
           .col-md-7
             figure
@@ -76,7 +76,7 @@
         .row
           .col-md-5.mb-4.mb-md-0
             h4.mt-5 El informe de ventas y su contenido
-            p El reporte de ventas es un informe que contribuye con las empresas para disponer de una clara gestión de resultados de sus operaciones comerciales. El objetivo de los informes de ventas con base en información del volumen de ventas y la gestión de los asesores comerciales, se fundamenta en la toma de decisiones oportunas y acertadas para una mejor gestión en las ventas. 
+            p El reporte de ventas es un informe que contribuye con las empresas para disponer de una clara gestión de resultados de sus operaciones comerciales. El objetivo de los informes de ventas con base en información del volumen de ventas y la gestión de los asesores comerciales, se fundamenta en la toma de decisiones oportunas y acertadas para una mejor gestión en las ventas.
 
           .col-md-7
             figure
@@ -125,8 +125,8 @@
           img(src='@/assets/curso/temas/tema-3/tema3-img6.1.svg', alt='Texto que describa la imagen')
 
       .col-lg-9         
-        TabsA.color-secundario.mt-5
-          .tarjeta.color-secundario--borde.p-4(titulo="Resumen de ventas")
+        TabsA.color-primario.mt-5
+          .tarjeta.color-primario--borde.p-4(titulo="Resumen de ventas")
             .row
               .col-lg-4.mt-4
                 figure
@@ -142,7 +142,7 @@
                   img(src='@/assets/curso/temas/tema-3/tema3-img7.png', alt='Texto que describa la imagen')
               .col-lg-8
                 h2.mt-4 Ganancias y pérdidas
-                p.mt-3 Un estado de ganancias y pérdidas permite conocer, de primera mano, la situación general de las finanzas y los rendimientos de las operaciones comerciales; asimismo, es posible conocer las proyecciones de las inversiones y gastos de la gestión comercial. 
+                p.mt-3 Un estado de ganancias y pérdidas permite conocer, de primera mano, la situación general de las finanzas y los rendimientos de las operaciones comerciales; asimismo, es posible conocer las proyecciones de las inversiones y gastos de la gestión comercial.
 
           .tarjeta.color-secundario--borde.p-4(titulo="Información de los clientes")
             .row
@@ -156,15 +156,17 @@
 
       .row
         p.mt-5 Los informes de ventas son cada vez más fáciles de elaborar con la ayuda de herramientas informáticas basadas en hojas de cálculo (Excel, Drive); se inicia con la organización de la información y luego se procede con el análisis y presentación de los mismos.
+        p Lo invitamos a ver el siguiente video, donde se nos amplía la temática sobre los informes de ventas:
+      
       figure
         .video
           iframe(width="560" height="315" src="https://www.youtube.com/embed/WTJVA2dsEeo" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
         figcaption VIDEO: ¿Cómo se hace un informe de ventas?
         
       .row.justify-content-center.mt-5
-        .col-lg-6
+        .col-lg-8
           .cajon.bgr-tarjeta-2.p-3
-            p.mt-3 Recuerde explorar los demás recursos que se encuentran disponibles en este componente formativo, para ello diríjase al menú principal en donde encontrará la síntesis, una actividad didáctica, material complementario, entre otros.
+            p.mt-3 Recuerde explorar los demás recursos que se encuentran disponibles en este componente formativo, para ello, diríjase al menú principal donde encontrará la síntesis, una actividad didáctica, material complementario,  entre otros. 
 
  
 </template>

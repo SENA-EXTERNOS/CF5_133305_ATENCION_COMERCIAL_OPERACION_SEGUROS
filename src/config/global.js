@@ -145,12 +145,35 @@ export default {
   },
   complementario: [
     {
-      tema: 'Componentes',
+      tema: 'Manuales de suscripción',
       referencia:
-        ' Decreto 410 de 1971. Por el cual se expide el Código de Comercio. 27 de marzo de 1971. D.O. No. 33.339.',
+        'Decreto 410 de 1971. [Presidencia de la República]. Por el cual se expide el Código de Comercio. Marzo 27 de 1971. D.O. No. 33.339.',
       tipo: 'Norma',
       link:
-        'https://www.funcionpublica.gov.co/eva/gestornormativo/norma_pdf.php?i=41102',
+        'https://www.funcionpublica.gov.co/eva/gestornormativo/norma.php?i=41102',
+    },
+    {
+      tema: 'Manuales de suscripción',
+      referencia:
+        'Jaramillo, C. (2015). <em>Derecho de seguros y reaseguros</em>.',
+      tipo: 'Publicación',
+      link:
+        'https://www.javeriana.edu.co/documents/3722972/4273110/preliminares/356bca64-dcbb-45d4-a089-2798d4324203',
+    },
+    {
+      tema: 'Manuales de suscripción',
+      referencia:
+        'Asesor Empresario - ASESUISA El Salvador (2022). <em>Metodología - "Que debe de incluir una propuesta comercial exitosa</em>" [video].',
+      tipo: 'Video',
+      link: 'https://www.youtube.com/watch?v=iACzc6PyxYE',
+    },
+    {
+      tema: 'Manuales de suscripción',
+      referencia:
+        'Fasecolda (s.f.). <em>Guía de seguros – ABC del Seguro</em>.',
+      tipo: 'PDF',
+      link:
+        'https://fasecolda.com/cms/wp-content/uploads/2019/08/gua-de-seguros-abc-del-seguro.pdf',
     },
   ],
   glosario: [
@@ -232,50 +255,44 @@ export default {
   referencias: [
     {
       referencia:
-        'Fasecolda. (s.f.). Guía de seguros – ABC del Seguro. Fasecolda.',
+        'Federación de Aseguradores Colombianos (s.f.).  <em>Guía de seguros – ABC del Seguro</em>.',
       link:
         'https://fasecolda.com/cms/wp-content/uploads/2019/08/gua-de-seguros-abc-del-seguro.pdf',
     },
     {
       referencia:
-        'Jaramillo Jaramillo, C., & Sánchez Calero, F. (2012). Derecho de seguros. Pontificia Universidad Javeriana.',
-
-      link: '',
+        'Jaramillo, C. (2015). <em>Derecho de seguros y reaseguros</em>.',
+      link:
+        'https://www.javeriana.edu.co/documents/3722972/4273110/preliminares/356bca64-dcbb-45d4-a089-2798d4324203',
     },
     {
       referencia:
-        'Ley 80 de 1993. Por la cual se expide el Estatuto General de Contratación de la Administración Pública. 8 de Octubre de 1993.D.O 41.094.',
-
+        'Ley 80 de 1993. Por la cual se expide el Estatuto General de Contratación de la Administración Pública. Octubre 8 de 1993. D.O 41.094.',
       link:
         'https://www.funcionpublica.gov.co/eva/gestornormativo/norma.php?i=304',
     },
     {
       referencia:
-        'Mejía Delgado, H. (2012). Seguros y finanzas para la familia. Ecoe Ediciones.',
-
+        'Mejía, H. (2012). <em>Seguros y finanzas para la familia</em>. Ecoe Ediciones.',
       link: '',
     },
     {
       referencia:
-        'Mejía Quijano, R. (2013). Identificación de riesgos. Editorial - Universidad EAFIT.',
-
+        'Mejía, R. (2013). <em>Identificación de riesgos</em>. Editorial Universidad EAFIT.',
       link: '',
     },
     {
       referencia:
-        'Narváez Bonnet, J. (2011). El seguro de cumplimiento de contratos y obligaciones. Pontificia Universidad Javeriana.',
-
+        'Narváez, J. (2011). <em>El seguro de cumplimiento de contratos y obligaciones</em>. Pontificia Universidad Javeriana.',
       link: '',
     },
     {
       referencia:
-        'Palacios Sánchez, F. (2012). El seguro. Universidad de La Sabana.',
-
+        'Palacios, F. (2012). <em>El seguro</em>. Universidad de La Sabana.',
       link: '',
     },
     {
-      referencia: 'Si Seguros. (s.f). Contrato de seguros.',
-
+      referencia: 'Sí Seguros (s.f). <em>Contrato de seguros. Siseguros</em>.',
       link: 'https://www.siseguros.com.mx/WikiSeguros/Contrato-De-Seguros.php',
     },
   ],

@@ -19,59 +19,46 @@
             img(src='@/assets/curso/temas/tema-1/tema1-img1.svg', alt='Texto que describa la imagen')
 
     .row.my-5
-      p A continuación, se presentan algunas funciones de las partes que conforman un contrato de seguro:
-
+      p A continuación, se presentan algunas funciones de las partes que conforman un contrato de seguro.
 
     .row.justify-content-around.align-items-center
       .col-lg-8(data-aos="fade-up")
         figure
-          img(src='@/assets/curso/temas/tema-1/tema1-img2.png', alt='Texto que describa la imagen')
+          img(src='@/assets/curso/temas/tema-1/img1.svg', alt='Texto que describa la imagen')
     .row.mt-5.mb-5
       p La expedición de una póliza se puede expresar como: serie de acciones y procedimientos que se llevan a cabo para que la empresa aseguradora apruebe o acepte tomar el riesgo manifiesto. Como resultado de esta acción, se definen las condiciones y la prima del seguro.
       p.mt-4 Algunas de las funciones propias de los departamentos responsables de la emisión de pólizas dentro de las compañías aseguradoras, son las que veremos a continuación:          
 
-    .row.mt-5.justify-content-center
-      .col-8.col-lg-3.mt-3(data-aos="fade-left")
-        .tarjeta.tarjeta-slide.arriba.color-acento-contenido(@mouseover="indicadorTarjetaSlide = false").tarjeta-verde
-          .indicador--hover(v-if="indicadorTarjetaSlide")
-          .tarjeta-slide__contenedor
-            .tarjeta-slide__img(:style="{'background-image': `url(${require('@/assets/curso/temas/tema-1/tema1-img3.svg')})`}")
-            .tarjeta-slide__contenido.p-4.p-xl-4
-              figure
-                img(src='@/assets/curso/temas/tema-1/tema1-img3.1.svg', alt='Texto que describa la imagen').img.tarjeta-tema-1
-              h4.mt-3.text-center Creación de normas y políticas
-              p.text-center Creación de normas y políticas de expedición en cada rama de los seguros.
+    
+    SlyderF(columnas="col-lg-6 col-xl-4")
+      .tarjeta.color-acento-contenido.p-4.height-tarjeta
+        .row.justify-content-center.mb-3
+          .col-8
+            img(src='@/assets/curso/temas/tema-1/img2.svg' alt='AvatarTop')
+        h3.text-center Creación de normas y políticas
+        p.text-center Creación de normas y políticas de expedición en cada rama de los seguros.
 
-      .col-8.col-lg-3.mt-3(data-aos="fade-up")
-        .tarjeta.tarjeta-slide.arriba.color-acento-contenido(@mouseover="indicadorTarjetaSlide = false").tarjeta-verde
-          .tarjeta-slide__contenedor
-            .tarjeta-slide__img(:style="{'background-image': `url(${require('@/assets/curso/temas/tema-1/tema1-img4.svg')})`}")
-            .tarjeta-slide__contenido.p-4.p-xl-4
-              figure
-                img(src='@/assets/curso/temas/tema-1/tema1-img4.1.svg', alt='Texto que describa la imagen').img.tarjeta-tema-1
-              h4.mt-3.text-center Definición de normas             
-              p.text-center Definir las normas que permitan describir los suplementos de los seguros.
+      .tarjeta.color-acento-contenido.p-4.height-tarjeta
+        .row.justify-content-center.mb-3
+          .col-8
+            img(src='@/assets/curso/temas/tema-1/img3.svg' alt='AvatarTop')
+        h3.text-center Definición de normas
+        p.text-center Definir las normas que permitan describir los suplementos de los seguros.
 
-      .col-8.col-lg-3.mt-3(data-aos="fade-up")
-        .tarjeta.tarjeta-slide.arriba.color-acento-contenido(@mouseover="indicadorTarjetaSlide = false").tarjeta-verde
-          .tarjeta-slide__contenedor
-            .tarjeta-slide__img(:style="{'background-image': `url(${require('@/assets/curso/temas/tema-1/tema1-img5.svg')})`}")
-            .tarjeta-slide__contenido.p-4.p-xl-4
-              figure
-                img(src='@/assets/curso/temas/tema-1/tema1-img5.1.svg', alt='Texto que describa la imagen').img.tarjeta-tema-1
-              h4.mt-3.text-center Vigilancia y monitoreo
-              p.text-center Vigilar y monitorear que se cumplan las normas de expedición, antes que sea aceptado el riesgo.
+      .tarjeta.color-acento-contenido.p-4.height-tarjeta
+        .row.justify-content-center.mb-3
+          .col-8
+            img(src='@/assets/curso/temas/tema-1/img4.svg' alt='AvatarTop')
+        h3.text-center Vigilancia y monitoreo
+        p.text-center Vigilar y monitorear que se cumplan las normas de expedición, antes que sea aceptado el riesgo.
 
-      .col-8.col-lg-3.mt-3(data-aos="fade-right")
-        .tarjeta.tarjeta-slide.arriba.color-acento-contenido(@mouseover="indicadorTarjetaSlide = false").tarjeta-verde
-          .tarjeta-slide__contenedor
-            .tarjeta-slide__img(:style="{'background-image': `url(${require('@/assets/curso/temas/tema-1/tema1-img6.svg')})`}")
-            .tarjeta-slide__contenido.p-4.p-xl-4
-              figure
-                img(src='@/assets/curso/temas/tema-1/tema1-img6.1.svg', alt='Texto que describa la imagen').img.tarjeta-tema-1
-              h4.mt-3.text-center Ofrecimiento de alternativas
-              p.text-center Ofrecer alternativas de atención al cliente, derivadas de la interpretación de las condiciones generales y particulares, propias de la póliza.
-
+      .tarjeta.color-acento-contenido.p-4.height-tarjeta
+        .row.justify-content-center.mb-3
+          .col-8
+            img(src='@/assets/curso/temas/tema-1/img5.svg' alt='AvatarTop')
+        h3.text-center Ofrecimiento de alternativas
+        p.text-center Ofrecer alternativas de atención al cliente, derivadas de la interpretación de las condiciones generales y particulares, propias de la póliza.
+    
     .row.mt-5
       p.mt-5 Son diversas las razones que una aseguradora utiliza para aceptar asegurar un riesgo, y entre estas se encuentran los elementos fundamentales para la expedición de la póliza: el riesgo, la cobertura y el valor asegurable.
       p.mt-3 Los elementos para identificar, con claridad, por parte de las empresas aseguradoras al expedir las pólizas son:
@@ -104,7 +91,8 @@
 
 
     .row.mt-5
-      p En la contratación, de modalidades en seguros, se hace necesario llevar a cabo una serie de requerimientos denominados #[strong normas de contratación.] Estas normas son las que permiten regular las condiciones para la suscripción de la póliza, aportando como resultado, el cubrimiento correcto del riesgo del objeto que va a ser asegurado.         
+      p En la contratación, de modalidades en seguros, se hace necesario llevar a cabo una serie de requerimientos denominados normas de contratación. Estas normas son las que permiten regular las condiciones para la suscripción de la póliza, aportando como resultado, el cubrimiento correcto del riesgo del objeto que va a ser asegurado. 
+
     separador
 
     #t_1_1
@@ -114,7 +102,7 @@
 
     .row.mt-5
       p En un contrato de seguro se destacan elementos esenciales contemplados en el Código de Comercio, artículo 1045. Sin la aplicación de alguno de estos elementos, el contrato no tiene efecto alguno.
-      p.mt-5 Los componentes de un contrato de seguros son: 
+      p.mt-5 Los componentes de un contrato de seguros son:
     .row.justify-content-center.mt-5
       .col-6.col-lg-4.mb-3(data-aos="fade-right")
         figure
@@ -152,14 +140,12 @@
       h5 Tipos de indemnizaciones
 
 
-    .row.mt-5
+    .row.mt-3
       p Un seguro es un servicio que se contrata con una compañía o empresa de seguros; en caso de sufrir un riesgo como un daño o pérdida de bienes, muerte, enfermedad, la aseguradora ayuda a restablecer la situación para hacerla llevadera, debido al pago en dinero o indemnización. El monto será pagado, o el beneficio será otorgado por la compañía de seguros, a la persona que presente una reclamación después de haber ocurrido el riesgo, el daño o la pérdida.
-    .row.mt-5
+    .row
       p Los tipos de indemnizaciones que se presentan en contratos de seguros, se describen a continuación:
 
-
-
-    .row.justify-content-center.mb-5.mt-5
+    .row.justify-content-center.mb-5.mt-3
       .col-11.col-lg-4.mb-4
         .crd_hover_txt(data-aos="flip-left")
           .crd_hover_txt--img
@@ -213,7 +199,7 @@
       .p-4.py-md-5(titulo="Condiciones generales" :icono="require('@/assets/curso/temas/tema-1/tema1-img13.svg')")
         .row.justify-content-center
           .col-md-8.mb-4.mb-md-0.mt-5.p-4
-            p.mt-5 Se refieren al establecimiento de los principios básicos por parte del asegurador, de manera que se regulen los contratos que hacen parte del mismo ramo, es decir, los elementos referidos al objeto del seguro, su extensión, los riesgos excluidos, manera de liquidación de los siniestros, cobro de los recibos, las indemnizaciones, las comunicaciones, la subrogación, la jurisdicción, entre otros.    
+            p.mt-5 Se refieren al establecimiento de los principios básicos por parte del asegurador, de manera que se regulen los contratos que hacen parte del mismo ramo, es decir, los elementos referidos al objeto del seguro, su extensión, los riesgos excluidos, manera de liquidación de los siniestros, cobro de los recibos, las indemnizaciones, las comunicaciones, la subrogación, la jurisdicción, entre otros.
           .col-7.col-lg-4
             figure
               img(src='@/assets/curso/temas/tema-1/tema1-img14.svg', alt='Texto que describa la imagen')
@@ -249,7 +235,7 @@
       .p-4.py-md-5(titulo="Condiciones especiales" :icono="require('@/assets/curso/temas/tema-1/tema1-img17.svg')")
         .row.justify-content-center
           .col-md-8.mb-4.mb-md-0.mt-5.p-4
-            p.mt-5 Las condiciones especiales permiten regular y focalizar el alcance de las garantías que proporciona el asegurador en el seguro principal y para cada una de las coberturas complementarias. Es entonces que se pueden incluir o excluir garantías u otras situaciones que modifiquen lo indicado, inicialmente, en las condiciones generales. 
+            p.mt-5 Las condiciones especiales permiten regular y focalizar el alcance de las garantías que proporciona el asegurador en el seguro principal y para cada una de las coberturas complementarias. Es entonces que se pueden incluir o excluir garantías u otras situaciones que modifiquen lo indicado, inicialmente, en las condiciones generales.
           .col-7.col-lg-4
             figure
               img(src='@/assets/curso/temas/tema-1/tema1-img18.svg', alt='Texto que describa la imagen')
@@ -264,7 +250,7 @@
               .row.justify-content-between.align-items-center
                 .col.mb-3.mb-sm-0
                   h3.mb-1 Tipos de Pólizas
-                  p Para conocer los diferentes tipos de pólizas, lo invitamos a leer el siguiente documento:
+                  p Para conocer los diferentes tipos de pólizas, lo invitamos a leer el documento “tipos de Pólizas”.
                 .col-sm-auto
                   a.boton.color-acento-botones.texto-blanco(:href="obtenerLink('/downloads/Tipos_de_Pólizas.pdf')" target="_blank")
                     span Descargar

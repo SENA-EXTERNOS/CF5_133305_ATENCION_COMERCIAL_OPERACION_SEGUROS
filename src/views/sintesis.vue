@@ -4,8 +4,8 @@
   .container.tarjeta.tarjeta--blanca.p-4.p-md-5
 
 
-    p.mt-5 El componente presentado, ha expuesto a través de un recorrido por la temática de manuales de suscripción de pólizas, la inspección del riesgo y la elaboración de los informes finales de la gestión comercial. En este sentido, se ilustra un mapa conceptual que se encuentra estructurado en dos bloques; el primero, describe los contenidos del componente: suscripción de las pólizas, informe de los riesgos y la elaboración de los informes; en el segundo bloque, se presentan los resultados esperados en toda la temática expuesta.
-
+    p.mt-5 El siguiente mapa integra los criterios y especificidades de los conocimientos expuestos en el presente componente formativo.
+    
     .row.justify-content-center
       .col-lg-10.mb-5
         figure
