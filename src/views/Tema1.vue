@@ -282,7 +282,7 @@
               .col-xl-9
                 p.mt-3 Se aplica la cobertura de salud cuando se solicite o amerite su utilización y, adicionalmente, cubre los gastos médicos ocasionados.
 
-          .tarjeta.color-primario--borde.p-4(titulo="Seguros de accidentes de personas")
+          .tarjeta.color-primario--borde.p-4(titulo="Seguros de accidentes<br> de personas")
             .row.justify-content-center
               .col-6.col-lg-3.mb-3
                 figure

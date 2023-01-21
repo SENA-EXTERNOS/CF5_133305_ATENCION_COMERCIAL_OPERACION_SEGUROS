@@ -155,7 +155,7 @@
 
 
       .row
-        p.mt-5 Los informes de ventas son cada vez más fáciles de elaborar con la ayuda de herramientas informáticas basadas en hojas de cálculo (Excel, Drive); se inicia con la organización de la información y luego se procede con el análisis y presentación de los mismos.
+        p.mt-5 Los informes de ventas son cada vez más fáciles de elaborar con la ayuda de herramientas informáticas basadas en hojas de cálculo (Excel, Drive); se inicia con la organización de la información y luego se procede con el análisis y presentación de los mismos. Lo invitamos a ver el siguiente video, donde se nos amplía la temática sobre los informes de ventas.
         p Lo invitamos a ver el siguiente video, donde se nos amplía la temática sobre los informes de ventas:
       
       figure
