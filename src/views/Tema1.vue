@@ -198,7 +198,7 @@
     TabsB.color-acento-contenido.bgr-tarjeta-10
       .p-4.py-md-5(titulo="Condiciones generales" :icono="require('@/assets/curso/temas/tema-1/tema1-img13.svg')")
         .row.justify-content-center
-          .col-md-8.mb-4.mb-md-0.mt-5.p-4
+          .col-md-8.mb-4.mb-md-0.p-4
             p.mt-5 Se refieren al establecimiento de los principios básicos por parte del asegurador, de manera que se regulen los contratos que hacen parte del mismo ramo, es decir, los elementos referidos al objeto del seguro, su extensión, los riesgos excluidos, manera de liquidación de los siniestros, cobro de los recibos, las indemnizaciones, las comunicaciones, la subrogación, la jurisdicción, entre otros.
           .col-7.col-lg-4
             figure
@@ -206,8 +206,8 @@
 
       .p-4.py-md-5(titulo="Condiciones particulares" :icono="require('@/assets/curso/temas/tema-1/tema1-img15.svg')")
         .row.justify-content-center
-          .col-md-8.mb-4.mb-md-0.mt-5.p-4
-            p.mt-5 A continuación se describen los elementos de las condiciones particulares con respecto al riesgo individual:
+          .col-md-8.mb-4.mb-md-0.p-4
+            p A continuación se describen los elementos de las condiciones particulares con respecto al riesgo individual:
             .row
               ul.lista-ul
                 li
@@ -234,7 +234,7 @@
 
       .p-4.py-md-5(titulo="Condiciones especiales" :icono="require('@/assets/curso/temas/tema-1/tema1-img17.svg')")
         .row.justify-content-center
-          .col-md-8.mb-4.mb-md-0.mt-5.p-4
+          .col-md-8.mb-4.mb-md-0.p-4
             p.mt-5 Las condiciones especiales permiten regular y focalizar el alcance de las garantías que proporciona el asegurador en el seguro principal y para cada una de las coberturas complementarias. Es entonces que se pueden incluir o excluir garantías u otras situaciones que modifiquen lo indicado, inicialmente, en las condiciones generales.
           .col-7.col-lg-4
             figure

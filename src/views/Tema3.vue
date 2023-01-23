@@ -144,7 +144,7 @@
                 h2.mt-4 Ganancias y pérdidas
                 p.mt-3 Un estado de ganancias y pérdidas permite conocer, de primera mano, la situación general de las finanzas y los rendimientos de las operaciones comerciales; asimismo, es posible conocer las proyecciones de las inversiones y gastos de la gestión comercial.
 
-          .tarjeta.color-secundario--borde.p-4(titulo="Información de los clientes")
+          .tarjeta.color-secundario--borde.p-4(titulo="Información de los<br> clientes")
             .row
               .col-lg-4.mt-4
                 figure
