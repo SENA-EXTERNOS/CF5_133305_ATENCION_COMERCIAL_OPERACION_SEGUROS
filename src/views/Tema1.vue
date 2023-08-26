@@ -31,28 +31,28 @@
 
     
     SlyderF(columnas="col-lg-6 col-xl-4")
-      .tarjeta.color-acento-contenido.p-4.height-tarjeta
+      .tarjeta.color-acento-contenido.p-4.h-100
         .row.justify-content-center.mb-3
           .col-8
             img(src='@/assets/curso/temas/tema-1/img2.svg' alt='AvatarTop')
         h3.text-center Creación de normas y políticas
         p.text-center Creación de normas y políticas de expedición en cada rama de los seguros.
 
-      .tarjeta.color-acento-contenido.p-4.height-tarjeta
+      .tarjeta.color-acento-contenido.p-4.h-100
         .row.justify-content-center.mb-3
           .col-8
             img(src='@/assets/curso/temas/tema-1/img3.svg' alt='AvatarTop')
         h3.text-center Definición de normas
         p.text-center Definir las normas que permitan describir los suplementos de los seguros.
 
-      .tarjeta.color-acento-contenido.p-4.height-tarjeta
+      .tarjeta.color-acento-contenido.p-4.h-100
         .row.justify-content-center.mb-3
           .col-8
             img(src='@/assets/curso/temas/tema-1/img4.svg' alt='AvatarTop')
         h3.text-center Vigilancia y monitoreo
         p.text-center Vigilar y monitorear que se cumplan las normas de expedición, antes que sea aceptado el riesgo.
 
-      .tarjeta.color-acento-contenido.p-4.height-tarjeta
+      .tarjeta.color-acento-contenido.p-4.h-100
         .row.justify-content-center.mb-3
           .col-8
             img(src='@/assets/curso/temas/tema-1/img5.svg' alt='AvatarTop')
@@ -145,8 +145,8 @@
     .row
       p Los tipos de indemnizaciones que se presentan en contratos de seguros, se describen a continuación:
 
-    .row.justify-content-center.mb-5.mt-3
-      .col-11.col-lg-4.mb-4
+    .row.justify-content-center.mt-3
+      .col-11.col-lg-6.my-4
         .crd_hover_txt(data-aos="flip-left")
           .crd_hover_txt--img
             figure
@@ -155,7 +155,7 @@
             h4.mb-3 Indemnización pactada 
             p.mb-0 Daño reparado en donde las partes acuerdan, conjuntamente, el valor de una cuantía.
 
-      .col-11.col-lg-4.mb-4
+      .col-11.col-lg-6.my-4
         .crd_hover_txt(data-aos="flip-left")
           .crd_hover_txt--img
             figure
@@ -164,7 +164,7 @@
             h4.mb-3 Indemnización a tanto alzado
             p.mb-0 A tanto alzado es un pago fijado en una determinada cantidad, y se caracteriza por ser realizado antes de la obtención de un bien o la prestación de un servicio concreto.
 
-      .col-11.col-lg-4.mb-4
+      .col-11.col-lg-6.my-4
         .crd_hover_txt(data-aos="flip-left")
           .crd_hover_txt--img
             figure
@@ -207,7 +207,7 @@
       .p-4.py-md-5(titulo="Condiciones particulares" :icono="require('@/assets/curso/temas/tema-1/tema1-img15.svg')")
         .row.justify-content-center
           .col-md-8.mb-4.mb-md-0.p-4
-            p A continuación se describen los elementos de las condiciones particulares con respecto al riesgo individual:
+            p A continuación, se describen los elementos de las condiciones particulares con respecto al riesgo individual:
             .row
               ul.lista-ul
                 li
@@ -265,8 +265,8 @@
 
     .row.justify-content-center
       .col-10         
-        TabsA.color-primario.mt-5
-          .tarjeta.color-primario--borde.p-4(titulo="Seguro de dependencia")
+        TabsB.color-primario.mt-5
+          .tarjeta.color-primario--borde.p-4.my-4(titulo="Seguro de dependencia")
             .row.justify-content-center
               .col-6.col-lg-3.mb-3
                 figure
@@ -274,7 +274,7 @@
               .col-xl-9
                 p.mt-3 Tienen cobertura para los beneficiados con limitaciones físicas o psíquicas ya diagnosticadas, en el sentido que requieren de asistencia. 
 
-          .tarjeta.color-primario--borde.p-4(titulo="Seguros de salud")
+          .tarjeta.color-primario--borde.p-4.my-4(titulo="Seguros de salud")
             .row.justify-content-center
               .col-6.col-lg-3.mb-3
                 figure
@@ -282,14 +282,14 @@
               .col-xl-9
                 p.mt-3 Se aplica la cobertura de salud cuando se solicite o amerite su utilización y, adicionalmente, cubre los gastos médicos ocasionados.
 
-          .tarjeta.color-primario--borde.p-4(titulo="Seguros de accidentes<br> de personas")
+          .tarjeta.color-primario--borde.p-4.my-4(titulo="Seguros de accidentes<br> de personas")
             .row.justify-content-center
               .col-6.col-lg-3.mb-3
                 figure
                   img(src='@/assets/curso/temas/tema-1/tema1-img28.svg', alt='Texto que describa la imagen')
               .col-xl-9
                 p.mt-3 Esta cobertura se aplica al asegurado en caso de sufrir una lesión o alguna incapacidad por causa de un accidente, y además cuenta con la cobertura en caso de fallecer el asegurado.
-          .tarjeta.color-primario--borde.p-4(titulo="Seguros de vida")
+          .tarjeta.color-primario--borde.p-4.my-4(titulo="Seguros de vida")
             .row.justify-content-center
               .col-6.col-lg-3.mb-3
                 figure

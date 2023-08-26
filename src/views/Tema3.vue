@@ -119,34 +119,34 @@
       p.mt-3 Una de las consideraciones que se debe tener para gestionar adecuadamente la información, es la de realizar un reporte de ventas exitoso. Este puede presentar un panorama general o específico del negocio, el cual depende directamente de los objetivos y el tipo de registro que desea llevar y analizar.
       p.mt-3 Un informe de ventas debe incluir 3 elementos relevantes: 
     
-    .row.justify-content-center
+    .row.justify-content-center.align-items-center
       .col-6.col-lg-3
         figure
           img(src='@/assets/curso/temas/tema-3/tema3-img6.1.svg', alt='Texto que describa la imagen')
 
       .col-lg-9         
-        TabsA.color-primario.mt-5
-          .tarjeta.color-primario--borde.p-4(titulo="Resumen de ventas")
+        TabsC.color-primario
+          .tarjeta.color-primario--borde.p-4.mb-4(titulo="Resumen de ventas")
             .row
-              .col-lg-4.mt-4
+              .col-lg-4
                 figure
                   img(src='@/assets/curso/temas/tema-3/tema3-img6.png', alt='Texto que describa la imagen')
               .col-lg-8
                 h2.mt-4 Resumen de ventas
                 p.mt-3  Se presentan, de manera concreta, las ventas de la empresa por periodos, ya sea semanal, mensual, trimestral, semestral o anual. 
 
-          .tarjeta.color-secundario--borde.p-4(titulo="Ganancias y pérdidas")
+          .tarjeta.color-primario--borde.p-4.mb-4(titulo="Ganancias y pérdidas")
             .row
-              .col-lg-4.mt-3
+              .col-lg-4
                 figure
                   img(src='@/assets/curso/temas/tema-3/tema3-img7.png', alt='Texto que describa la imagen')
               .col-lg-8
                 h2.mt-4 Ganancias y pérdidas
                 p.mt-3 Un estado de ganancias y pérdidas permite conocer, de primera mano, la situación general de las finanzas y los rendimientos de las operaciones comerciales; asimismo, es posible conocer las proyecciones de las inversiones y gastos de la gestión comercial.
 
-          .tarjeta.color-secundario--borde.p-4(titulo="Información de los<br> clientes")
+          .tarjeta.color-primario--borde.p-4.mb-4(titulo="Información de los<br> clientes")
             .row
-              .col-lg-4.mt-4
+              .col-lg-4
                 figure
                   img(src='@/assets/curso/temas/tema-3/tema3-img8.png', alt='Texto que describa la imagen')
               .col-lg-8

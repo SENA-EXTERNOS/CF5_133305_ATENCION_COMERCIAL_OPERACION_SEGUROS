@@ -128,7 +128,7 @@
             figure
               img(src='@/assets/curso/temas/tema-2/tema2-img10.svg', alt='Texto que describa la imagen')
 
-      .p-4.py-md-5(titulo="Condiciones particulares" :icono="require('@/assets/curso/temas/tema-2/tema2-img11.svg')")
+      .p-4.py-md-5(titulo="Requisitos" :icono="require('@/assets/curso/temas/tema-2/tema2-img11.svg')")
         .row.justify-content-center
           .col-md-8.mb-4.mb-md-0.mt-5.p-5
             p.mt-5 Se identifican requisitos que permiten identificar los atributos de los riesgos asegurables en el sector asegurador, los cuales deben ser tenidos en cuenta ante la evaluación del riesgo, aunque no sean obligatorios. 
@@ -146,10 +146,10 @@
             figure
               img(src='@/assets/curso/temas/tema-2/tema2-img12.svg', alt='Texto que describa la imagen')
 
-      .p-4.py-md-5(titulo="Condiciones especiales" :icono="require('@/assets/curso/temas/tema-2/tema2-img13.svg')")
+      .p-4.py-md-5(titulo="Condiciones" :icono="require('@/assets/curso/temas/tema-2/tema2-img13.svg')")
         .row.justify-content-center
           .col-md-8.mb-4.mb-md-0.mt-5.p-5
-            p.mt-5 Las condiciones especiales permiten regular y focalizar el alcance de las garantías que proporciona el asegurador en el seguro principal y para cada una de las coberturas complementarias. Es entonces que se pueden incluir o excluir garantías u otras situaciones que modifiquen lo indicado, inicialmente, en las condiciones generales. 
+            p.mt-5 Para que un riesgo se pueda considerar asegurable, debe cumplir con las siguientes características:
             .row
               ul.lista-ul
                 li
@@ -194,7 +194,7 @@
       p.mt-5 Entre éstas tenemos:
 
     .row.justify-content-center.mb-5.mt-3
-      .col-11.col-lg-4.mb-4
+      .col-11.col-lg-6.my-4
         .crd_hover_txt(data-aos="flip-left")
           .crd_hover_txt--img
             figure
@@ -205,7 +205,7 @@
             p Según todas las condiciones descritas, acepta o no, la asegurabilidad del riesgo en cuestión.
 
 
-      .col-11.col-lg-4.mb-4
+      .col-11.col-lg-6.my-4
         .crd_hover_txt(data-aos="flip-left")
           .crd_hover_txt--img
             figure
@@ -214,7 +214,7 @@
             h4.mb-3 Declaración de asegurabilidad
             p.mb-0 Hace referencia a la información previa que el potencial asegurado informa a la aseguradora, a través de un formato (documento impreso o descargable en PDF), sobre el riesgo que afecta o podría afectar sus intereses asegurables. En el formato deben ser diligenciadas cada una de las amenazas identificadas, que puedan afectar a la persona.
 
-      .col-11.col-lg-4.mb-4
+      .col-11.col-lg-6.my-4
         .crd_hover_txt(data-aos="flip-left")
           .crd_hover_txt--img
             figure
@@ -227,33 +227,33 @@
       p La declaración de asegurabilidad, es un documento que hará parte integral del contrato en el cual se debe consignar, con total claridad y honestidad, todos los antecedentes médicos; en caso de encontrar diferencia o que no se ajuste a la realidad, será causa de anulación y, por consiguiente, no se podrá pagar, en ningún caso, alguna indemnización.
       p.mt-3 En la siguiente infografía, se dan a conocer los pasos para diligenciar correctamente el formato de declaración de asegurabilidad:
 
-    ImagenInfografica.mt-3
+    ImagenInfografica.color-primario.mt-3
       template(v-slot:imagen)
         figure
           img(src='@/assets/curso/temas/tema-2/tema2-img18.svg', alt='Texto que describa la imagen')
 
-      .tarjeta.color-primario.p-3(x="68%" y="17%" numero="")
+      .tarjeta.color-primario.p-3(x="67.5%" y="20%" numero="")
         .h5.mb-2 Datos generales
         p Se ingresan los datos generales: el código de la póliza, el NIT del tomador, el valor de la cobertura.
 
-      .tarjeta.color-primario.p-3(x="75.5%" y="48%" numero="")
+      .tarjeta.color-primario.p-3(x="67.6%" y="50.5%" numero="")
         .h5.mb-2 Datos personales
         p Se ingresan los datos personales: apellidos, nombres, tipo de identificación y demás datos personales.
 
-      .tarjeta.color-primario.p-3(x="68%" y="79%" numero="")
+      .tarjeta.color-primario.p-3(x="67.4%" y="79%" numero="")
         .h5.mb-2 Datos del beneficiario
         p Se ingresan los datos del beneficiario: quién o quiénes son los beneficiarios.
       
-      .tarjeta.color-primario.p-3(x="31.8%" y="79%" numero="")
+      .tarjeta.color-primario.p-3(x="32.8%" y="79%" numero="")
         .h5.mb-2 Declaración de asegurabilidad:
         p Se debe informar si ha padecido o le han diagnosticado alguna de las enfermedades que aparecen en el listado, se debe describir cuál, y el tiempo de aparición.
         p Asimismo, si ha tenido incapacidad u hospitalización por más de 60 días.
 
-      .tarjeta.color-primario.p-3(x="24.3%" y="48%" numero="")
+      .tarjeta.color-primario.p-3(x="32.6%" y="50.5%" numero="")
         .h5.mb-2 Seguimiento médico
         p Se debe precisar la información de las enfermedades que padece, informando el nombre del médico, la institución médica, la fecha y la causa.
 
-      .tarjeta.color-primario.p-3(x="32%" y="17%" numero="")
+      .tarjeta.color-primario.p-3(x="32.5%" y="20.5%" numero="")
         .h5.mb-2 Firma y huella
         p Finalmente, debe firmar con identificación, la fecha y la huella dactilar.
 
@@ -384,59 +384,59 @@
       .row.mt-5
         .col-lg-12.col-sm-10
           h4.mt-5 Características de un contrato
-          p.mt-3 A continuación, se presentan las características o atributos que describen a los contratos:
+          p.mt-3.mb-5 A continuación, se presentan las características o atributos que describen a los contratos:
 
-      SlyderF(columnas="col-lg-6 col-xl-4").mb-5
-        .tarjeta.border.bgr-tarjeta-5.p-3.height-tarjeta2
+      SlyderF(columnas="col-lg-6 col-xl-4").mb-5.pb-5
+        .tarjeta.border.bgr-tarjeta-5.p-3.h-100
           .row.justify-content-center.mb-3
 
           h2.text-center.mt-5 Simple
           p.text-center Se presenta al cumplir con su obligación sin condiciones porque no depende de otros, y está en su marco de limitaciones de la ocurrencia del riesgo.
 
-        .tarjeta.border.bgr-tarjeta-5.p-3.height-tarjeta2
+        .tarjeta.border.bgr-tarjeta-5.p-3.h-100
           .row.justify-content-center.mb-3
 
           h2.text-center.mt-5 Principal
           p.text-center Se presenta al identificar su propia autonomía, tiene su existencia sin condicionamientos porque tiene su función clara y esto le da su característica de principal.
 
-        .tarjeta.border.bgr-tarjeta-5.p-3.height-tarjeta2
+        .tarjeta.border.bgr-tarjeta-5.p-3.h-100
           .row.justify-content-center.mb-3
 
           h2.text-center.mt-5 Oneroso
           p.text-center Se presenta al identificar que tiene un costo y, en contraprestación, tiene un servicio definido.
         
-        .tarjeta.border.bgr-tarjeta-5.p-3.height-tarjeta2
+        .tarjeta.border.bgr-tarjeta-5.p-3.h-100
           .row.justify-content-center.mb-3
 
           h2.text-center.mt-5 Mercantil
           p.text-center Es un contrato mercantil ya que se encuentra referenciado en el código civil; al mismo tiempo, es un acto de comercio que se encuentra en el código de comercio colombiano.
       
-        .tarjeta.border.bgr-tarjeta-5-1.p-3.height-tarjeta2
+        .tarjeta.border.bgr-tarjeta-5.p-3.h-100
           .row.justify-content-center.mb-3
 
           h2.text-center De buena fe
           p.text-center Se basa en las actuaciones del asegurado, partiendo del principio de honestidad, en donde se obliga a describir con claridad, la naturaleza del riesgo; asimismo, procura que no ocurra el mismo y, en caso de ocurrencia del siniestro, tratar de minimizar las consecuencias. Por el lado del asegurador, se parte de la buena fe en la formalización del contrato y la redacción e interpretación de las cláusulas.
         
-        .tarjeta.border.bgr-tarjeta-5.p-3.height-tarjeta2
+        .tarjeta.border.bgr-tarjeta-5.p-3.h-100
           .row.justify-content-center.mb-3
 
           h2.text-center De adhesión
           p.text-center Se presenta como adhesión teniendo en cuenta la reciprocidad en la aceptación de las cláusulas por las partes, es decir, en primera instancia, una de las partes las propone por escrito y, consecuentemente, la otra parte las acepta.
         
-        .tarjeta.border.bgr-tarjeta-5.p-3.height-tarjeta2
+        .tarjeta.border.bgr-tarjeta-5.p-3.h-100
           .row.justify-content-center.mb-3
 
           h2.text-center.mt-5 Aleatorio
           p.text-center Como consecuencia del azar o situación fortuita, cabe la posibilidad de una afectación o pérdida y, por este motivo, en el contrato se establece la ocurrencia.
         
-        .tarjeta.border.bgr-tarjeta-5-1.p-3.height-tarjeta2
+        .tarjeta.border.bgr-tarjeta-5.p-3.h-100
           .row.justify-content-center.mb-3
 
           h2.text-center Indivisible
           p.text-center El contrato de seguros es único, así sea que en ocasiones esté dividido en términos periódicos para facilitar el pago de la prima; el contrato es indivisible y, por lo tanto, el consentimiento dado al comienzo, lo rige en su duración completa.
           p.text-center Un contrato es indivisible teniendo en cuenta su fundamento y característica de único, ya que la modalidad de pagos, en muchos casos, se hace periódicamente y no lo hace particionado; además, desde su emisión se ha definido por una duración específica en el tiempo.
         
-        .tarjeta.border.bgr-tarjeta-5.p-3.height-tarjeta2
+        .tarjeta.border.bgr-tarjeta-5.p-3.h-100
           .row.justify-content-center.mb-3
 
           h2.text-center.mt-5 Conmutativo
