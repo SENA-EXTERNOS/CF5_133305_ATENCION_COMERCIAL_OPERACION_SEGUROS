@@ -154,11 +154,10 @@ export default {
     },
     {
       tema: 'Manuales de suscripción',
-      referencia:
-        'Jaramillo, C. (2015). <em>Derecho de seguros y reaseguros</em>.',
-      tipo: 'Publicación',
+      referencia: 'El contrato de seguro. Corte Suprema de Justicia (2023).',
+      tipo: 'PDF',
       link:
-        'https://www.javeriana.edu.co/documents/3722972/4273110/preliminares/356bca64-dcbb-45d4-a089-2798d4324203',
+        'https://cortesuprema.gov.co/corte/wp-content/uploads/2023/03/EL-CONTRATO-DE-SEGURO-P.pdf',
     },
     {
       tema: 'Manuales de suscripción',
@@ -185,7 +184,7 @@ export default {
     {
       termino: 'Asegurador',
       significado:
-        'entidad o persona jurídica, que expide la póliza y se compromete a cubrir el riesgo con el fin de indemnizar o reparar el daño o la pérdida, cuando cuando se presente la ocurrencia.',
+        'entidad o persona jurídica, que expide la póliza y se compromete a cubrir el riesgo con el fin de indemnizar o reparar el daño o la pérdida, cuando se presente la ocurrencia.',
     },
     {
       termino: 'Asegurar',
@@ -260,10 +259,9 @@ export default {
         'https://fasecolda.com/cms/wp-content/uploads/2019/08/gua-de-seguros-abc-del-seguro.pdf',
     },
     {
-      referencia:
-        'Jaramillo, C. (2015). <em>Derecho de seguros y reaseguros</em>.',
+      referencia: 'El contrato de seguro. Corte Suprema de Justicia (2023). ',
       link:
-        'https://www.javeriana.edu.co/documents/3722972/4273110/preliminares/356bca64-dcbb-45d4-a089-2798d4324203',
+        'https://cortesuprema.gov.co/corte/wp-content/uploads/2023/03/EL-CONTRATO-DE-SEGURO-P.pdf',
     },
     {
       referencia:

@@ -23,6 +23,9 @@
 
     .row.justify-content-around.align-items-center
       .col-lg-8(data-aos="fade-up")
+        .titulo-sexto.color-acento-contenido(data-aos="fade-right") 
+          h5 Figura 1.
+          span Características de un contrato de seguro
         figure
           img(src='@/assets/curso/temas/tema-1/img1.svg', alt='Texto que describa la imagen')
     .row.mt-5.mb-5
@@ -353,7 +356,7 @@
                 figure
                   img(src='@/assets/curso/temas/tema-1/tema1-img36.svg', alt='Texto que describa la imagen')            
             .col-lg-10
-              p.mt-3 Se refieren a cobertura especializada para el patrimonio, por daños debido a accidentes por fallas humanas, desgaste natural, fenómenos naturales, entre otros, que sean de carácter técnico. 
+              p.mt-3 Se refieren a la cobertura especializada para el patrimonio, por daños debido a accidentes por fallas humanas, desgaste natural, fenómenos naturales, entre otros, que sean de carácter técnico. 
           
           .row.justify-content-center(numero="8" titulo="Seguros de responsabilidad civil")
             .col-4.col-lg-2.my-3

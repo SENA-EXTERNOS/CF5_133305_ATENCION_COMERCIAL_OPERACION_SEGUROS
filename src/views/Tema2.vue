@@ -43,9 +43,9 @@
 
     .row
       .col-lg-6.col-sm-10
-        p En estos casos, más que hacer contactos con los encargados de las empresas y reuniones formales de presentación, es necesario disponer de soportes y evidencias de la realidad económica y financiera de todas las posibles empresas y clientes de las aseguradoras; es decir, con balances, estados de resultados e indicadores financieros.
+        p En estos casos, más que hacer contacto con los encargados de las empresas, realizando reuniones formales de presentación, es necesario disponer de soportes y evidencias de la realidad económica y financiera de todas las posibles empresas o clientes de las aseguradoras; es decir, con balances, estados de resultados e indicadores financieros.
         .cajon.bgr-tarjeta-2.p-3
-          p.mt-3 La elaboración de los informes de riesgo se realiza con información periódica, y se presenta de manera organizada y, en muchos casos, con gráficos y tablas para un fácil entendimiento y una buena presentación. 
+          p.mt-3 La elaboración de los informes de riesgo se realiza con información periódica, se presenta de manera organizada, en muchos casos, con gráficos y tablas para un fácil entendimiento y una buena presentación.
       
       .col-10.col-lg-6.my-3
         figure

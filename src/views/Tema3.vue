@@ -116,7 +116,7 @@
 
     .row.mt-5
       h3.mt-4 Tipos de requerimientos
-      p.mt-3 Una de las consideraciones que se debe tener para gestionar adecuadamente la información, es la de realizar un reporte de ventas exitoso. Este puede presentar un panorama general o específico del negocio, el cual depende directamente de los objetivos y el tipo de registro que desea llevar y analizar.
+      p.mt-3 Una de las consideraciones que se debe tener en cuenta para gestionar adecuadamente la información, es la de realizar un reporte de ventas exitoso. Este puede presentar un panorama general o específico del negocio, el cual depende directamente de los objetivos y el tipo de registro que desea llevar y analizar.
       p.mt-3 Un informe de ventas debe incluir 3 elementos relevantes: 
     
     .row.justify-content-center.align-items-center
