@@ -167,6 +167,14 @@ export default {
       link: 'https://www.youtube.com/watch?v=iACzc6PyxYE',
     },
     {
+      tema: 'Arbitraje y derecho de reaseguro',
+      referencia:
+        'Venegas Franco, A. (2011). <em>Temas de derecho de seguros.</em> Editorial Universidad del Rosario. ',
+      tipo: 'Libro',
+      link:
+        'https://books.google.es/books?hl=es&lr=&id=WFwyDwAAQBAJ&oi=fnd&pg=PA115&dq=Derecho+de+seguros+y+reaseguros.&ots=lQYagO93ak&sig=FaAlNW1H4Cw-HRdK9I0DenqlDdg',
+    },
+    {
       tema: 'Manuales de suscripción',
       referencia:
         'Fasecolda (s.f.). <em>Guía de seguros – ABC del Seguro</em>.',
@@ -252,6 +260,12 @@ export default {
     },
   ],
   referencias: [
+    {
+      referencia:
+        'Barbat, A. S. (2022). Derecho del consumidor y derecho de seguros: Una convivencia pacífica. <em>Revista Ibero-Latinoamericana de seguros</em>, 31(56), 15-44.  Recuperado de ',
+      link:
+        'https://revistas.javeriana.edu.co/index.php/iberoseguros/article/download/36010/28051',
+    },
     {
       referencia:
         'Federación de Aseguradores Colombianos (s.f.).  <em>Guía de seguros – ABC del Seguro</em>.',
