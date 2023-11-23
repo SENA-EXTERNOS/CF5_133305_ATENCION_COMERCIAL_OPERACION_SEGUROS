@@ -295,12 +295,12 @@ export default {
     },
     {
       referencia:
-        'Narváez, J. (2011). <em>El seguro de cumplimiento de contratos y obligaciones</em>. Pontificia Universidad Javeriana.',
+        'Narváez Bonnet, J. (2011). <em> El seguro de cumplimiento de contratos y obligaciones</em>. Editorial Pontificia Universidad Javeriana.',
       link: '',
     },
     {
       referencia:
-        'Palacios, F. (2012). <em>El seguro</em>. Universidad de La Sabana.',
+        'Palacios Sánchez, F. (2012).<em> El seguro</em>. (ed 2). Editorial USABANA.',
       link: '',
     },
     {
